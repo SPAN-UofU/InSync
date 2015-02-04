@@ -1,0 +1,112 @@
+*****************************************************************
+Pin Report - Date: Thu Jan 29 14:13:17 2015 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.4 SP1
+Version: 11.4.1.17
+Design Name: Top
+Family: SmartFusion
+Die: A2F500M3G
+Package: 484 FBGA
+*****************************************************************
+Port          |Pin  |Fixed |Function                  |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+--------------|-----|------|--------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+ADC_CLK        A17   Yes    IO16NDB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+ADC_S1         D18   Yes    GBA1/IO23PPB0V0            LVTTL    12                 High  None           ---              No    35                No           No
+CLKC           E3    Yes    GFA2/IO85PDB5V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+DAC_CLK        A18   Yes    IO16PDB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DACEN      F1    Yes    GFB1/IO82PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DOUT[0]    E1    Yes    GFC2/IO84PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DOUT[1]    F3    Yes    GFB2/IO85NDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DOUT[2]    G4    Yes    GFC1/IO83PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DOUT[3]    H5    Yes    GFC0/IO83NPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DOUT[4]    H6    Yes    GFA1/IO81PDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DOUT[5]    J6    Yes    GFA0/IO81NDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DOUT[6]    B22   Yes    GBA2/IO27PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_DOUT[7]    C22   Yes    GBB2/IO27NDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+DAC_PD         G2    Yes    GFB0/IO82NPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+GPIO_8_OUT     T3    Yes    GPIO_8/IO48RSB4V0          LVTTL    8                  High  None           ---              No    35                No           Yes
+GPIO_9_OUT     V3    Yes    GPIO_9/IO47RSB4V0          LVTTL    8                  High  None           ---              No    35                No           Yes
+GPIO_10_OUT    U3    Yes    GPIO_10/IO67RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+GPIO_11_OUT    T4    Yes    GPIO_11/IO66RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+GPIO_12_OUT    AA2   Yes    GPIO_12/IO46RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+GPIO_13_OUT    AB2   Yes    GPIO_13/IO45RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+GPIO_14_OUT    AB3   Yes    GPIO_14/IO44RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+GPIO_15_OUT    Y3    Yes    GPIO_15/IO43RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+in_phase[0]    C21   Yes    GBC2/IO30PDB1V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+in_phase[1]    D21   Yes    IO30NDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+in_phase[2]    B20   Yes    GBB1/IO24PDB0V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+in_phase[3]    C19   Yes    GBA0/IO23NPB0V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+in_phase[4]    G19   Yes    GCA2/IO28PDB1V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+in_phase[5]    F19   Yes    IO28NDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+in_phase[6]    G21   Yes    GCB2/IO33PDB1V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+in_phase[7]    G20   Yes    IO33NDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+LED[0]         J20   Yes    GCA1/IO36PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+LED[1]         J19   Yes    GCA0/IO36NDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+LED[2]         K20   Yes    GDC1/IO38PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+LED[3]         K21   Yes    GDC0/IO38NDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+LED[4]         L20   Yes    GDB1/IO39PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+LED[5]         L21   Yes    GDB0/IO39NDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+LED[6]         K18   Yes    GDA1/IO40PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+LED[7]         K19   Yes    GDA0/IO40NDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+MAC_0_CRSDV    W4    Yes    MAC_CRSDV/IO60RSB4V0       LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_0_MDC      AA3   Yes    MAC_MDC/IO57RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+MAC_0_MDIO     V4    Yes    MAC_MDIO/IO58RSB4V0        LVTTL    8                  High  None           No               No    35                No           Yes
+MAC_0_RXD[0]   V5    Yes    MAC_RXD[0]/IO63RSB4V0      LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_0_RXD[1]   U5    Yes    MAC_RXD[1]/IO62RSB4V0      LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_0_RXER     AA4   Yes    MAC_RXER/IO59RSB4V0        LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_0_TXD[0]   AA5   Yes    MAC_TXD[0]/IO65RSB4V0      LVTTL    8                  High  None           ---              No    35                No           Yes
+MAC_0_TXD[1]   W5    Yes    MAC_TXD[1]/IO64RSB4V0      LVTTL    8                  High  None           ---              No    35                No           Yes
+MAC_0_TXEN     Y4    Yes    MAC_TXEN/IO61RSB4V0        LVTTL    8                  High  None           ---              No    35                No           Yes
+MAINXIN        AA16  Fixed  MAINXIN
+MSS_RESET_N    R1    Yes    MSS_RESET_N                LVTTL    ---                ---   None           No               ---   ---               No           Yes
+quad_phase[0]  K17   Yes    IO37NDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+quad_phase[1]  J17   Yes    IO37PDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+quad_phase[2]  F21   Yes    IO31NDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+quad_phase[3]  F20   Yes    IO31PDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+quad_phase[4]  G18   Yes    IO26NDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+quad_phase[5]  G17   Yes    IO26PDB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+quad_phase[6]  E18   Yes    IO25NPB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+quad_phase[7]  F17   Yes    IO25PPB1V0                 LVTTL    ---                ---   None           No               ---   ---               No           No
+RF_CLK         L22   Yes    GDC2/IO41PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+RF_CS          H20   Yes    GCC0/IO35NPB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+RF_DOUT        J22   Yes    GCB1/IO34PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+RF_GAIN[0]     D7    Yes    IO00NPB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+RF_GAIN[1]     E8    Yes    IO00PPB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+RF_GAIN[2]     C4    Yes    IO01NDB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+RF_GAIN[3]     C5    Yes    IO01PDB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+RF_GAIN[4]     D8    Yes    IO03NPB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+RF_GAIN[5]     C7    Yes    IO03PPB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+RF_GAIN[6]     C8    Yes    IO04NPB0V0                 LVTTL    12                 High  None           ---              No    35                No           No
+RF_RXTX        L18   Yes    GDA2/IO42NDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+RF_SHDN        M18   Yes    GDB2/IO42PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+RSSI_CLK       H18   Yes    GCC2/IO29PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+RSSI_CS        H17   Yes    IO29NDB1V0                 LVTTL    12                 High  None           ---              No    35                No           No
+RSSI_DIN       H22   Yes    GCB0/IO34NDB1V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+sfd_int        K6    Yes    IO75PDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+SPI_1_CLK      AA22  Yes    SPI_1_CLK/GPIO_26          LVTTL    8                  High  None           No               No    35                No           Yes
+SPI_1_DI       V19   Yes    SPI_1_DI/GPIO_25           LVTTL    ---                ---   None           No               ---   ---               No           Yes
+SPI_1_DO       T17   Yes    SPI_1_DO/GPIO_24           LVTTL    8                  High  None           ---              No    35                No           Yes
+SPI_1_SS       W21   Yes    SPI_1_SS/GPIO_27           LVTTL    8                  High  None           No               No    35                No           Yes
+SW1            J21   Yes    GCC1/IO35PPB1V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+SW2            B19   Yes    GBB0/IO24NDB0V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+SW3            D15   Yes    GBC1/IO22PPB0V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+SW4            E14   Yes    GBC0/IO22NPB0V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+TEST_PTS[0]    N6    Yes    IO68NDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[1]    M6    Yes    IO68PDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[2]    P1    Yes    IO69NDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[3]    P2    Yes    IO69PDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[4]    N3    Yes    IO70NDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[5]    N2    Yes    IO70PDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[6]    M2    Yes    IO71NDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[7]    M1    Yes    IO71PDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[8]    M4    Yes    IO72NPB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[9]    L3    Yes    IO72PPB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[10]   L2    Yes    IO73NDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[11]   L1    Yes    IO73PDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[12]   L5    Yes    IO74NPB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[13]   K4    Yes    IO74PPB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[14]   A9    No     EMC_AB[1]/IO06PDB0V0       LVTTL    12                 High  None           ---              No    35                No           No
+TEST_PTS[15]   A6    No     EMC_CS1_N/GAB1/IO05PDB0V0  LVTTL    12                 High  None           ---              No    35                No           No
+tx_complete    L6    Yes    IO75NDB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+UART_0_RXD     U18   Yes    UART_0_RXD/GPIO_21         LVTTL    ---                ---   None           No               ---   ---               No           Yes
+UART_0_TXD     Y22   Yes    UART_0_TXD/GPIO_20         LVTTL    8                  High  None           ---              No    35                No           Yes

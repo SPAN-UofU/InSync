@@ -1,0 +1,2331 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.4 SP1
+Microsemi Corporation - Microsemi Libero Software Release v11.4 SP1 (Version 11.4.1.17)
+Date: Thu Jan 29 14:13:37 2015
+
+
+Design: Top
+Family: SmartFusion
+Die: A2F500M3G
+Package: 484 FBGA
+Temperature: COM
+Voltage: COM
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               CLKC
+Period (ns):                4.000
+Frequency (MHz):            250.000
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_aclk
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_fabric_interface_clock
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_pclk1
+Period (ns):                5.489
+Frequency (MHz):            182.183
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        5.559
+External Hold (ns):         -2.331
+Min Clock-To-Out (ns):      3.801
+Max Clock-To-Out (ns):      8.721
+
+Clock Domain:               mss_ccc_gla1
+Period (ns):                16.196
+Frequency (MHz):            61.744
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.095
+Max Clock-To-Out (ns):      9.117
+
+Clock Domain:               mss_ccc_gla0
+Period (ns):                10.000
+Frequency (MHz):            100.000
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        -1.383
+External Hold (ns):         1.283
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_ccc_glb
+Period (ns):                33.874
+Frequency (MHz):            29.521
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        2.837
+External Hold (ns):         -0.049
+Min Clock-To-Out (ns):      2.462
+Max Clock-To-Out (ns):      6.738
+
+Clock Domain:               SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:MACCLK
+Period (ns):                20.000
+Frequency (MHz):            50.000
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.695
+Max Clock-To-Out (ns):      5.583
+
+Clock Domain:               SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+Period (ns):                16.196
+Frequency (MHz):            61.744
+Required Period (ns):       16.667
+Required Frequency (MHz):   59.999
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.095
+Max Clock-To-Out (ns):      9.117
+
+Clock Domain:               SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+Period (ns):                33.874
+Frequency (MHz):            29.521
+Required Period (ns):       62.500
+Required Frequency (MHz):   16.000
+External Setup (ns):        2.837
+External Hold (ns):         -0.049
+Min Clock-To-Out (ns):      2.462
+Max Clock-To-Out (ns):      6.738
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain CLKC
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin CLKC_pad/U0/U0:PAD
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_aclk
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_fabric_interface_clock
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_pclk1
+
+SET Register to Register
+
+Path 1
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[30]
+  Delay (ns):                  2.806
+  Slack (ns):
+  Arrival (ns):                2.806
+  Required (ns):
+  Hold (ns):                   0.095
+
+
+Expanded Path 1
+  From: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[30]
+  data arrival time                              2.806
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_pclk1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     1.935          cell: ADLIB:MSS_AHB_IP
+  1.935                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPO[6] (f)
+               +     0.000          net: SDR_MSS_0/MSS_ADLIB_INST/GPO[6]INT_NET
+  1.935                        SDR_MSS_0/MSS_ADLIB_INST/U_26:PIN1INT (f)
+               +     0.042          cell: ADLIB:MSS_IF
+  1.977                        SDR_MSS_0/MSS_ADLIB_INST/U_26:PIN1 (f)
+               +     0.707          net: SDR_MSS_0/GPO_net_0[6]
+  2.684                        SDR_MSS_0/MSS_ADLIB_INST/U_6:PIN6 (f)
+               +     0.044          cell: ADLIB:MSS_IF
+  2.728                        SDR_MSS_0/MSS_ADLIB_INST/U_6:PIN6INT (f)
+               +     0.078          net: SDR_MSS_0/MSS_ADLIB_INST/GPI[30]INT_NET
+  2.806                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[30] (f)
+                                    
+  2.806                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_pclk1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     0.095          Library hold time: ADLIB:MSS_AHB_IP
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[30]
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        SW1
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[24]
+  Delay (ns):                  2.961
+  Slack (ns):
+  Arrival (ns):                2.961
+  Required (ns):
+  Hold (ns):                   0.630
+  External Hold (ns):          -2.331
+
+Path 2
+  From:                        SW2
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[25]
+  Delay (ns):                  3.263
+  Slack (ns):
+  Arrival (ns):                3.263
+  Required (ns):
+  Hold (ns):                   0.621
+  External Hold (ns):          -2.642
+
+Path 3
+  From:                        SW3
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[26]
+  Delay (ns):                  3.283
+  Slack (ns):
+  Arrival (ns):                3.283
+  Required (ns):
+  Hold (ns):                   0.576
+  External Hold (ns):          -2.707
+
+Path 4
+  From:                        SW4
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[27]
+  Delay (ns):                  3.627
+  Slack (ns):
+  Arrival (ns):                3.627
+  Required (ns):
+  Hold (ns):                   0.658
+  External Hold (ns):          -2.969
+
+
+Expanded Path 1
+  From: SW1
+  To: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[24]
+  data arrival time                              2.961
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SW1 (r)
+               +     0.000          net: SW1
+  0.000                        SW1_pad/U0/U0:PAD (r)
+               +     0.390          cell: ADLIB:IOPAD_IN
+  0.390                        SW1_pad/U0/U0:Y (r)
+               +     0.000          net: SW1_pad/U0/NET1
+  0.390                        SW1_pad/U0/U1:YIN (r)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.408                        SW1_pad/U0/U1:Y (r)
+               +     2.404          net: SW1_c
+  2.812                        SDR_MSS_0/MSS_ADLIB_INST/U_4:PIN6 (r)
+               +     0.089          cell: ADLIB:MSS_IF
+  2.901                        SDR_MSS_0/MSS_ADLIB_INST/U_4:PIN6INT (r)
+               +     0.060          net: SDR_MSS_0/MSS_ADLIB_INST/GPI[24]INT_NET
+  2.961                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[24] (r)
+                                    
+  2.961                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_pclk1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     0.630          Library hold time: ADLIB:MSS_AHB_IP
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[24]
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_11_OUT
+  Delay (ns):                  3.801
+  Slack (ns):
+  Arrival (ns):                3.801
+  Required (ns):
+  Clock to Out (ns):           3.801
+
+Path 2
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_10_OUT
+  Delay (ns):                  3.964
+  Slack (ns):
+  Arrival (ns):                3.964
+  Required (ns):
+  Clock to Out (ns):           3.964
+
+Path 3
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_15_OUT
+  Delay (ns):                  4.059
+  Slack (ns):
+  Arrival (ns):                4.059
+  Required (ns):
+  Clock to Out (ns):           4.059
+
+Path 4
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_9_OUT
+  Delay (ns):                  4.061
+  Slack (ns):
+  Arrival (ns):                4.061
+  Required (ns):
+  Clock to Out (ns):           4.061
+
+Path 5
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_8_OUT
+  Delay (ns):                  4.125
+  Slack (ns):
+  Arrival (ns):                4.125
+  Required (ns):
+  Clock to Out (ns):           4.125
+
+
+Expanded Path 1
+  From: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To: GPIO_11_OUT
+  data arrival time                              3.801
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_pclk1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     1.920          cell: ADLIB:MSS_AHB_IP
+  1.920                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPO[11] (r)
+               +     0.455          net: SDR_MSS_0/GPO_net_0[11]
+  2.375                        SDR_MSS_0/MSS_GPIO_0_GPIO_11_OUT:D (r)
+               +     1.426          cell: ADLIB:IOPAD_TRI
+  3.801                        SDR_MSS_0/MSS_GPIO_0_GPIO_11_OUT:PAD (r)
+               +     0.000          net: GPIO_11_OUT
+  3.801                        GPIO_11_OUT (r)
+                                    
+  3.801                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+                                    
+  N/C                          GPIO_11_OUT (r)
+                                    
+  N/C                          data required time
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla1
+
+SET Register to Register
+
+Path 1
+  From:                        sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_2_inst:CLK
+  To:                          sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA1
+  Delay (ns):                  0.507
+  Slack (ns):
+  Arrival (ns):                0.853
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_3_inst:CLK
+  To:                          sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA2
+  Delay (ns):                  0.510
+  Slack (ns):
+  Arrival (ns):                0.856
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        sdrv2_top_0/ms0/haddr_reg[3]:CLK
+  To:                          sdrv2_top_0/ms0/data_reg[3]:D
+  Delay (ns):                  0.397
+  Slack (ns):
+  Arrival (ns):                0.768
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        sdrv2_top_0/ms0/haddr_reg[0]:CLK
+  To:                          sdrv2_top_0/ms0/data_reg[0]:D
+  Delay (ns):                  0.396
+  Slack (ns):
+  Arrival (ns):                0.754
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        sdrv2_top_0/ms0/haddr_reg[2]:CLK
+  To:                          sdrv2_top_0/ms0/data_reg[2]:D
+  Delay (ns):                  0.397
+  Slack (ns):
+  Arrival (ns):                0.747
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_2_inst:CLK
+  To: sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA1
+  data arrival time                              0.853
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.346          net: FAB_CLK
+  0.346                        sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_2_inst:CLK (r)
+               +     0.248          cell: ADLIB:DFN1C0
+  0.594                        sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_2_inst:Q (r)
+               +     0.259          net: sdrv2_top_0/fc0/txfifo/WBINSYNCSHIFT_2_net
+  0.853                        sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA1 (r)
+                                    
+  0.853                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.499          net: FAB_CLK
+  N/C                          sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:CLKA (r)
+               +     0.000          Library hold time: ADLIB:RAM4K9
+  N/C                          sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA1
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        sdrv2_top_0/rc0/DAC_MODE[1]:CLK
+  To:                          DAC_PD
+  Delay (ns):                  1.765
+  Slack (ns):
+  Arrival (ns):                2.095
+  Required (ns):
+  Clock to Out (ns):           2.095
+
+Path 2
+  From:                        sdrv2_top_0/fc0/f2w0/data_out[1]:CLK
+  To:                          DAC_DOUT[1]
+  Delay (ns):                  1.792
+  Slack (ns):
+  Arrival (ns):                2.111
+  Required (ns):
+  Clock to Out (ns):           2.111
+
+Path 3
+  From:                        sdrv2_top_0/fc0/f2w0/data_out[3]:CLK
+  To:                          DAC_DOUT[3]
+  Delay (ns):                  1.792
+  Slack (ns):
+  Arrival (ns):                2.116
+  Required (ns):
+  Clock to Out (ns):           2.116
+
+Path 4
+  From:                        sdrv2_top_0/fc0/f2w0/data_out[2]:CLK
+  To:                          DAC_DOUT[2]
+  Delay (ns):                  1.792
+  Slack (ns):
+  Arrival (ns):                2.116
+  Required (ns):
+  Clock to Out (ns):           2.116
+
+Path 5
+  From:                        sdrv2_top_0/rc0/DAC_MODE[0]:CLK
+  To:                          DAC_DACEN
+  Delay (ns):                  1.792
+  Slack (ns):
+  Arrival (ns):                2.122
+  Required (ns):
+  Clock to Out (ns):           2.122
+
+
+Expanded Path 1
+  From: sdrv2_top_0/rc0/DAC_MODE[1]:CLK
+  To: DAC_PD
+  data arrival time                              2.095
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.330          net: FAB_CLK
+  0.330                        sdrv2_top_0/rc0/DAC_MODE[1]:CLK (r)
+               +     0.248          cell: ADLIB:DFN1E1P0
+  0.578                        sdrv2_top_0/rc0/DAC_MODE[1]:Q (r)
+               +     0.145          net: DAC_PD_c
+  0.723                        DAC_PD_pad/U0/U1:D (r)
+               +     0.256          cell: ADLIB:IOTRI_OB_EB
+  0.979                        DAC_PD_pad/U0/U1:DOUT (r)
+               +     0.000          net: DAC_PD_pad/U0/NET1
+  0.979                        DAC_PD_pad/U0/U0:D (r)
+               +     1.116          cell: ADLIB:IOPAD_TRI
+  2.095                        DAC_PD_pad/U0/U0:PAD (r)
+               +     0.000          net: DAC_PD
+  2.095                        DAC_PD (r)
+                                    
+  2.095                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+                                    
+  N/C                          DAC_PD (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_1:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLR
+  Delay (ns):                  0.421
+  Slack (ns):
+  Arrival (ns):                0.771
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.020
+
+Path 2
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_1:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_3_inst/U1:CLR
+  Delay (ns):                  0.421
+  Slack (ns):
+  Arrival (ns):                0.771
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.020
+
+Path 3
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_0:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_RADDR_1_inst/U1:CLR
+  Delay (ns):                  0.433
+  Slack (ns):
+  Arrival (ns):                0.783
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.020
+
+Path 4
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_0:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_RADDR_5_inst/U1:CLR
+  Delay (ns):                  0.433
+  Slack (ns):
+  Arrival (ns):                0.783
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.020
+
+Path 5
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_0:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_RADDR_3_inst/U1:CLR
+  Delay (ns):                  0.592
+  Slack (ns):
+  Arrival (ns):                0.942
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   0.004
+
+
+Expanded Path 1
+  From: sdrv2_top_0/fc0/ackfifo/DFN1C0_1:CLK
+  To: sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLR
+  data arrival time                              0.771
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.350          net: FAB_CLK
+  0.350                        sdrv2_top_0/fc0/ackfifo/DFN1C0_1:CLK (r)
+               +     0.248          cell: ADLIB:DFN1C0
+  0.598                        sdrv2_top_0/fc0/ackfifo/DFN1C0_1:Q (r)
+               +     0.173          net: sdrv2_top_0/fc0/ackfifo/DFN1C0_1_Q
+  0.771                        sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLR (r)
+                                    
+  0.771                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.370          net: FAB_CLK
+  N/C                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1C0
+  N/C                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLR
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla0
+
+Info: The maximum frequency of this clock domain is limited by the period of pin SDR_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        MSS_RESET_N
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+  Delay (ns):                  0.276
+  Slack (ns):
+  Arrival (ns):                0.276
+  Required (ns):
+  Hold (ns):                   1.289
+  External Hold (ns):          1.283
+
+
+Expanded Path 1
+  From: MSS_RESET_N
+  To: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+  data arrival time                              0.276
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        MSS_RESET_N (f)
+               +     0.000          net: MSS_RESET_N
+  0.000                        SDR_MSS_0/MSS_RESET_0_MSS_RESET_N:PAD (f)
+               +     0.276          cell: ADLIB:IOPAD_IN
+  0.276                        SDR_MSS_0/MSS_RESET_0_MSS_RESET_N:Y (f)
+               +     0.000          net: SDR_MSS_0/MSS_RESET_0_MSS_RESET_N_Y
+  0.276                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn (f)
+                                    
+  0.276                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla0
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLAMSS (r)
+               +     0.270          net: SDR_MSS_0/GLA0
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK (r)
+               +     1.289          Library hold time: ADLIB:MSS_AHB_IP
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_glb
+
+SET Register to Register
+
+Path 1
+  From:                        sdrv2_top_0/cr0/f0/in_seq0[2]:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[3]:D
+  Delay (ns):                  0.411
+  Slack (ns):
+  Arrival (ns):                0.757
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        sdrv2_top_0/fm0/mult_res6[12]:CLK
+  To:                          sdrv2_top_0/fm0/mult_res7[12]:D
+  Delay (ns):                  0.397
+  Slack (ns):
+  Arrival (ns):                0.726
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        sdrv2_top_0/fm0/mult_res4[12]:CLK
+  To:                          sdrv2_top_0/fm0/mult_res5[12]:D
+  Delay (ns):                  0.402
+  Slack (ns):
+  Arrival (ns):                0.736
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        sdrv2_top_0/fm0/mult_res3[9]:CLK
+  To:                          sdrv2_top_0/fm0/mult_res4[9]:D
+  Delay (ns):                  0.402
+  Slack (ns):
+  Arrival (ns):                0.747
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        sdrv2_top_0/fm0/mult_res7[15]:CLK
+  To:                          sdrv2_top_0/fm0/mult_res8[15]:D
+  Delay (ns):                  0.397
+  Slack (ns):
+  Arrival (ns):                0.740
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/f0/in_seq0[2]:CLK
+  To: sdrv2_top_0/cr0/f0/in_seq0[3]:D
+  data arrival time                              0.757
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_glb
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.346          net: ADC_CLK_c
+  0.346                        sdrv2_top_0/cr0/f0/in_seq0[2]:CLK (r)
+               +     0.248          cell: ADLIB:DFN1E1C0
+  0.594                        sdrv2_top_0/cr0/f0/in_seq0[2]:Q (r)
+               +     0.163          net: sdrv2_top_0/cr0/seq0[2]
+  0.757                        sdrv2_top_0/cr0/f0/in_seq0[3]:D (r)
+                                    
+  0.757                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_glb
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.431          net: ADC_CLK_c
+  N/C                          sdrv2_top_0/cr0/f0/in_seq0[3]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1C0
+  N/C                          sdrv2_top_0/cr0/f0/in_seq0[3]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        in_phase[6]
+  To:                          sdrv2_top_0/fm0/I_smp[6]:D
+  Delay (ns):                  0.445
+  Slack (ns):
+  Arrival (ns):                0.445
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.049
+
+Path 2
+  From:                        quad_phase[1]
+  To:                          sdrv2_top_0/fm0/Q_smp[1]:D
+  Delay (ns):                  0.445
+  Slack (ns):
+  Arrival (ns):                0.445
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.055
+
+Path 3
+  From:                        quad_phase[5]
+  To:                          sdrv2_top_0/fm0/Q_smp[5]:D
+  Delay (ns):                  0.444
+  Slack (ns):
+  Arrival (ns):                0.444
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.058
+
+Path 4
+  From:                        quad_phase[0]
+  To:                          sdrv2_top_0/fm0/Q_smp[0]:D
+  Delay (ns):                  0.446
+  Slack (ns):
+  Arrival (ns):                0.446
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.058
+
+Path 5
+  From:                        in_phase[7]
+  To:                          sdrv2_top_0/fm0/I_smp[7]:D
+  Delay (ns):                  0.446
+  Slack (ns):
+  Arrival (ns):                0.446
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.058
+
+
+Expanded Path 1
+  From: in_phase[6]
+  To: sdrv2_top_0/fm0/I_smp[6]:D
+  data arrival time                              0.445
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        in_phase[6] (f)
+               +     0.000          net: in_phase[6]
+  0.000                        in_phase_pad[6]/U0/U0:PAD (f)
+               +     0.276          cell: ADLIB:IOPAD_IN
+  0.276                        in_phase_pad[6]/U0/U0:Y (f)
+               +     0.000          net: in_phase_pad[6]/U0/NET1
+  0.276                        in_phase_pad[6]/U0/U1:YIN (f)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.294                        in_phase_pad[6]/U0/U1:Y (f)
+               +     0.151          net: in_phase_c[6]
+  0.445                        sdrv2_top_0/fm0/I_smp[6]:D (f)
+                                    
+  0.445                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_glb
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.396          net: ADC_CLK_c
+  N/C                          sdrv2_top_0/fm0/I_smp[6]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1C0
+  N/C                          sdrv2_top_0/fm0/I_smp[6]:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        sdrv2_top_0/agc0/adc0/cs:CLK
+  To:                          RSSI_CS
+  Delay (ns):                  2.141
+  Slack (ns):
+  Arrival (ns):                2.462
+  Required (ns):
+  Clock to Out (ns):           2.462
+
+Path 2
+  From:                        sdrv2_top_0/agc0/B[4]:CLK
+  To:                          RF_GAIN[4]
+  Delay (ns):                  2.169
+  Slack (ns):
+  Arrival (ns):                2.481
+  Required (ns):
+  Clock to Out (ns):           2.481
+
+Path 3
+  From:                        sdrv2_top_0/agc0/B[5]:CLK
+  To:                          RF_GAIN[5]
+  Delay (ns):                  2.261
+  Slack (ns):
+  Arrival (ns):                2.577
+  Required (ns):
+  Clock to Out (ns):           2.577
+
+Path 4
+  From:                        sdrv2_top_0/agc0/B[1]:CLK
+  To:                          RF_GAIN[1]
+  Delay (ns):                  2.334
+  Slack (ns):
+  Arrival (ns):                2.652
+  Required (ns):
+  Clock to Out (ns):           2.652
+
+Path 5
+  From:                        sdrv2_top_0/agc0/B[0]:CLK
+  To:                          RF_GAIN[0]
+  Delay (ns):                  2.332
+  Slack (ns):
+  Arrival (ns):                2.655
+  Required (ns):
+  Clock to Out (ns):           2.655
+
+
+Expanded Path 1
+  From: sdrv2_top_0/agc0/adc0/cs:CLK
+  To: RSSI_CS
+  data arrival time                              2.462
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_glb
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.321          net: ADC_CLK_c
+  0.321                        sdrv2_top_0/agc0/adc0/cs:CLK (r)
+               +     0.248          cell: ADLIB:DFN1E1P0
+  0.569                        sdrv2_top_0/agc0/adc0/cs:Q (r)
+               +     0.552          net: RSSI_CS_c
+  1.121                        RSSI_CS_pad/U0/U1:D (r)
+               +     0.256          cell: ADLIB:IOTRI_OB_EB
+  1.377                        RSSI_CS_pad/U0/U1:DOUT (r)
+               +     0.000          net: RSSI_CS_pad/U0/NET1
+  1.377                        RSSI_CS_pad/U0/U0:D (r)
+               +     1.085          cell: ADLIB:IOPAD_TRI
+  2.462                        RSSI_CS_pad/U0/U0:PAD (r)
+               +     0.000          net: RSSI_CS
+  2.462                        RSSI_CS (r)
+                                    
+  2.462                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_glb
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+                                    
+  N/C                          RSSI_CS (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq1[13]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):
+  Arrival (ns):                3.993
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+Path 2
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/cmp0/seq5[4]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):
+  Arrival (ns):                3.993
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+Path 3
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/cmp0/seq1[7]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):
+  Arrival (ns):                3.993
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+Path 4
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/cmp0/seq5[13]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):
+  Arrival (ns):                3.993
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+Path 5
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/cmp0/seq3[6]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):
+  Arrival (ns):                3.993
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/cmp_rst:CLK
+  To: sdrv2_top_0/cr0/f0/in_seq1[13]:CLR
+  data arrival time                              3.993
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_glb
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.360          net: ADC_CLK_c
+  0.360                        sdrv2_top_0/cr0/cmp_rst:CLK (r)
+               +     0.248          cell: ADLIB:DFN1P0
+  0.608                        sdrv2_top_0/cr0/cmp_rst:Q (r)
+               +     1.439          net: sdrv2_top_0/cr0/cmp_rst
+  2.047                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE:A (r)
+               +     0.174          cell: ADLIB:NOR2B
+  2.221                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE:Y (r)
+               +     1.061          net: sdrv2_top_0/cr0/cmp_rst_RNIE6HE
+  3.282                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC:A (r)
+               +     0.390          cell: ADLIB:CLKSRC
+  3.672                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC:Y (r)
+               +     0.321          net: sdrv2_top_0/cr0/sfd_sync_rstn
+  3.993                        sdrv2_top_0/cr0/f0/in_seq1[13]:CLR (r)
+                                    
+  3.993                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_glb
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.397          net: ADC_CLK_c
+  N/C                          sdrv2_top_0/cr0/f0/in_seq1[13]:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1E1C0
+  N/C                          sdrv2_top_0/cr0/f0/in_seq1[13]:CLR
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:MACCLK
+
+Info: The maximum frequency of this clock domain is limited by the period of pin SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MACCLKCCC
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To:                          ADC_CLK
+  Delay (ns):                  2.695
+  Slack (ns):
+  Arrival (ns):                2.695
+  Required (ns):
+  Clock to Out (ns):           2.695
+
+Path 2
+  From:                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To:                          RSSI_CLK
+  Delay (ns):                  2.968
+  Slack (ns):
+  Arrival (ns):                2.968
+  Required (ns):
+  Clock to Out (ns):           2.968
+
+
+Expanded Path 1
+  From: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To: ADC_CLK
+  data arrival time                              2.695
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/N_CLKA_XTLOSC
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA (r)
+               +     0.957          cell: ADLIB:MSS_CCC_IP
+  0.957                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  0.957                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.957                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.343          net: ADC_CLK_c
+  1.300                        ADC_CLK_pad/U0/U1:D (r)
+               +     0.279          cell: ADLIB:IOTRI_OB_EB
+  1.579                        ADC_CLK_pad/U0/U1:DOUT (r)
+               +     0.000          net: ADC_CLK_pad/U0/NET1
+  1.579                        ADC_CLK_pad/U0/U0:D (r)
+               +     1.116          cell: ADLIB:IOPAD_TRI
+  2.695                        ADC_CLK_pad/U0/U0:PAD (r)
+               +     0.000          net: ADC_CLK
+  2.695                        ADC_CLK (r)
+                                    
+  2.695                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT (r)
+                                    
+  N/C                          ADC_CLK (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+
+SET Register to Register
+
+Path 1
+  From:                        sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_2_inst:CLK
+  To:                          sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA1
+  Delay (ns):                  0.507
+  Slack (ns):                  0.354
+  Arrival (ns):                0.853
+  Required (ns):               0.499
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_3_inst:CLK
+  To:                          sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA2
+  Delay (ns):                  0.510
+  Slack (ns):                  0.357
+  Arrival (ns):                0.856
+  Required (ns):               0.499
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        sdrv2_top_0/ms0/haddr_reg[3]:CLK
+  To:                          sdrv2_top_0/ms0/data_reg[3]:D
+  Delay (ns):                  0.397
+  Slack (ns):                  0.372
+  Arrival (ns):                0.768
+  Required (ns):               0.396
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        sdrv2_top_0/ms0/haddr_reg[0]:CLK
+  To:                          sdrv2_top_0/ms0/data_reg[0]:D
+  Delay (ns):                  0.396
+  Slack (ns):                  0.374
+  Arrival (ns):                0.754
+  Required (ns):               0.380
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        sdrv2_top_0/ms0/haddr_reg[2]:CLK
+  To:                          sdrv2_top_0/ms0/data_reg[2]:D
+  Delay (ns):                  0.397
+  Slack (ns):                  0.376
+  Arrival (ns):                0.747
+  Required (ns):               0.371
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_2_inst:CLK
+  To: sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA1
+  data arrival time                              0.853
+  data required time                         -   0.499
+  slack                                          0.354
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.346          net: FAB_CLK
+  0.346                        sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_2_inst:CLK (r)
+               +     0.248          cell: ADLIB:DFN1C0
+  0.594                        sdrv2_top_0/fc0/txfifo/DFN1C0_WBINSYNCSHIFT_2_inst:Q (r)
+               +     0.259          net: sdrv2_top_0/fc0/txfifo/WBINSYNCSHIFT_2_net
+  0.853                        sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA1 (r)
+                                    
+  0.853                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.499          net: FAB_CLK
+  0.499                        sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:CLKA (r)
+               +     0.000          Library hold time: ADLIB:RAM4K9
+  0.499                        sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:ADDRA1
+                                    
+  0.499                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        sdrv2_top_0/rc0/DAC_MODE[1]:CLK
+  To:                          DAC_PD
+  Delay (ns):                  1.765
+  Slack (ns):
+  Arrival (ns):                2.095
+  Required (ns):
+  Clock to Out (ns):           2.095
+
+Path 2
+  From:                        sdrv2_top_0/fc0/f2w0/data_out[1]:CLK
+  To:                          DAC_DOUT[1]
+  Delay (ns):                  1.792
+  Slack (ns):
+  Arrival (ns):                2.111
+  Required (ns):
+  Clock to Out (ns):           2.111
+
+Path 3
+  From:                        sdrv2_top_0/fc0/f2w0/data_out[3]:CLK
+  To:                          DAC_DOUT[3]
+  Delay (ns):                  1.792
+  Slack (ns):
+  Arrival (ns):                2.116
+  Required (ns):
+  Clock to Out (ns):           2.116
+
+Path 4
+  From:                        sdrv2_top_0/fc0/f2w0/data_out[2]:CLK
+  To:                          DAC_DOUT[2]
+  Delay (ns):                  1.792
+  Slack (ns):
+  Arrival (ns):                2.116
+  Required (ns):
+  Clock to Out (ns):           2.116
+
+Path 5
+  From:                        sdrv2_top_0/rc0/DAC_MODE[0]:CLK
+  To:                          DAC_DACEN
+  Delay (ns):                  1.792
+  Slack (ns):
+  Arrival (ns):                2.122
+  Required (ns):
+  Clock to Out (ns):           2.122
+
+
+Expanded Path 1
+  From: sdrv2_top_0/rc0/DAC_MODE[1]:CLK
+  To: DAC_PD
+  data arrival time                              2.095
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.330          net: FAB_CLK
+  0.330                        sdrv2_top_0/rc0/DAC_MODE[1]:CLK (r)
+               +     0.248          cell: ADLIB:DFN1E1P0
+  0.578                        sdrv2_top_0/rc0/DAC_MODE[1]:Q (r)
+               +     0.145          net: DAC_PD_c
+  0.723                        DAC_PD_pad/U0/U1:D (r)
+               +     0.256          cell: ADLIB:IOTRI_OB_EB
+  0.979                        DAC_PD_pad/U0/U1:DOUT (r)
+               +     0.000          net: DAC_PD_pad/U0/NET1
+  0.979                        DAC_PD_pad/U0/U0:D (r)
+               +     1.116          cell: ADLIB:IOPAD_TRI
+  2.095                        DAC_PD_pad/U0/U0:PAD (r)
+               +     0.000          net: DAC_PD
+  2.095                        DAC_PD (r)
+                                    
+  2.095                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+                                    
+  N/C                          DAC_PD (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_1:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLR
+  Delay (ns):                  0.421
+  Slack (ns):                  0.401
+  Arrival (ns):                0.771
+  Required (ns):               0.370
+  Removal (ns):                0.000
+  Skew (ns):                   -0.020
+
+Path 2
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_1:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_3_inst/U1:CLR
+  Delay (ns):                  0.421
+  Slack (ns):                  0.401
+  Arrival (ns):                0.771
+  Required (ns):               0.370
+  Removal (ns):                0.000
+  Skew (ns):                   -0.020
+
+Path 3
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_0:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_RADDR_1_inst/U1:CLR
+  Delay (ns):                  0.433
+  Slack (ns):                  0.413
+  Arrival (ns):                0.783
+  Required (ns):               0.370
+  Removal (ns):                0.000
+  Skew (ns):                   -0.020
+
+Path 4
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_0:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_RADDR_5_inst/U1:CLR
+  Delay (ns):                  0.433
+  Slack (ns):                  0.413
+  Arrival (ns):                0.783
+  Required (ns):               0.370
+  Removal (ns):                0.000
+  Skew (ns):                   -0.020
+
+Path 5
+  From:                        sdrv2_top_0/fc0/ackfifo/DFN1C0_0:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_RADDR_3_inst/U1:CLR
+  Delay (ns):                  0.592
+  Slack (ns):                  0.596
+  Arrival (ns):                0.942
+  Required (ns):               0.346
+  Removal (ns):                0.000
+  Skew (ns):                   0.004
+
+
+Expanded Path 1
+  From: sdrv2_top_0/fc0/ackfifo/DFN1C0_1:CLK
+  To: sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLR
+  data arrival time                              0.771
+  data required time                         -   0.370
+  slack                                          0.401
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.350          net: FAB_CLK
+  0.350                        sdrv2_top_0/fc0/ackfifo/DFN1C0_1:CLK (r)
+               +     0.248          cell: ADLIB:DFN1C0
+  0.598                        sdrv2_top_0/fc0/ackfifo/DFN1C0_1:Q (r)
+               +     0.173          net: sdrv2_top_0/fc0/ackfifo/DFN1C0_1_Q
+  0.771                        sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLR (r)
+                                    
+  0.771                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.370          net: FAB_CLK
+  0.370                        sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1C0
+  0.370                        sdrv2_top_0/fc0/ackfifo/DFN1E1C0_MEM_WADDR_4_inst/U1:CLR
+                                    
+  0.370                        data required time
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB to SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+
+Path 1
+  From:                        sdrv2_top_0/cr0/DSN[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/DSN_reg[1]:D
+  Delay (ns):                  0.795
+  Slack (ns):                  0.738
+  Arrival (ns):                1.117
+  Required (ns):               0.379
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        sdrv2_top_0/cr0/DSN[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/DSN_reg[5]:D
+  Delay (ns):                  0.807
+  Slack (ns):                  0.760
+  Arrival (ns):                1.129
+  Required (ns):               0.369
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        sdrv2_top_0/cr0/DSN[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/DSN_reg[4]:D
+  Delay (ns):                  0.805
+  Slack (ns):                  0.761
+  Arrival (ns):                1.130
+  Required (ns):               0.369
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        sdrv2_top_0/cr0/DSN[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/DSN_reg[3]:D
+  Delay (ns):                  0.806
+  Slack (ns):                  0.765
+  Arrival (ns):                1.134
+  Required (ns):               0.369
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        sdrv2_top_0/cr0/length_int/U1:CLK
+  To:                          sdrv2_top_0/fc0/length_int_reg:D
+  Delay (ns):                  0.916
+  Slack (ns):                  0.898
+  Arrival (ns):                1.242
+  Required (ns):               0.344
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/DSN[1]/U1:CLK
+  To: sdrv2_top_0/fc0/DSN_reg[1]:D
+  data arrival time                              1.117
+  data required time                         -   0.379
+  slack                                          0.738
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.322          net: ADC_CLK_c
+  0.322                        sdrv2_top_0/cr0/DSN[1]/U1:CLK (r)
+               +     0.248          cell: ADLIB:DFN1C0
+  0.570                        sdrv2_top_0/cr0/DSN[1]/U1:Q (r)
+               +     0.181          net: sdrv2_top_0/CorrtoFIFO_DSN[1]
+  0.751                        sdrv2_top_0/fc0/DSN_reg_RNO[1]:A (r)
+               +     0.221          cell: ADLIB:NOR2A
+  0.972                        sdrv2_top_0/fc0/DSN_reg_RNO[1]:Y (r)
+               +     0.145          net: sdrv2_top_0/fc0/next_DSN_reg[1]
+  1.117                        sdrv2_top_0/fc0/DSN_reg[1]:D (r)
+                                    
+  1.117                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.379          net: FAB_CLK
+  0.379                        sdrv2_top_0/fc0/DSN_reg[1]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1C0
+  0.379                        sdrv2_top_0/fc0/DSN_reg[1]:D
+                                    
+  0.379                        data required time
+
+
+END SET SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB to SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+
+----------------------------------------------------
+
+Clock Domain SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+
+SET Register to Register
+
+Path 1
+  From:                        sdrv2_top_0/cr0/f0/in_seq0[2]:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[3]:D
+  Delay (ns):                  0.411
+  Slack (ns):                  0.326
+  Arrival (ns):                0.757
+  Required (ns):               0.431
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        sdrv2_top_0/fm0/mult_res6[12]:CLK
+  To:                          sdrv2_top_0/fm0/mult_res7[12]:D
+  Delay (ns):                  0.397
+  Slack (ns):                  0.342
+  Arrival (ns):                0.726
+  Required (ns):               0.384
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        sdrv2_top_0/fm0/mult_res4[12]:CLK
+  To:                          sdrv2_top_0/fm0/mult_res5[12]:D
+  Delay (ns):                  0.402
+  Slack (ns):                  0.344
+  Arrival (ns):                0.736
+  Required (ns):               0.392
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        sdrv2_top_0/fm0/mult_res3[9]:CLK
+  To:                          sdrv2_top_0/fm0/mult_res4[9]:D
+  Delay (ns):                  0.402
+  Slack (ns):                  0.355
+  Arrival (ns):                0.747
+  Required (ns):               0.392
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        sdrv2_top_0/fm0/mult_res7[15]:CLK
+  To:                          sdrv2_top_0/fm0/mult_res8[15]:D
+  Delay (ns):                  0.397
+  Slack (ns):                  0.356
+  Arrival (ns):                0.740
+  Required (ns):               0.384
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/f0/in_seq0[2]:CLK
+  To: sdrv2_top_0/cr0/f0/in_seq0[3]:D
+  data arrival time                              0.757
+  data required time                         -   0.431
+  slack                                          0.326
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.346          net: ADC_CLK_c
+  0.346                        sdrv2_top_0/cr0/f0/in_seq0[2]:CLK (r)
+               +     0.248          cell: ADLIB:DFN1E1C0
+  0.594                        sdrv2_top_0/cr0/f0/in_seq0[2]:Q (r)
+               +     0.163          net: sdrv2_top_0/cr0/seq0[2]
+  0.757                        sdrv2_top_0/cr0/f0/in_seq0[3]:D (r)
+                                    
+  0.757                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.431          net: ADC_CLK_c
+  0.431                        sdrv2_top_0/cr0/f0/in_seq0[3]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1C0
+  0.431                        sdrv2_top_0/cr0/f0/in_seq0[3]:D
+                                    
+  0.431                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        in_phase[6]
+  To:                          sdrv2_top_0/fm0/I_smp[6]:D
+  Delay (ns):                  0.445
+  Slack (ns):
+  Arrival (ns):                0.445
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.049
+
+Path 2
+  From:                        quad_phase[1]
+  To:                          sdrv2_top_0/fm0/Q_smp[1]:D
+  Delay (ns):                  0.445
+  Slack (ns):
+  Arrival (ns):                0.445
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.055
+
+Path 3
+  From:                        quad_phase[5]
+  To:                          sdrv2_top_0/fm0/Q_smp[5]:D
+  Delay (ns):                  0.444
+  Slack (ns):
+  Arrival (ns):                0.444
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.058
+
+Path 4
+  From:                        quad_phase[0]
+  To:                          sdrv2_top_0/fm0/Q_smp[0]:D
+  Delay (ns):                  0.446
+  Slack (ns):
+  Arrival (ns):                0.446
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.058
+
+Path 5
+  From:                        in_phase[7]
+  To:                          sdrv2_top_0/fm0/I_smp[7]:D
+  Delay (ns):                  0.446
+  Slack (ns):
+  Arrival (ns):                0.446
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.058
+
+
+Expanded Path 1
+  From: in_phase[6]
+  To: sdrv2_top_0/fm0/I_smp[6]:D
+  data arrival time                              0.445
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        in_phase[6] (f)
+               +     0.000          net: in_phase[6]
+  0.000                        in_phase_pad[6]/U0/U0:PAD (f)
+               +     0.276          cell: ADLIB:IOPAD_IN
+  0.276                        in_phase_pad[6]/U0/U0:Y (f)
+               +     0.000          net: in_phase_pad[6]/U0/NET1
+  0.276                        in_phase_pad[6]/U0/U1:YIN (f)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.294                        in_phase_pad[6]/U0/U1:Y (f)
+               +     0.151          net: in_phase_c[6]
+  0.445                        sdrv2_top_0/fm0/I_smp[6]:D (f)
+                                    
+  0.445                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.396          net: ADC_CLK_c
+  N/C                          sdrv2_top_0/fm0/I_smp[6]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1C0
+  N/C                          sdrv2_top_0/fm0/I_smp[6]:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        sdrv2_top_0/agc0/adc0/cs:CLK
+  To:                          RSSI_CS
+  Delay (ns):                  2.141
+  Slack (ns):
+  Arrival (ns):                2.462
+  Required (ns):
+  Clock to Out (ns):           2.462
+
+Path 2
+  From:                        sdrv2_top_0/agc0/B[4]:CLK
+  To:                          RF_GAIN[4]
+  Delay (ns):                  2.169
+  Slack (ns):
+  Arrival (ns):                2.481
+  Required (ns):
+  Clock to Out (ns):           2.481
+
+Path 3
+  From:                        sdrv2_top_0/agc0/B[5]:CLK
+  To:                          RF_GAIN[5]
+  Delay (ns):                  2.261
+  Slack (ns):
+  Arrival (ns):                2.577
+  Required (ns):
+  Clock to Out (ns):           2.577
+
+Path 4
+  From:                        sdrv2_top_0/agc0/B[1]:CLK
+  To:                          RF_GAIN[1]
+  Delay (ns):                  2.334
+  Slack (ns):
+  Arrival (ns):                2.652
+  Required (ns):
+  Clock to Out (ns):           2.652
+
+Path 5
+  From:                        sdrv2_top_0/agc0/B[0]:CLK
+  To:                          RF_GAIN[0]
+  Delay (ns):                  2.332
+  Slack (ns):
+  Arrival (ns):                2.655
+  Required (ns):
+  Clock to Out (ns):           2.655
+
+
+Expanded Path 1
+  From: sdrv2_top_0/agc0/adc0/cs:CLK
+  To: RSSI_CS
+  data arrival time                              2.462
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.321          net: ADC_CLK_c
+  0.321                        sdrv2_top_0/agc0/adc0/cs:CLK (r)
+               +     0.248          cell: ADLIB:DFN1E1P0
+  0.569                        sdrv2_top_0/agc0/adc0/cs:Q (r)
+               +     0.552          net: RSSI_CS_c
+  1.121                        RSSI_CS_pad/U0/U1:D (r)
+               +     0.256          cell: ADLIB:IOTRI_OB_EB
+  1.377                        RSSI_CS_pad/U0/U1:DOUT (r)
+               +     0.000          net: RSSI_CS_pad/U0/NET1
+  1.377                        RSSI_CS_pad/U0/U0:D (r)
+               +     1.085          cell: ADLIB:IOPAD_TRI
+  2.462                        RSSI_CS_pad/U0/U0:PAD (r)
+               +     0.000          net: RSSI_CS
+  2.462                        RSSI_CS (r)
+                                    
+  2.462                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+                                    
+  N/C                          RSSI_CS (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq1[13]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):                  3.596
+  Arrival (ns):                3.993
+  Required (ns):               0.397
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+Path 2
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/cmp0/seq5[4]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):                  3.596
+  Arrival (ns):                3.993
+  Required (ns):               0.397
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+Path 3
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/cmp0/seq1[7]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):                  3.596
+  Arrival (ns):                3.993
+  Required (ns):               0.397
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+Path 4
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/cmp0/seq5[13]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):                  3.596
+  Arrival (ns):                3.993
+  Required (ns):               0.397
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+Path 5
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/cmp0/seq3[6]:CLR
+  Delay (ns):                  3.633
+  Slack (ns):                  3.596
+  Arrival (ns):                3.993
+  Required (ns):               0.397
+  Removal (ns):                0.000
+  Skew (ns):                   -0.037
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/cmp_rst:CLK
+  To: sdrv2_top_0/cr0/f0/in_seq1[13]:CLR
+  data arrival time                              3.993
+  data required time                         -   0.397
+  slack                                          3.596
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.360          net: ADC_CLK_c
+  0.360                        sdrv2_top_0/cr0/cmp_rst:CLK (r)
+               +     0.248          cell: ADLIB:DFN1P0
+  0.608                        sdrv2_top_0/cr0/cmp_rst:Q (r)
+               +     1.439          net: sdrv2_top_0/cr0/cmp_rst
+  2.047                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE:A (r)
+               +     0.174          cell: ADLIB:NOR2B
+  2.221                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE:Y (r)
+               +     1.061          net: sdrv2_top_0/cr0/cmp_rst_RNIE6HE
+  3.282                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC:A (r)
+               +     0.390          cell: ADLIB:CLKSRC
+  3.672                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC:Y (r)
+               +     0.321          net: sdrv2_top_0/cr0/sfd_sync_rstn
+  3.993                        sdrv2_top_0/cr0/f0/in_seq1[13]:CLR (r)
+                                    
+  3.993                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.397          net: ADC_CLK_c
+  0.397                        sdrv2_top_0/cr0/f0/in_seq1[13]:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1E1C0
+  0.397                        sdrv2_top_0/cr0/f0/in_seq1[13]:CLR
+                                    
+  0.397                        data required time
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA to SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+
+Path 1
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/crc_correct/U1:CLR
+  Delay (ns):                  1.151
+  Slack (ns):                  1.120
+  Arrival (ns):                1.483
+  Required (ns):               0.363
+  Hold (ns):
+
+Path 2
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/isGlossy/U1:CLR
+  Delay (ns):                  1.149
+  Slack (ns):                  1.144
+  Arrival (ns):                1.481
+  Required (ns):               0.337
+  Hold (ns):
+
+Path 3
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/address_field[73]/U1:CLR
+  Delay (ns):                  1.200
+  Slack (ns):                  1.200
+  Arrival (ns):                1.532
+  Required (ns):               0.332
+  Hold (ns):
+
+Path 4
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/rssi[7]/U1:CLR
+  Delay (ns):                  1.319
+  Slack (ns):                  1.321
+  Arrival (ns):                1.651
+  Required (ns):               0.330
+  Hold (ns):
+
+Path 5
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/rssi[4]/U1:CLR
+  Delay (ns):                  1.319
+  Slack (ns):                  1.321
+  Arrival (ns):                1.651
+  Required (ns):               0.330
+  Hold (ns):
+
+
+Expanded Path 1
+  From: sdrv2_top_0/rc0/correlator_en:CLK
+  To: sdrv2_top_0/cr0/crc_correct/U1:CLR
+  data arrival time                              1.483
+  data required time                         -   0.363
+  slack                                          1.120
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.332          net: FAB_CLK
+  0.332                        sdrv2_top_0/rc0/correlator_en:CLK (r)
+               +     0.248          cell: ADLIB:DFN1E0C0
+  0.580                        sdrv2_top_0/rc0/correlator_en:Q (r)
+               +     0.529          net: sdrv2_top_0/RadiotoCorr_correlator_en
+  1.109                        sdrv2_top_0/cr0/corr_rstn_1:A (r)
+               +     0.209          cell: ADLIB:NOR2B
+  1.318                        sdrv2_top_0/cr0/corr_rstn_1:Y (r)
+               +     0.165          net: sdrv2_top_0/cr0/corr_rstn_1
+  1.483                        sdrv2_top_0/cr0/crc_correct/U1:CLR (r)
+                                    
+  1.483                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.363          net: ADC_CLK_c
+  0.363                        sdrv2_top_0/cr0/crc_correct/U1:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1C0
+  0.363                        sdrv2_top_0/cr0/crc_correct/U1:CLR
+                                    
+  0.363                        data required time
+
+
+END SET SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA to SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

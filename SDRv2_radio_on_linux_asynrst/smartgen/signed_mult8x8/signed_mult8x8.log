@@ -1,0 +1,57 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Thu Aug 23 18:06:26 2012
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : signed_mult8x8
+Family                          : SmartFusion
+Output Format                   : VERILOG
+Type                            : Multiplier
+Variation                       : Booth Advanced Options
+Clock                           : Rising
+DataA Width                     : 8
+DataB Width                     : 8
+Representation                  : Signed
+Final Adder                     : Instantiate
+Pipeline Stages                 : 0
+Summation Network               : Wallace
+Max PGen Width                  : 0
+Final Adder Speed               : Sklansky
+Hybrid Val                      : 0
+Insert Pad                      : No
+Insert I/O Reg                  : No
+DebugLevel                      : 0
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:    313  Total:  11520   (2.72%)
+    Fabric IO (W/ clocks)      Used:      0  Total:    128   (0.00%)
+    Fabric Differential IO     Used:      0  Total:     64   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     43   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     15   (0.00%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    Fabric CCC                 Used:      0  Total:      1   (0.00%)
+    MSS CCC                    Used:      0  Total:      1   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     24   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to
+C:/Actelprj/SDRv2_LiberoV9/smartgen\signed_mult8x8\signed_mult8x8.v.
+
+ ** Log Ended:   Thu Aug 23 18:06:28 2012
+

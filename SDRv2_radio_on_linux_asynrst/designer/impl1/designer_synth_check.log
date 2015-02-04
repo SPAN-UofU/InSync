@@ -1,0 +1,596 @@
+Actel Designer Software
+Version: 9.1.5.1
+Release: v9.1 SP5
+
+Created a new design.
+'BA_NAME' set to 'Top_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Actelprj\SDRv2_radio_on_linux_asynrst\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+'DESDIR' set to 'C:/Actelprj/SDRv2_radio_on_linux_asynrst/designer/impl1'
+'BA_DIR' set to 'C:/Actelprj/SDRv2_radio_on_linux_asynrst/designer/impl1'
+'BA_NETLIST_ALSO' set to '1'
+'EDNINFLAVOR' set to 'GENERIC'
+'NETLIST_NAMING_STYLE' set to 'VERILOG'
+'EXPORT_STATUS_REPORT' set to '1'
+'EXPORT_STATUS_REPORT_FILENAME' set to 'Top.rpt'
+'AUDIT_NETLIST_FILE' set to '1'
+'AUDIT_DCF_FILE' set to '1'
+'AUDIT_PIN_FILE' set to '1'
+'AUDIT_ADL_FILE' set to '1'
+
+ Netlist Reading Time = 1.0 seconds
+Imported the files:
+   C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.edn
+   C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\Top\Top.pdc
+   C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top_sdc.sdc
+
+The Import command succeeded ( 00:00:09 )
+'BLOCK' set to 'T'
+'ENABLE_BLOCK_MODE' set to '1'
+IDE_BEGINNING_OF_COMPILE
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F500M3G
+Package     : 484 FBGA
+Source      : C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.edn
+              C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\Top\Top.pdc
+              C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top_sdc.sdc
+Format      : EDIF
+Topcell     : Top
+Speed grade : -1
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3__DOUTA0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3__DOUTA1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3__DOUTA2 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3__DOUTA3 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3__DOUTA4 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3__DOUTA5 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3__DOUTA6 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3__DOUTA7 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3_inst_DOUTA8_1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3_inst_DOUTB4_1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3_inst_DOUTB5_1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3_inst_DOUTB6_1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3_inst_DOUTB7_1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/glossyfifo/RAM4K9_QXI_3_inst_DOUTB8_1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3__DOUTA0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3__DOUTA1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3__DOUTA2 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3__DOUTA3 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3__DOUTA4 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3__DOUTA5 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3__DOUTA6 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3__DOUTA7 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst_DOUTA8 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst_DOUTB4 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst_DOUTB5 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst_DOUTB6 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst_DOUTB7 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst_DOUTB8 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3__DOUTA0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3__DOUTA1 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3__DOUTA2 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3__DOUTA3 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3__DOUTA4 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3__DOUTA5 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3__DOUTA6 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3__DOUTA7 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst_DOUTA8_0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst_DOUTB4_0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst_DOUTB5_0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst_DOUTB6_0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst_DOUTB7_0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst_DOUTB8_0 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_AEMPTY drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_AFULL drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_FULL drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD8 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD9 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD10 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD11 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD12 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD13 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD14 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD15 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD16 drives no load.
+Warning: CMP201: Net sdrv2_top_0/cr0/em_fifo/FIFOBLOCK0_RD17 drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[6] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[7] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[8] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[9] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[10] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[11] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[12] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[13] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[14] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[15] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[16] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[17] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[18] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[19] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[20] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[21] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[22] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[23] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[24] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[25] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[26] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[27] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[28] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[29] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[30] drives no load.
+Warning: CMP201: Net SDR_MSS_0/ACEFLAGS[31] drives no load.
+Warning: CMP201: Net SDR_MSS_0/CALIBOUT drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP0 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP1 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP10 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP11 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP2 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP3 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP4 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP5 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP6 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP7 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP8 drives no load.
+Warning: CMP201: Net SDR_MSS_0/CMP9 drives no load.
+Warning: CMP201: Net SDR_MSS_0/DEEPSLEEP drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[6] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[7] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[8] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[9] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[10] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[11] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[12] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[13] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[14] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[15] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[16] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[17] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[18] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[19] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[20] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[21] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[22] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[23] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[24] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCAB[25] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCBYTEN[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCBYTEN[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCCS0n drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCCS1n drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCDBOE drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCOEN0n drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCOEN1n drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCRWn drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[6] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[7] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[8] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[9] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[10] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[11] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[12] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[13] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[14] drives no load.
+Warning: CMP201: Net SDR_MSS_0/EMCWDB[15] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[6] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[7] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[8] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[9] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[10] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[11] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[12] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[13] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[14] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[15] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[16] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[17] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[18] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[19] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[20] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[21] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[22] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[23] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[24] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[25] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[26] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[27] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[28] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[29] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[30] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRDATA[31] drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHREADYOUT drives no load.
+Warning: CMP201: Net SDR_MSS_0/FABHRESP drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[16] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[17] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[18] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[19] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[20] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[21] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[22] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[23] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[24] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[25] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[26] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[27] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[28] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[29] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[30] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPO[31] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[6] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[7] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[8] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[9] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[10] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[11] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[12] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[13] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[14] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[15] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[16] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[17] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[18] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[19] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[20] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[21] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[22] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[23] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[24] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[25] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[26] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[27] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[28] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[29] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[30] drives no load.
+Warning: CMP201: Net SDR_MSS_0/GPOE[31] drives no load.
+Warning: CMP201: Net SDR_MSS_0/I2C0SCLO drives no load.
+Warning: CMP201: Net SDR_MSS_0/I2C0SDAO drives no load.
+Warning: CMP201: Net SDR_MSS_0/I2C0SMBALERTNO drives no load.
+Warning: CMP201: Net SDR_MSS_0/I2C0SMBUSNO drives no load.
+Warning: CMP201: Net SDR_MSS_0/I2C1SCLO drives no load.
+Warning: CMP201: Net SDR_MSS_0/I2C1SDAO drives no load.
+Warning: CMP201: Net SDR_MSS_0/I2C1SMBALERTNO drives no load.
+Warning: CMP201: Net SDR_MSS_0/I2C1SMBUSNO drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL0 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL1 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL10 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL11 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL2 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL3 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL4 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL5 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL6 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL7 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL8 drives no load.
+Warning: CMP201: Net SDR_MSS_0/LVTTL9 drives no load.
+Warning: CMP201: Net SDR_MSS_0/MACM2FMDC drives no load.
+Warning: CMP201: Net SDR_MSS_0/MACM2FMDEN drives no load.
+Warning: CMP201: Net SDR_MSS_0/MACM2FMDO drives no load.
+Warning: CMP201: Net SDR_MSS_0/MACM2FTXD[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MACM2FTXD[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MACM2FTXEN drives no load.
+Warning: CMP201: Net SDR_MSS_0/SDR_MSS_0_MSS_MASTER_AHB_LITE_HADDR_[8] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SDR_MSS_0_MSS_MASTER_AHB_LITE_HADDR_[9] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SDR_MSS_0_MSS_MASTER_AHB_LITE_HADDR_[10] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SDR_MSS_0_MSS_MASTER_AHB_LITE_HADDR_[11] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHTRANS[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[14] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[15] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[16] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[17] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[18] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[19] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[20] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[21] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[22] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[23] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[24] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[25] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[26] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[27] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[28] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[29] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[30] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSHWDATA[31] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSINT[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSINT[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSINT[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSINT[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSINT[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSINT[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSINT[6] drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSSINT[7] drives no load.
+Warning: CMP201: Net SDR_MSS_0/PUFABn drives no load.
+Warning: CMP201: Net SDR_MSS_0/SDD0 drives no load.
+Warning: CMP201: Net SDR_MSS_0/SDD1 drives no load.
+Warning: CMP201: Net SDR_MSS_0/SDD2 drives no load.
+Warning: CMP201: Net SDR_MSS_0/SLEEP drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0CLKO drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0DO drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0DOE drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0MODE drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0SSO[0] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0SSO[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0SSO[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0SSO[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0SSO[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0SSO[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0SSO[6] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI0SSO[7] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI1SSO[1] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI1SSO[2] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI1SSO[3] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI1SSO[4] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI1SSO[5] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI1SSO[6] drives no load.
+Warning: CMP201: Net SDR_MSS_0/SPI1SSO[7] drives no load.
+Warning: CMP201: Net SDR_MSS_0/TXEV drives no load.
+Warning: CMP201: Net SDR_MSS_0/UART0DTRn drives no load.
+Warning: CMP201: Net SDR_MSS_0/UART0RTSn drives no load.
+Warning: CMP201: Net SDR_MSS_0/UART1DTRn drives no load.
+Warning: CMP201: Net SDR_MSS_0/UART1RTSn drives no load.
+Warning: CMP201: Net SDR_MSS_0/UART1TXD drives no load.
+Warning: CMP201: Net SDR_MSS_0/VAREFOUT drives no load.
+Warning: CMP201: Net SDR_MSS_0/VCC15GOOD drives no load.
+Warning: CMP201: Net SDR_MSS_0/VCC33GOOD drives no load.
+Warning: CMP201: Net SDR_MSS_0/WDINT drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSS_CCC_0/I_MSSCCC_GLC drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSS_CCC_0/I_MSSCCC_LOCK drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSS_CCC_0/I_MSSCCC_YB drives no load.
+Warning: CMP201: Net SDR_MSS_0/MSS_CCC_0/I_MSSCCC_YC drives no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   2
+  - Buffers:                11
+  - Inverters:              1
+  - Tieoff:                 53
+  - Logic combining:        274
+
+    Total macros optimized  341
+
+Warning: CMP503: Remapped 514 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+         pin on the enable flip-flop is not being driven by a global net.
+
+There were 0 error(s) and 335 warning(s) in this design.
+=====================================================================
+
+Reading user pdc (Physical Design Constraints) file(s) postcompile
+
+
+There were 0 error(s) and 0 warning(s) in reading the user pdc.
+
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
+    Fabric                     Used:   7783  Total:  11520   (67.56%)
+    Fabric IO (W/ clocks)      Used:     73  Total:    128   (57.03%)
+    Fabric Differential IO     Used:      0  Total:     64   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     43   (0.00%)
+    Dedicated MSS IO           Used:     24  Total:     43   (55.81%)
+    GLOBAL (Chip+Quadrant)     Used:      3  Total:     15   (20.00%)
+    MSS GLOBAL                 Used:      3  Total:      3   (100.00%)
+    Fabric CCC                 Used:      0  Total:      1   (0.00%)
+    MSS CCC                    Used:      1  Total:      1   (100.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      1  Total:      1   (100.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      4  Total:     24   (16.67%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 3      | 3  (100.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 3      | 3  (100.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 5852         | 5852
+    SEQ     | 1931         | 1931
+
+I/O Function:
+
+    Type                          | w/o register  | w/ register  | w/ DDR register
+    ------------------------------|---------------|--------------|----------------
+    Input I/O                     | 22            | 0            | 0
+    Output I/O                    | 51            | 0            | 0
+    Bidirectional I/O             | 0             | 0            | 0
+    Differential Input I/O Pairs  | 0             | 0            | 0
+    Differential Output I/O Pairs | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 22    | 51     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:  73 ( 100.00% )
+
+Net information report:
+=======================
+
+The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
+    EffCnt  Type          Name
+    --------------------------
+    476     SET/RESET_NET Net   : SDR_MSS_0_M2F_RESET_N
+                          Driver: SDR_MSS_0/MSS_ADLIB_INST
+    15      SET/RESET_NET Net   : sdrv2_top_0/rc0/auto_tx_en_RNI8KR9
+                          Driver: sdrv2_top_0/rc0/auto_tx_en_RNI8KR9
+    6       SET/RESET_NET Net   : sdrv2_top_0/fc0/ackfifo/DFN1C0_0_Q
+                          Driver: sdrv2_top_0/fc0/ackfifo/DFN1C0_0
+    5       SET/RESET_NET Net   : sdrv2_top_0/fc0/ackfifo/DFN1C0_1_Q
+                          Driver: sdrv2_top_0/fc0/ackfifo/DFN1C0_1
+    4       SET/RESET_NET Net   : sdrv2_top_0/fc0/tfrst_RNIKECC_0
+                          Driver: sdrv2_top_0/fc0/tfrst_RNIKECC_0
+    4       SET/RESET_NET Net   : sdrv2_top_0/fc0/afrst_RNI9P2K
+                          Driver: sdrv2_top_0/fc0/afrst_RNI9P2K
+    4       SET/RESET_NET Net   : sdrv2_top_0/fc0/gfrst_RNIVQ5K_0
+                          Driver: sdrv2_top_0/fc0/gfrst_RNIVQ5K_0
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    1314    CLK_NET       Net   : GLB
+                          Driver: SDR_MSS_0/MSS_CCC_0/I_MSSCCC
+                          Source: ESSENTIAL
+    696     SET/RESET_NET Net   : sdrv2_top_0/cr0/sfd_sync_rstn
+                          Driver: sdrv2_top_0/cr0/cmp_rst_RNI8TU9_0/U_CLKSRC
+                          Source: NETLIST
+    628     CLK_NET       Net   : FAB_CLK
+                          Driver: SDR_MSS_0/MSS_CCC_0/I_MSSCCC
+                          Source: ESSENTIAL
+    250     INT_NET       Net   : sdrv2_top_0/cr0/cmp0/next_state_0_sqmuxa
+                          Driver: sdrv2_top_0/cr0/cmp0/state_RNIP24H_0[1]/U_CLKSRC
+                          Source: NETLIST
+    236     SET/RESET_NET Net   : sdrv2_top_0.cr0.corr_rstn
+                          Driver: I_967/U_CLKSRC
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    907     SET/RESET_NET Net   : SDR_MSS_0_M2F_RESET_N
+                          Driver: SDR_MSS_0/MSS_ADLIB_INST
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_2_sqmuxa_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_0_a2_1_a4_0[0]
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_4_sqmuxa_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_4_sqmuxa_0_a3_0_a4_0
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_6_sqmuxa_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_6_sqmuxa_0_a3_0_a4_0
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/N_491_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_9_m_0_a2_2_a2_0[63]
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/N_492_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_5_m_0_a2_1_a2_0[63]
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_6_sqmuxa
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_6_sqmuxa_0_a3_0_a4
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_2_sqmuxa
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_0_a2_1_a4[0]
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_4_sqmuxa
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_4_sqmuxa_0_a3_0_a4
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/N_491
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_9_m_0_a2_2_a2[63]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    907     SET/RESET_NET Net   : SDR_MSS_0_M2F_RESET_N
+                          Driver: SDR_MSS_0/MSS_ADLIB_INST
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_2_sqmuxa_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_0_a2_1_a4_0[0]
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_4_sqmuxa_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_4_sqmuxa_0_a3_0_a4_0
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_6_sqmuxa_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_6_sqmuxa_0_a3_0_a4_0
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/N_491_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_9_m_0_a2_2_a2_0[63]
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/N_492_0
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_5_m_0_a2_1_a2_0[63]
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_6_sqmuxa
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_6_sqmuxa_0_a3_0_a4
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_2_sqmuxa
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_0_a2_1_a4[0]
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/src_addr_4_sqmuxa
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_4_sqmuxa_0_a3_0_a4
+    24      INT_NET       Net   : sdrv2_top_0/cr0/ctl_0/N_491
+                          Driver: sdrv2_top_0/cr0/ctl_0/src_addr_9_m_0_a2_2_a2[63]
+
+
+SDC Import: Begin processing constraints...
+
+
+
+SDC Import: End processing constraints
+
+
+The Compile command succeeded ( 00:00:13 )
+Wrote to the file: C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top_drc_temp.rpt
+
+The Export command succeeded ( 00:00:02 )
+
+The Execute Script command succeeded ( 00:00:40 )
+Warning: The database was closed without a save, modifications are lost
+Design closed.
+

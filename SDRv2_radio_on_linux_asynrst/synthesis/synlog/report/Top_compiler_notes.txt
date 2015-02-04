@@ -1,0 +1,103 @@
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v":13:0:13:8|Synthesizing module CAHBLTO10
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
+@N: CL177 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
+@N: CL177 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":13:0:13:8|Synthesizing module CAHBLTlI1
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":13:0:13:9|Synthesizing module CAHBLTl0Il
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":13:0:13:9|Synthesizing module CAHBLTOl0l
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":13:0:13:9|Synthesizing module CAHBLTllO0
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":13:0:13:9|Synthesizing module CAHBLTlOl0
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":13:0:13:10|Synthesizing module CoreAHBLite
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_AHB
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":260:7:260:12|Synthesizing module PLLINT
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":1:7:1:16|Synthesizing module MSS_XTLOSC
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\MSS_CCC_0\SDR_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:35|Synthesizing module SDR_MSS_tmp_MSS_CCC_0_MSS_CCC
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":67:7:67:15|Synthesizing module BIBUF_MSS
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":51:7:51:17|Synthesizing module TRIBUFF_MSS
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":145:7:145:12|Synthesizing module MSSINT
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\SDR_MSS.v":9:7:9:13|Synthesizing module SDR_MSS
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\fm_demux.v":40:7:40:14|Synthesizing module fx_demux
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\radio_ctl.v":41:7:41:15|Synthesizing module radio_ctl
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\frame_ctl.v":37:7:37:15|Synthesizing module frame_ctl
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\crc.v":37:7:37:9|Synthesizing module crc
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\bit_accumlator.v":36:7:36:20|Synthesizing module bit_accumlator
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\zero_finding.v":39:7:39:18|Synthesizing module zero_finding
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\hs_match.v":38:7:38:14|Synthesizing module hs_match
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\seq_compare.v":40:7:40:22|Synthesizing module sequence_compare
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\sfd_sync.v":40:7:40:14|Synthesizing module sfd_sync
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1982:7:1982:14|Synthesizing module FIFO4K18
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1289:7:1289:9|Synthesizing module INV
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\smartgen\r_fifo\r_fifo.v":5:7:5:12|Synthesizing module r_fifo
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\correlator.v":40:7:40:16|Synthesizing module correlator
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":2:7:2:10|Synthesizing module AND2
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1405:7:1405:10|Synthesizing module NOR3
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1908:7:1908:11|Synthesizing module XNOR2
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":79:7:79:9|Synthesizing module AO1
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1931:7:1931:10|Synthesizing module XOR2
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":909:7:909:12|Synthesizing module DFN1C0
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":957:7:957:14|Synthesizing module DFN1E1C0
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":97:7:97:10|Synthesizing module AO1C
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":114:7:114:10|Synthesizing module AOI1
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1473:7:1473:9|Synthesizing module OR3
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":7:7:7:11|Synthesizing module AND2A
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1411:7:1411:11|Synthesizing module NOR3A
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":17:7:17:10|Synthesizing module AND3
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1462:7:1462:10|Synthesizing module OR2A
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1294:7:1294:10|Synthesizing module MAJ3
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1373:7:1373:12|Synthesizing module NAND3A
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1446:7:1446:10|Synthesizing module OA1C
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1936:7:1936:10|Synthesizing module XOR3
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1353:7:1353:11|Synthesizing module NAND2
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1434:7:1434:10|Synthesizing module OA1A
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":981:7:981:12|Synthesizing module DFN1P0
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1394:7:1394:11|Synthesizing module NOR2A
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":2092:8:2092:13|Synthesizing module RAM4K9
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\smartgen\fifo12x8\fifo12x8.v":5:7:5:14|Synthesizing module fifo12x8
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\smartgen\fifo128x8\fifo128x8.v":5:7:5:15|Synthesizing module fifo128x8
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\sin_table.v":38:7:38:16|Synthesizing module sine_table
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\chip_seq.v":37:7:37:16|Synthesizing module chip_table
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\fifo2wave.v":37:7:37:15|Synthesizing module fifo2wave
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\fifo_ctl.v":37:7:37:14|Synthesizing module fifo_ctl
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\idx_ctl.v":38:7:38:17|Synthesizing module idx_control
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\agc_table2.v":2:7:2:16|Synthesizing module agc_table2
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\rssiADC.v":1:7:1:15|Synthesizing module serialADC
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\agc.v":39:7:39:9|Synthesizing module agc
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\spi_tx.v":37:7:37:12|Synthesizing module spi_tx
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\max2831_spi.v":37:7:37:17|Synthesizing module max2831_spi
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\SDRv2_top.v":40:7:40:15|Synthesizing module sdrv2_top
+@N: CG364 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\Top\Top.v":9:7:9:9|Synthesizing module Top
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\max2831_spi.v":76:0:76:5|Trying to extract state machine for register fsm
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\spi_tx.v":61:0:61:5|Trying to extract state machine for register state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\spi_tx.v":61:0:61:5|Trying to extract state machine for register dat_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\agc.v":81:0:81:5|Trying to extract state machine for register state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\rssiADC.v":31:0:31:5|Trying to extract state machine for register state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\agc_table2.v":62:0:62:5|Trying to extract state machine for register lna_gain
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\idx_ctl.v":102:0:102:5|Trying to extract state machine for register pkt_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\idx_ctl.v":102:0:102:5|Trying to extract state machine for register pkt_end_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\idx_ctl.v":102:0:102:5|Trying to extract state machine for register fsm
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\idx_ctl.v":102:0:102:5|Trying to extract state machine for register crc_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\fifo_ctl.v":681:0:681:5|Trying to extract state machine for register crc_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\fifo_ctl.v":526:0:526:5|Trying to extract state machine for register ack_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\fifo_ctl.v":424:0:424:5|Trying to extract state machine for register glossy_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\fifo_ctl.v":186:0:186:5|Trying to extract state machine for register own_fsm
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\fifo_ctl.v":186:0:186:5|Trying to extract state machine for register ack_gl_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\correlator.v":261:0:261:5|Trying to extract state machine for register st_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\correlator.v":174:0:174:5|Trying to extract state machine for register fsm
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\sfd_sync.v":62:0:62:5|Trying to extract state machine for register state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\seq_compare.v":178:0:178:5|Trying to extract state machine for register state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\hs_match.v":142:0:142:5|Trying to extract state machine for register state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\crc.v":67:0:67:5|Trying to extract state machine for register state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\radio_ctl.v":460:0:460:5|Trying to extract state machine for register fsm
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\radio_ctl.v":299:0:299:5|Trying to extract state machine for register radio_mode
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\radio_ctl.v":183:0:183:5|Trying to extract state machine for register auto_tx_state
+@N: CL201 :"C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Trying to extract state machine for register CAHBLTllOI
+

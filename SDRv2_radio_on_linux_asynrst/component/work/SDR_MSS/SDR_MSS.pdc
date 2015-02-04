@@ -1,0 +1,122 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.4 SP1 11.4.1.17
+# Family: SmartFusion , Die: A2F500M3G , Package: 484 FBGA
+# Date generated: Thu Jan 29 14:04:10 2015 
+
+
+# 
+# User Groups
+# 
+
+define_group -name MAC_0_RMII_DATA_PADs
+
+define_group -name MAC_0_RMII_PHY_MGMT_PADs
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+# User Group MAC_0_RMII_DATA_PADs
+
+set_io MAC_0_CRSDV                    \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_0_RXD[0]}                 \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_0_RXD[1]}                 \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io MAC_0_RXER                     \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_0_TXD[0]}                 \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_0_TXD[1]}                 \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_0_TXEN                     \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+# User Group MAC_0_RMII_PHY_MGMT_PADs
+
+set_io MAC_0_MDC                          \
+    -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_0_MDIO                         \
+    -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs  \
+    -DIRECTION INOUT
+
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+
+# set_io MAC_0_CRSDV -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_RXD[0]} -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_RXD[1]} -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io MAC_0_RXER -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_TXD[0]} -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io {MAC_0_TXD[1]} -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_TXEN -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_MDC -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_MDIO -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs -DIRECTION INOUT 
+# set_io MAC_0_CRSDV -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_RXD[0]} -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_RXD[1]} -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io MAC_0_RXER -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_TXD[0]} -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io {MAC_0_TXD[1]} -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_TXEN -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_MDC -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_MDIO -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs -DIRECTION INOUT 

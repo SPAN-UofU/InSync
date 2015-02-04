@@ -1,0 +1,57 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+@N: BN362 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":202:0:202:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTIO0l[0] of view:PrimLib.dffr(prim) in hierarchy view:work.Top(verilog) because there are no references to its outputs 
+@N: MF176 |Default generator successful 
+@N: MF184 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\fm_demux.v":54:33:54:46|Found 17 by 17 bit subtractor, 'un1_mult0_1_0_0[16:0]'
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF239 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\fm_demux.v":63:75:63:95|Found 19-bit decrementor, 'un1_mult_res8[18:0]'
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":401:7:401:34|Found 8 bit by 8 bit '<' comparator, 'next_fifo_WE13'
+@N: MF239 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":172:33:172:45|Found 8-bit decrementor, 'un1_fifo_data_0[7:0]'
+@N: MF176 |Default generator successful 
+@N: MF239 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":404:20:404:32|Found 7-bit decrementor, 'un1_dat_length[7:1]'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":398:7:398:34|Found 8 bit by 8 bit '<' comparator, 'next_glossy_crc_start6'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":74:18:74:37|Found 5 bit by 5 bit '<' comparator, 'un1_seq6_cal'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":80:20:80:49|Found 5 bit by 5 bit '<' comparator, 'un1_seq01_mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":81:20:81:49|Found 5 bit by 5 bit '<' comparator, 'un1_seq45_mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":85:30:85:63|Found 5 bit by 5 bit '<' comparator, 'un1_seq0123_mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":71:18:71:37|Found 5 bit by 5 bit '<' comparator, 'un1_seq0_cal'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":72:18:72:37|Found 5 bit by 5 bit '<' comparator, 'un1_seq2_cal'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":73:18:73:37|Found 5 bit by 5 bit '<' comparator, 'un1_seq4_cal'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\seq_compare.v":149:8:149:31|Found 5 bit by 5 bit '<' comparator, 'next_chip_mim_val7'
+@N: BN362 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\seq_compare.v":178:0:178:5|Removing sequential instance state[0] of view:PrimLib.dffs(prim) in hierarchy view:work.sequence_compare(verilog) because there are no references to its outputs 
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":190:7:190:44|Found 5 bit by 5 bit '<' comparator, 'next_output_val5'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":127:24:127:57|Found 5 bit by 5 bit '<' comparator, 'un1_chip0001mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":128:24:128:57|Found 5 bit by 5 bit '<' comparator, 'un1_chip0405mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":129:24:129:57|Found 5 bit by 5 bit '<' comparator, 'un1_chip0809mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":130:24:130:57|Found 5 bit by 5 bit '<' comparator, 'un1_chip1213mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":136:22:136:63|Found 5 bit by 5 bit '<' comparator, 'un1_chip00010203mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":137:22:137:63|Found 5 bit by 5 bit '<' comparator, 'un1_chip08091011mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":110:20:110:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip00_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":111:20:111:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip02_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":112:20:112:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip04_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":113:20:113:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip06_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":114:20:114:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip08_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":115:20:115:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip10_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":116:20:116:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip12_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":117:20:117:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip14_reg'
+@N: MO106 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\chip_seq.v":47:1:47:4|Found ROM, 'seq0.seq[31:0]', 16 words by 32 bits 
+@N: MO106 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\sin_table.v":48:1:48:4|Found ROM, 't1.out_reg[7:0]', 48 words by 8 bits 
+@N: MO106 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\sin_table.v":48:1:48:4|Found ROM, 't0.out_reg[7:0]', 48 words by 8 bits 
+@N: MF239 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\idx_ctl.v":160:12:160:47|Found 8-bit decrementor, 'pkt_state12_a_4[8:0]'
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: BN362 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[8] of view:PrimLib.dffr(prim) in hierarchy view:work.Top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[9] of view:PrimLib.dffr(prim) in hierarchy view:work.Top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[10] of view:PrimLib.dffr(prim) in hierarchy view:work.Top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[11] of view:PrimLib.dffr(prim) in hierarchy view:work.Top(verilog) because there are no references to its outputs 
+@N: FP130 |Promoting Net SDR_MSS_0_M2F_RESET_N on CLKINT  I_377 
+@N: FP130 |Promoting Net sdrv2_top_0.cr0.sfd_sync0.sfd_sync_rstn on CLKINT  I_378 
+@N: FP130 |Promoting Net sdrv2_top_0.cr0.cmp0.next_state_0_sqmuxa on CLKINT  I_379 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

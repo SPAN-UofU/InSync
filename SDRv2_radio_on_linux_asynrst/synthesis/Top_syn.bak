@@ -1,0 +1,105 @@
+#--  Synopsys, Inc.
+#--  Version I-2013.09M-SP1-1 
+#--  Project file C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top_syn.prj
+
+#project files
+add_file -include "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/sdr_def.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/work/SDR_MSS/mss_tshell.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/work/SDR_MSS/MSS_CCC_0/SDR_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/work/SDR_MSS/SDR_MSS.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/fm_demux.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/radio_ctl.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/frame_ctl.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/crc.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/bit_accumlator.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/zero_finding.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/hs_match.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/seq_compare.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/sfd_sync.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/smartgen/r_fifo/r_fifo.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/correlator.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/smartgen/fifo12x8/fifo12x8.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/smartgen/fifo128x8/fifo128x8.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/sin_table.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/chip_seq.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/fifo2wave.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/fifo_ctl.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/idx_ctl.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/agc_table2.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/rssiADC.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/agc.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/spi_tx.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/max2831_spi.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/hdl/SDRv2_top.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_addrdec.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_defaultslavesm.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_masterstage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_slavearbiter.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_slavestage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_initcfg_awrap.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_initcfg.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_matrix2x16.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite.v"
+add_file -verilog "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/work/Top/Top.v"
+add_file -constraint "C:/Actelprj/SDRv2_radio_on_linux_asynrst/component/work/SDR_MSS/mss_tshell_syn.sdc"
+
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion
+set_option -part A2F500M3G
+set_option -package FBGA484
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "Top"
+
+# mapper_options
+set_option -frequency 60.0000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# actel_options
+set_option -RWCheckOnRam 0
+
+# Microsemi 500K
+set_option -run_prop_extract 1
+set_option -maxfan 24
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -report_path 0
+set_option -opcond COMWC
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# Microsemi 500K
+set_option -globalthreshold 50
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./Top.edn"
+impl -active "synthesis"

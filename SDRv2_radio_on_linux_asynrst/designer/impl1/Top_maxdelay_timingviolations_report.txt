@@ -1,0 +1,822 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version v11.4 SP1
+Microsemi Corporation - Microsemi Libero Software Release v11.4 SP1 (Version 11.4.1.17)
+Date: Thu Jan 29 14:13:42 2015
+
+
+Design: Top
+Family: SmartFusion
+Die: A2F500M3G
+Package: 484 FBGA
+Temperature: COM
+Voltage: COM
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.422
+  Slack (ns):                  -6.747
+  Arrival (ns):                11.036
+  Required (ns):               4.289
+
+Path 2
+  From:                        sdrv2_top_0/cr0/cur_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.357
+  Slack (ns):                  -6.648
+  Arrival (ns):                10.937
+  Required (ns):               4.289
+
+Path 3
+  From:                        sdrv2_top_0/cr0/cur_length[6]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.211
+  Slack (ns):                  -6.536
+  Arrival (ns):                10.825
+  Required (ns):               4.289
+
+Path 4
+  From:                        sdrv2_top_0/cr0/cur_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.240
+  Slack (ns):                  -6.509
+  Arrival (ns):                10.798
+  Required (ns):               4.289
+
+Path 5
+  From:                        sdrv2_top_0/cr0/cur_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.088
+  Slack (ns):                  -6.357
+  Arrival (ns):                10.646
+  Required (ns):               4.289
+
+Path 6
+  From:                        sdrv2_top_0/cr0/cur_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.017
+  Slack (ns):                  -6.308
+  Arrival (ns):                10.597
+  Required (ns):               4.289
+
+Path 7
+  From:                        sdrv2_top_0/cr0/cur_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  9.833
+  Slack (ns):                  -6.124
+  Arrival (ns):                10.413
+  Required (ns):               4.289
+
+Path 8
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[11]:D
+  Delay (ns):                  9.858
+  Slack (ns):                  -6.119
+  Arrival (ns):                10.405
+  Required (ns):               4.286
+
+Path 9
+  From:                        sdrv2_top_0/cr0/FCF_reg[11]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[11]:D
+  Delay (ns):                  9.800
+  Slack (ns):                  -6.061
+  Arrival (ns):                10.347
+  Required (ns):               4.286
+
+Path 10
+  From:                        sdrv2_top_0/cr0/cur_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.715
+  Slack (ns):                  -6.001
+  Arrival (ns):                10.295
+  Required (ns):               4.294
+
+Path 11
+  From:                        sdrv2_top_0/cr0/dat_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.736
+  Slack (ns):                  -5.972
+  Arrival (ns):                10.292
+  Required (ns):               4.320
+
+Path 12
+  From:                        sdrv2_top_0/cr0/cur_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.675
+  Slack (ns):                  -5.961
+  Arrival (ns):                10.255
+  Required (ns):               4.294
+
+Path 13
+  From:                        sdrv2_top_0/cr0/dat_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.707
+  Slack (ns):                  -5.943
+  Arrival (ns):                10.263
+  Required (ns):               4.320
+
+Path 14
+  From:                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.613
+  Slack (ns):                  -5.933
+  Arrival (ns):                10.227
+  Required (ns):               4.294
+
+Path 15
+  From:                        sdrv2_top_0/cr0/cur_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.575
+  Slack (ns):                  -5.835
+  Arrival (ns):                10.155
+  Required (ns):               4.320
+
+Path 16
+  From:                        sdrv2_top_0/cr0/cur_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.548
+  Slack (ns):                  -5.834
+  Arrival (ns):                10.128
+  Required (ns):               4.294
+
+Path 17
+  From:                        sdrv2_top_0/cr0/cur_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.547
+  Slack (ns):                  -5.833
+  Arrival (ns):                10.127
+  Required (ns):               4.294
+
+Path 18
+  From:                        sdrv2_top_0/cr0/dat_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.492
+  Slack (ns):                  -5.812
+  Arrival (ns):                10.106
+  Required (ns):               4.294
+
+Path 19
+  From:                        sdrv2_top_0/cr0/dat_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.545
+  Slack (ns):                  -5.807
+  Arrival (ns):                10.101
+  Required (ns):               4.294
+
+Path 20
+  From:                        sdrv2_top_0/cr0/cur_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.492
+  Slack (ns):                  -5.778
+  Arrival (ns):                10.072
+  Required (ns):               4.294
+
+Path 21
+  From:                        sdrv2_top_0/cr0/dat_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.452
+  Slack (ns):                  -5.772
+  Arrival (ns):                10.066
+  Required (ns):               4.294
+
+Path 22
+  From:                        sdrv2_top_0/cr0/cur_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  9.500
+  Slack (ns):                  -5.744
+  Arrival (ns):                10.080
+  Required (ns):               4.336
+
+Path 23
+  From:                        sdrv2_top_0/cr0/cur_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  9.469
+  Slack (ns):                  -5.738
+  Arrival (ns):                10.049
+  Required (ns):               4.311
+
+Path 24
+  From:                        sdrv2_top_0/cr0/cur_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.452
+  Slack (ns):                  -5.738
+  Arrival (ns):                10.032
+  Required (ns):               4.294
+
+Path 25
+  From:                        sdrv2_top_0/cr0/cur_length[6]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.402
+  Slack (ns):                  -5.722
+  Arrival (ns):                10.016
+  Required (ns):               4.294
+
+Path 26
+  From:                        sdrv2_top_0/cr0/dat_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  9.495
+  Slack (ns):                  -5.715
+  Arrival (ns):                10.051
+  Required (ns):               4.336
+
+Path 27
+  From:                        sdrv2_top_0/cr0/dat_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  9.464
+  Slack (ns):                  -5.709
+  Arrival (ns):                10.020
+  Required (ns):               4.311
+
+Path 28
+  From:                        sdrv2_top_0/cr0/cur_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.431
+  Slack (ns):                  -5.695
+  Arrival (ns):                9.989
+  Required (ns):               4.294
+
+Path 29
+  From:                        sdrv2_top_0/cr0/FCF_reg_0[6]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[11]:D
+  Delay (ns):                  9.416
+  Slack (ns):                  -5.677
+  Arrival (ns):                9.963
+  Required (ns):               4.286
+
+Path 30
+  From:                        sdrv2_top_0/cr0/cur_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.407
+  Slack (ns):                  -5.667
+  Arrival (ns):                9.987
+  Required (ns):               4.320
+
+Path 31
+  From:                        sdrv2_top_0/cr0/dat_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.352
+  Slack (ns):                  -5.646
+  Arrival (ns):                9.966
+  Required (ns):               4.320
+
+Path 32
+  From:                        sdrv2_top_0/cr0/dat_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  9.366
+  Slack (ns):                  -5.633
+  Arrival (ns):                9.922
+  Required (ns):               4.289
+
+Path 33
+  From:                        sdrv2_top_0/cr0/dat_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.379
+  Slack (ns):                  -5.615
+  Arrival (ns):                9.935
+  Required (ns):               4.320
+
+Path 34
+  From:                        sdrv2_top_0/cr0/cur_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.350
+  Slack (ns):                  -5.614
+  Arrival (ns):                9.908
+  Required (ns):               4.294
+
+Path 35
+  From:                        sdrv2_top_0/cr0/cur_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.352
+  Slack (ns):                  -5.612
+  Arrival (ns):                9.932
+  Required (ns):               4.320
+
+Path 36
+  From:                        sdrv2_top_0/cr0/dat_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.350
+  Slack (ns):                  -5.586
+  Arrival (ns):                9.906
+  Required (ns):               4.320
+
+Path 37
+  From:                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.288
+  Slack (ns):                  -5.582
+  Arrival (ns):                9.902
+  Required (ns):               4.320
+
+Path 38
+  From:                        sdrv2_top_0/cr0/cur_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  9.332
+  Slack (ns):                  -5.576
+  Arrival (ns):                9.912
+  Required (ns):               4.336
+
+Path 39
+  From:                        sdrv2_top_0/cr0/cur_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.310
+  Slack (ns):                  -5.574
+  Arrival (ns):                9.868
+  Required (ns):               4.294
+
+Path 40
+  From:                        sdrv2_top_0/cr0/cur_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  9.301
+  Slack (ns):                  -5.570
+  Arrival (ns):                9.881
+  Required (ns):               4.311
+
+Path 41
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[5]:D
+  Delay (ns):                  9.296
+  Slack (ns):                  -5.563
+  Arrival (ns):                9.843
+  Required (ns):               4.280
+
+Path 42
+  From:                        sdrv2_top_0/cr0/dat_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  9.277
+  Slack (ns):                  -5.555
+  Arrival (ns):                9.891
+  Required (ns):               4.336
+
+Path 43
+  From:                        sdrv2_top_0/cr0/dat_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  9.246
+  Slack (ns):                  -5.549
+  Arrival (ns):                9.860
+  Required (ns):               4.311
+
+Path 44
+  From:                        sdrv2_top_0/cr0/cur_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  9.277
+  Slack (ns):                  -5.521
+  Arrival (ns):                9.857
+  Required (ns):               4.336
+
+Path 45
+  From:                        sdrv2_top_0/cr0/dat_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.272
+  Slack (ns):                  -5.518
+  Arrival (ns):                9.838
+  Required (ns):               4.320
+
+Path 46
+  From:                        sdrv2_top_0/cr0/cur_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  9.246
+  Slack (ns):                  -5.515
+  Arrival (ns):                9.826
+  Required (ns):               4.311
+
+Path 47
+  From:                        sdrv2_top_0/cr0/FCF_reg[11]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[5]:D
+  Delay (ns):                  9.238
+  Slack (ns):                  -5.505
+  Arrival (ns):                9.785
+  Required (ns):               4.280
+
+Path 48
+  From:                        sdrv2_top_0/cr0/dat_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.243
+  Slack (ns):                  -5.489
+  Arrival (ns):                9.809
+  Required (ns):               4.320
+
+Path 49
+  From:                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.156
+  Slack (ns):                  -5.476
+  Arrival (ns):                9.770
+  Required (ns):               4.294
+
+Path 50
+  From:                        sdrv2_top_0/cr0/dat_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  9.148
+  Slack (ns):                  -5.473
+  Arrival (ns):                9.762
+  Required (ns):               4.289
+
+Path 51
+  From:                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[4]:D
+  Delay (ns):                  9.176
+  Slack (ns):                  -5.453
+  Arrival (ns):                9.790
+  Required (ns):               4.337
+
+Path 52
+  From:                        sdrv2_top_0/cr0/dat_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.188
+  Slack (ns):                  -5.450
+  Arrival (ns):                9.744
+  Required (ns):               4.294
+
+Path 53
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[22]:D
+  Delay (ns):                  9.213
+  Slack (ns):                  -5.449
+  Arrival (ns):                9.760
+  Required (ns):               4.311
+
+Path 54
+  From:                        sdrv2_top_0/cr0/cur_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.210
+  Slack (ns):                  -5.448
+  Arrival (ns):                9.768
+  Required (ns):               4.320
+
+Path 55
+  From:                        sdrv2_top_0/cr0/cur_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.158
+  Slack (ns):                  -5.422
+  Arrival (ns):                9.716
+  Required (ns):               4.294
+
+Path 56
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[16]:D
+  Delay (ns):                  9.152
+  Slack (ns):                  -5.414
+  Arrival (ns):                9.699
+  Required (ns):               4.285
+
+Path 57
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[18]:D
+  Delay (ns):                  9.165
+  Slack (ns):                  -5.393
+  Arrival (ns):                9.712
+  Required (ns):               4.319
+
+Path 58
+  From:                        sdrv2_top_0/cr0/cur_length[6]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.077
+  Slack (ns):                  -5.371
+  Arrival (ns):                9.691
+  Required (ns):               4.320
+
+Path 59
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[19]:D
+  Delay (ns):                  9.105
+  Slack (ns):                  -5.362
+  Arrival (ns):                9.652
+  Required (ns):               4.290
+
+Path 60
+  From:                        sdrv2_top_0/cr0/cur_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  9.135
+  Slack (ns):                  -5.357
+  Arrival (ns):                9.693
+  Required (ns):               4.336
+
+Path 61
+  From:                        sdrv2_top_0/cr0/cur_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[4]:D
+  Delay (ns):                  9.111
+  Slack (ns):                  -5.354
+  Arrival (ns):                9.691
+  Required (ns):               4.337
+
+Path 62
+  From:                        sdrv2_top_0/cr0/dat_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  9.108
+  Slack (ns):                  -5.354
+  Arrival (ns):                9.664
+  Required (ns):               4.310
+
+Path 63
+  From:                        sdrv2_top_0/cr0/dat_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.081
+  Slack (ns):                  -5.353
+  Arrival (ns):                9.647
+  Required (ns):               4.294
+
+Path 64
+  From:                        sdrv2_top_0/cr0/cur_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  9.104
+  Slack (ns):                  -5.351
+  Arrival (ns):                9.662
+  Required (ns):               4.311
+
+Path 65
+  From:                        sdrv2_top_0/cr0/cur_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  9.106
+  Slack (ns):                  -5.344
+  Arrival (ns):                9.664
+  Required (ns):               4.320
+
+Path 66
+  From:                        sdrv2_top_0/cr0/dat_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  9.122
+  Slack (ns):                  -5.341
+  Arrival (ns):                9.678
+  Required (ns):               4.337
+
+Path 67
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[20]:D
+  Delay (ns):                  9.099
+  Slack (ns):                  -5.336
+  Arrival (ns):                9.646
+  Required (ns):               4.310
+
+Path 68
+  From:                        sdrv2_top_0/cr0/dat_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  9.050
+  Slack (ns):                  -5.314
+  Arrival (ns):                9.608
+  Required (ns):               4.294
+
+Path 69
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[12]:D
+  Delay (ns):                  9.053
+  Slack (ns):                  -5.309
+  Arrival (ns):                9.600
+  Required (ns):               4.291
+
+Path 70
+  From:                        sdrv2_top_0/cr0/dat_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  9.010
+  Slack (ns):                  -5.274
+  Arrival (ns):                9.568
+  Required (ns):               4.294
+
+Path 71
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[13]:D
+  Delay (ns):                  8.985
+  Slack (ns):                  -5.272
+  Arrival (ns):                9.532
+  Required (ns):               4.260
+
+Path 72
+  From:                        sdrv2_top_0/cr0/FCF_reg_0[6]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[22]:D
+  Delay (ns):                  9.030
+  Slack (ns):                  -5.266
+  Arrival (ns):                9.577
+  Required (ns):               4.311
+
+Path 73
+  From:                        sdrv2_top_0/cr0/dat_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  9.001
+  Slack (ns):                  -5.257
+  Arrival (ns):                9.567
+  Required (ns):               4.310
+
+Path 74
+  From:                        sdrv2_top_0/cr0/cur_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[1]:D
+  Delay (ns):                  8.966
+  Slack (ns):                  -5.252
+  Arrival (ns):                9.546
+  Required (ns):               4.294
+
+Path 75
+  From:                        sdrv2_top_0/cr0/dat_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  8.984
+  Slack (ns):                  -5.251
+  Arrival (ns):                9.540
+  Required (ns):               4.289
+
+Path 76
+  From:                        sdrv2_top_0/cr0/FCF_reg[11]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[12]:D
+  Delay (ns):                  8.995
+  Slack (ns):                  -5.251
+  Arrival (ns):                9.542
+  Required (ns):               4.291
+
+Path 77
+  From:                        sdrv2_top_0/cr0/dat_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  9.015
+  Slack (ns):                  -5.244
+  Arrival (ns):                9.581
+  Required (ns):               4.337
+
+Path 78
+  From:                        sdrv2_top_0/cr0/cur_length[6]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[4]:D
+  Delay (ns):                  8.965
+  Slack (ns):                  -5.242
+  Arrival (ns):                9.579
+  Required (ns):               4.337
+
+Path 79
+  From:                        sdrv2_top_0/cr0/FCF_reg_0[6]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[16]:D
+  Delay (ns):                  8.969
+  Slack (ns):                  -5.231
+  Arrival (ns):                9.516
+  Required (ns):               4.285
+
+Path 80
+  From:                        sdrv2_top_0/cr0/dat_length[2]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[1]:D
+  Delay (ns):                  8.961
+  Slack (ns):                  -5.223
+  Arrival (ns):                9.517
+  Required (ns):               4.294
+
+Path 81
+  From:                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  8.941
+  Slack (ns):                  -5.219
+  Arrival (ns):                9.555
+  Required (ns):               4.336
+
+Path 82
+  From:                        sdrv2_top_0/cr0/cur_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[4]:D
+  Delay (ns):                  8.994
+  Slack (ns):                  -5.215
+  Arrival (ns):                9.552
+  Required (ns):               4.337
+
+Path 83
+  From:                        sdrv2_top_0/cr0/FCF_reg[11]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[13]:D
+  Delay (ns):                  8.927
+  Slack (ns):                  -5.214
+  Arrival (ns):                9.474
+  Required (ns):               4.260
+
+Path 84
+  From:                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  8.910
+  Slack (ns):                  -5.213
+  Arrival (ns):                9.524
+  Required (ns):               4.311
+
+Path 85
+  From:                        sdrv2_top_0/cr0/FCF_reg_0[6]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[18]:D
+  Delay (ns):                  8.982
+  Slack (ns):                  -5.210
+  Arrival (ns):                9.529
+  Required (ns):               4.319
+
+Path 86
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[9]:D
+  Delay (ns):                  8.965
+  Slack (ns):                  -5.201
+  Arrival (ns):                9.512
+  Required (ns):               4.311
+
+Path 87
+  From:                        sdrv2_top_0/cr0/FCF_reg_0[6]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[19]:D
+  Delay (ns):                  8.922
+  Slack (ns):                  -5.179
+  Arrival (ns):                9.469
+  Required (ns):               4.290
+
+Path 88
+  From:                        sdrv2_top_0/cr0/FCF_reg_0[6]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[13]:D
+  Delay (ns):                  8.908
+  Slack (ns):                  -5.169
+  Arrival (ns):                9.455
+  Required (ns):               4.286
+
+Path 89
+  From:                        sdrv2_top_0/cr0/cur_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[3]:D
+  Delay (ns):                  8.943
+  Slack (ns):                  -5.165
+  Arrival (ns):                9.501
+  Required (ns):               4.336
+
+Path 90
+  From:                        sdrv2_top_0/cr0/cur_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[2]:D
+  Delay (ns):                  8.912
+  Slack (ns):                  -5.159
+  Arrival (ns):                9.470
+  Required (ns):               4.311
+
+Path 91
+  From:                        sdrv2_top_0/cr0/FCF_reg_0[6]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[20]:D
+  Delay (ns):                  8.916
+  Slack (ns):                  -5.153
+  Arrival (ns):                9.463
+  Required (ns):               4.310
+
+Path 92
+  From:                        sdrv2_top_0/cr0/dat_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[0]:D
+  Delay (ns):                  8.889
+  Slack (ns):                  -5.149
+  Arrival (ns):                9.469
+  Required (ns):               4.320
+
+Path 93
+  From:                        sdrv2_top_0/cr0/dat_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  8.898
+  Slack (ns):                  -5.149
+  Arrival (ns):                9.464
+  Required (ns):               4.315
+
+Path 94
+  From:                        sdrv2_top_0/cr0/dat_length[3]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[6]:D
+  Delay (ns):                  8.910
+  Slack (ns):                  -5.148
+  Arrival (ns):                9.468
+  Required (ns):               4.320
+
+Path 95
+  From:                        sdrv2_top_0/cr0/FCF_reg[11]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[9]:D
+  Delay (ns):                  8.907
+  Slack (ns):                  -5.143
+  Arrival (ns):                9.454
+  Required (ns):               4.311
+
+Path 96
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[21]:D
+  Delay (ns):                  8.853
+  Slack (ns):                  -5.136
+  Arrival (ns):                9.400
+  Required (ns):               4.264
+
+Path 97
+  From:                        sdrv2_top_0/cr0/FCF_reg[11]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[22]:D
+  Delay (ns):                  8.887
+  Slack (ns):                  -5.123
+  Arrival (ns):                9.434
+  Required (ns):               4.311
+
+Path 98
+  From:                        sdrv2_top_0/cr0/FCF_reg_0[6]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[5]:D
+  Delay (ns):                  8.854
+  Slack (ns):                  -5.121
+  Arrival (ns):                9.401
+  Required (ns):               4.280
+
+Path 99
+  From:                        sdrv2_top_0/cr0/dat_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[5]:D
+  Delay (ns):                  8.860
+  Slack (ns):                  -5.120
+  Arrival (ns):                9.440
+  Required (ns):               4.320
+
+Path 100
+  From:                        sdrv2_top_0/cr0/FCF_reg[15]/U1:CLK
+  To:                          sdrv2_top_0/cr0/HRDATA[26]:D
+  Delay (ns):                  8.845
+  Slack (ns):                  -5.100
+  Arrival (ns):                9.392
+  Required (ns):               4.292
+

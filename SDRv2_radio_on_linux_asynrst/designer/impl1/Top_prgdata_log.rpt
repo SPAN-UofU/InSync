@@ -1,0 +1,19 @@
+Microsemi Libero Software
+Version: 11.4.1.17
+Release: v11.4 SP1
+
+Info: The design C:/Actelprj/SDRv2_radio_on_linux_asynrst/designer/impl1/Top.adb was last
+      modified by software version 11.4.1.17.
+Opened an existing Libero design
+C:/Actelprj/SDRv2_radio_on_linux_asynrst/designer/impl1/Top.adb.
+
+The Export-map command succeeded ( 00:00:19 )
+CHECKSUM: 3946
+Wrote to the file: C:\Actelprj\SDRv2_radio_on_linux_asynrst\designer\impl1\Top.fdb
+
+The Export command succeeded ( 00:00:22 )
+Design saved to file C:/Actelprj/SDRv2_radio_on_linux_asynrst/designer/impl1/Top.adb.
+
+The Execute Script command succeeded ( 00:00:27 )
+Design closed.
+

@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis  -part A2F500M3G  -package FBGA484  -grade STD   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synlog\report\Top_fpga_mapper.xml -top_level_module  Top  -flow mapping  -mp 1 -prjfile  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\scratchproject.prs  -implementation synthesis -licensetype  synplifypro  -oedif  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.edn  -freq 60.000  -tcl  C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\mss_tshell_syn.sdc  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_prem.srd  -sap  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.sap  -otap  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.tap  -omap  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.map  -devicelib  C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v  -sap  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.sap  -ologparam  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\syntmp\Top.plg  -osyn  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.srm  -prjdir  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\  -prjname  Top_syn  -log  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synlog\Top_fpga_mapper.srr 
+rc:1 success:1
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\scratchproject.prs|o|1422300130|5755
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.edn|o|1422565624|4207679
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\mss_tshell_syn.sdc|i|1422565464|184
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_prem.srd|i|1422565558|397301
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.sap|o|1422565558|75227
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.tap|o|0|0
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.map|o|1422565625|28
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v|i|1389715496|72817
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.sap|o|1422565558|75227
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\syntmp\Top.plg|o|1422565625|3125
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.srm|o|1422565623|730729
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synlog\Top_fpga_mapper.srr|o|1422565625|120934
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe|i|1401316816|14819328
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin\m_proasic.exe|i|1401314176|12178944

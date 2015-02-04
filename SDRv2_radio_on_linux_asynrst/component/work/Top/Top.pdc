@@ -1,0 +1,301 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.4 SP1 11.4.1.17
+# Family: SmartFusion , Die: A2F500M3G , Package: 484 FBGA
+# Date generated: Thu Jan 29 14:05:08 2015 
+
+
+# 
+# User Groups
+# 
+
+define_group -name UART_0
+
+define_group -name SPI_1
+
+define_group -name MAC_0_RMII_PHY_MGMT_PADs
+
+define_group -name MAC_0_RMII_DATA_PADs
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io GPIO_10_OUT     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_11_OUT     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_12_OUT     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_13_OUT     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_14_OUT     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_15_OUT     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_8_OUT      \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_9_OUT      \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io MSS_RESET_N        \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+set_io SPI_1_CLK          \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -DIRECTION INOUT
+
+
+set_io SPI_1_DI           \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+set_io SPI_1_DO        \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_1_SS           \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -DIRECTION INOUT
+
+
+set_io UART_0_RXD         \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+set_io UART_0_TXD      \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+# User Group MAC_0_RMII_DATA_PADs
+
+set_io MAC_0_CRSDV                    \
+    -iostd LVTTL                      \
+    -RES_PULL None                    \
+    -SCHMITT_TRIGGER Off              \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_0_RXD[0]}                 \
+    -iostd LVTTL                      \
+    -RES_PULL None                    \
+    -SCHMITT_TRIGGER Off              \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_0_RXD[1]}                 \
+    -iostd LVTTL                      \
+    -RES_PULL None                    \
+    -SCHMITT_TRIGGER Off              \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io MAC_0_RXER                     \
+    -iostd LVTTL                      \
+    -RES_PULL None                    \
+    -SCHMITT_TRIGGER Off              \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_0_TXD[0]}                 \
+    -iostd LVTTL                      \
+    -OUT_LOAD 35                      \
+    -RES_PULL None                    \
+    -SKEW Off                         \
+    -SLEW High                        \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_0_TXD[1]}                 \
+    -iostd LVTTL                      \
+    -OUT_LOAD 35                      \
+    -RES_PULL None                    \
+    -SKEW Off                         \
+    -SLEW High                        \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_0_TXEN                     \
+    -iostd LVTTL                      \
+    -OUT_LOAD 35                      \
+    -RES_PULL None                    \
+    -SKEW Off                         \
+    -SLEW High                        \
+    -GROUP_NAME MAC_0_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+# User Group MAC_0_RMII_PHY_MGMT_PADs
+
+set_io MAC_0_MDC                          \
+    -iostd LVTTL                          \
+    -OUT_LOAD 35                          \
+    -RES_PULL None                        \
+    -SKEW Off                             \
+    -SLEW High                            \
+    -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_0_MDIO                         \
+    -iostd LVTTL                          \
+    -OUT_LOAD 35                          \
+    -RES_PULL None                        \
+    -SCHMITT_TRIGGER Off                  \
+    -SKEW Off                             \
+    -SLEW High                            \
+    -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs  \
+    -DIRECTION INOUT
+
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+
+# set_io GPIO_10_OUT -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io GPIO_11_OUT -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io GPIO_12_OUT -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io GPIO_13_OUT -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io GPIO_14_OUT -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io GPIO_15_OUT -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io GPIO_8_OUT -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io GPIO_9_OUT -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io MSS_RESET_N -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -DIRECTION INPUT 
+# set_io SPI_1_CLK -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SCHMITT_TRIGGER Off -SKEW Off -SLEW High -DIRECTION INOUT 
+# set_io SPI_1_DI -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -DIRECTION INPUT 
+# set_io SPI_1_DO -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io SPI_1_SS -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SCHMITT_TRIGGER Off -SKEW Off -SLEW High -DIRECTION INOUT 
+# set_io UART_0_RXD -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -DIRECTION INPUT 
+# set_io UART_0_TXD -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -DIRECTION OUTPUT 
+# set_io MAC_0_CRSDV -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_RXD[0]} -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_RXD[1]} -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io MAC_0_RXER -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_0_TXD[0]} -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io {MAC_0_TXD[1]} -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_TXEN -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME MAC_0_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_MDC -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs -DIRECTION OUTPUT 
+# set_io MAC_0_MDIO -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SCHMITT_TRIGGER Off -SKEW Off -SLEW High -GROUP_NAME MAC_0_RMII_PHY_MGMT_PADs -DIRECTION INOUT 

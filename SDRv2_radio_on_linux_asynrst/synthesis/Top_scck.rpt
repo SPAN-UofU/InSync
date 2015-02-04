@@ -1,0 +1,29 @@
+# Synospys Constraint Checker(syntax only), version mapact, Build 004R, built May 28 2014
+# Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+# Written on Thu Jan 29 14:05:57 2015
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "Top"
+Constraint File(s):      "C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\mss_tshell_syn.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start       Requested     Requested     Clock        Clock      
+Clock       Frequency     Period        Type         Group      
+----------------------------------------------------------------
+FAB_CLK     48.0 MHz      20.833        declared     clk_group_0
+FCLK        48.0 MHz      20.833        declared     clk_group_0
+================================================================

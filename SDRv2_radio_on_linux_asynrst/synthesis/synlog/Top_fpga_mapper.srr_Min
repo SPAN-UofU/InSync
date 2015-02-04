@@ -1,0 +1,220 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jan 29 14:07:05 2015
+#
+
+
+Top view:               Top
+Operating conditions:   smartfusion.COMWC-2
+Requested Frequency:    48.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\mss_tshell_syn.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.225
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group          
+-------------------------------------------------------------------------------------------------------------------
+FAB_CLK            48.0 MHz      48.2 MHz      20.833        20.749        0.085       declared     clk_group_0    
+FCLK               48.0 MHz      NA            20.833        NA            NA          declared     clk_group_0    
+System             60.0 MHz      25.9 MHz      16.667        38.656        -21.990     system       system_clkgroup
+===================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+System    System   |  0.000       0.225  |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  0.000       1.547  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FAB_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                                   Arrival          
+Instance                       Reference     Type         Pin     Net                                     Time        Slack
+                               Clock                                                                                       
+---------------------------------------------------------------------------------------------------------------------------
+sdrv2_top_0.cr0.HRDATA[18]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[18]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[19]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[19]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[20]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[20]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[21]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[21]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[22]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[22]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[23]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[23]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[24]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[24]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[25]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[25]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[26]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[26]     0.580       1.740
+sdrv2_top_0.cr0.HRDATA[27]     FAB_CLK       DFN1E0C0     Q       CoreAHBLite_0_AHBmslave5_HRDATA[27]     0.580       1.740
+===========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                                               Required          
+Instance                     Reference     Type        Pin               Net                        Time         Slack
+                             Clock                                                                                    
+----------------------------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[18]     CAHBLTl00I_RNIMCU61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[19]     CAHBLTl00I_RNINDU61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[20]     CAHBLTl00I_RNIF6V61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[21]     CAHBLTl00I_RNIG7V61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[22]     CAHBLTl00I_RNIH8V61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[23]     CAHBLTl00I_RNII9V61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[24]     CAHBLTl00I_RNIJAV61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[25]     CAHBLTl00I_RNIKBV61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[26]     CAHBLTl00I_RNILCV61[5]     0.000        1.547
+SDR_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[27]     CAHBLTl00I_RNIMDV61[5]     0.000        1.547
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.547
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (non-critical) :                 1.547
+
+    Number of logic level(s):                1
+    Starting point:                          sdrv2_top_0.cr0.HRDATA[18] / Q
+    Ending point:                            SDR_MSS_0.MSS_ADLIB_INST / MSSHRDATA[18]
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                Pin               Pin               Arrival     No. of    
+Name                                                             Type         Name              Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+sdrv2_top_0.cr0.HRDATA[18]                                       DFN1E0C0     Q                 Out     0.580     0.580       -         
+CoreAHBLite_0_AHBmslave5_HRDATA[18]                              Net          -                 -       0.225     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I_RNIMCU61[5]     NOR2A        A                 In      -         0.805       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I_RNIMCU61[5]     NOR2A        Y                 Out     0.516     1.322       -         
+CAHBLTl00I_RNIMCU61[5]                                           Net          -                 -       0.225     -           1         
+SDR_MSS_0.MSS_ADLIB_INST                                         MSS_AHB      MSSHRDATA[18]     In      -         1.547       -         
+========================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                             Arrival          
+Instance                    Reference     Type       Pin     Net                 Time        Slack
+                            Clock                                                                 
+--------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSSINT_GPI_16     System        MSSINT     Y       MSSINT_GPI_16_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_17     System        MSSINT     Y       MSSINT_GPI_17_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_19     System        MSSINT     Y       MSSINT_GPI_19_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_23     System        MSSINT     Y       MSSINT_GPI_23_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_24     System        MSSINT     Y       MSSINT_GPI_24_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_25     System        MSSINT     Y       MSSINT_GPI_25_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_26     System        MSSINT     Y       MSSINT_GPI_26_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_27     System        MSSINT     Y       MSSINT_GPI_27_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_30     System        MSSINT     Y       MSSINT_GPI_30_Y     0.000       0.322
+SDR_MSS_0.MSSINT_GPI_31     System        MSSINT     Y       MSSINT_GPI_31_Y     0.000       0.322
+==================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                                          Required          
+Instance                     Reference     Type        Pin           Net                       Time         Slack
+                             Clock                                                                               
+-----------------------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSSINT_GPI_30      System        MSSINT      A             SDR_MSS_0_M2F_GPO_6       0.000        0.225
+SDR_MSS_0.MSSINT_GPO_6       System        MSSINT      A             GPO_net_0[6]              0.000        0.225
+SDR_MSS_0.MSSINT_GPO_7       System        MSSINT      A             GPO_net_0[7]              0.000        0.225
+SDR_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     EMCCLKRTN     MSS_ADLIB_INST_EMCCLK     0.000        0.225
+SDR_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[16]       MSSINT_GPI_16_Y           0.000        0.225
+SDR_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[17]       MSSINT_GPI_17_Y           0.000        0.225
+SDR_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[19]       MSSINT_GPI_19_Y           0.000        0.225
+SDR_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[23]       MSSINT_GPI_23_Y           0.000        0.225
+SDR_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[24]       MSSINT_GPI_24_Y           0.000        0.225
+SDR_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[25]       MSSINT_GPI_25_Y           0.000        0.225
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.225
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (critical) :                     0.225
+
+    Number of logic level(s):                0
+    Starting point:                          SDR_MSS_0.MSSINT_GPI_16 / Y
+    Ending point:                            SDR_MSS_0.MSS_ADLIB_INST / GPI[16]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                           Pin         Pin               Arrival     No. of    
+Name                         Type        Name        Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+SDR_MSS_0.MSSINT_GPI_16      MSSINT      Y           Out     0.000     0.000       -         
+MSSINT_GPI_16_Y              Net         -           -       0.225     -           1         
+SDR_MSS_0.MSS_ADLIB_INST     MSS_AHB     GPI[16]     In      -         0.225       -         
+=============================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

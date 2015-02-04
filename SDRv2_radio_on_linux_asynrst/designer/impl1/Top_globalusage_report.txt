@@ -1,0 +1,35 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.4 SP1
+Version: 11.4.1.17
+Date: Thu Jan 29 14:13:14 2015
+Design Name: Top  Family: SmartFusion  Die: A2F500M3G  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    623               Net   : FAB_CLK
+                      Driver: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1
+    913               Net   : SDR_MSS_0_M2F_RESET_N
+                      Driver: SDR_MSS_0/MSS_ADLIB_INST_RNI3ODB/U_CLKSRC/U_GL
+    1317              Net   : ADC_CLK_c
+                      Driver: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2
+    696               Net   : sdrv2_top_0/cr0/sfd_sync_rstn
+                      Driver: sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC/U_GL
+    250               Net   : sdrv2_top_0/cr0/cmp0/next_state_0_sqmuxa
+                      Driver: sdrv2_top_0/cr0/cmp0/state_RNIVDUJ3_0[1]/U_CLKSRC/U_GL
+
+Instance SDR_MSS_0/MSS_ADLIB_INST_RNI3ODB/U_CLKSRC/U_GL is using the A2F500M3G fabric CCC/PLL GLA output.
+This resource is using the glitchless mux (NGMUX) connected to the GLA output of the fabric CCC/PLL. In order for the NGMUX to operate correctly, the signal driving this instance must be a free-running clock signal.
+Refer to SmartFusion Microcontroller Subsystem User Guide for more details.
+Verify that this signal is a continuous clock signal.
+
+
+
+
+

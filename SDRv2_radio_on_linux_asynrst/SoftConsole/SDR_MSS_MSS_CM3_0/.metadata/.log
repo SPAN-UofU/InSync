@@ -1,0 +1,32 @@
+!SESSION 2015-01-15 11:26:47.937 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Teal\Desktop\SDRv2_radio_on_linux_asynrst\SoftConsole\SDR_MSS_MSS_CM3_0\projects\SDR_MSS_MSS_CM3_0_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Teal/Desktop/SDRv2_radio_on_linux_asynrst/SoftConsole/SDR_MSS_MSS_CM3_0 -import C:\Users\Teal\Desktop\SDRv2_radio_on_linux_asynrst\SoftConsole\SDR_MSS_MSS_CM3_0\projects\SDR_MSS_MSS_CM3_0_hw_platform
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2015-01-15 11:26:55.672
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2015-01-15 11:26:55.738
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2015-01-15 11:26:55.819
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-01-15 11:26:57.869
+!MESSAGE Indexed 'SDR_MSS_MSS_CM3_0_hw_platform' (15 sources, 58 headers) in 0.81 sec: 3,636 declarations; 9,533 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+!SESSION 2015-01-15 11:26:58.649 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Teal\Desktop\SDRv2_radio_on_linux_asynrst\SoftConsole\SDR_MSS_MSS_CM3_0\projects\SDR_MSS_MSS_CM3_0_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Teal/Desktop/SDRv2_radio_on_linux_asynrst/SoftConsole/SDR_MSS_MSS_CM3_0 -import C:\Users\Teal\Desktop\SDRv2_radio_on_linux_asynrst\SoftConsole\SDR_MSS_MSS_CM3_0\projects\SDR_MSS_MSS_CM3_0_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-01-15 11:26:59.471
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-01-15 11:27:00.538
+!MESSAGE Indexed 'SDR_MSS_MSS_CM3_0_app' (1 sources, 8 headers) in 0.13 sec: 1 declarations; 0 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

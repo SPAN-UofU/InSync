@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis  -part A2F500M3G  -package FBGA484  -grade STD   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synlog\report\Top_premap.xml -top_level_module  Top  -oedif  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.edn  -conchk_prepass  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top_cck_prepass.rpt  -freq 60.000  -tcl  C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\mss_tshell_syn.sdc  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_comp.srs  -flow prepass  -gcc_prepass  -osrd  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_prem.srd  -qsap  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.sap  -devicelib  C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v  -ologparam  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\syntmp\Top.plg  -osyn  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_prem.srd  -prjdir  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\  -prjname  Top_syn  -log  C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synlog\Top_premap.srr 
+rc:1 success:1
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.edn|o|0|0
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top_cck_prepass.rpt|o|0|0
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\component\work\SDR_MSS\mss_tshell_syn.sdc|i|1422565464|184
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_comp.srs|i|1422565555|265152
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_prem.srd|o|1422565558|397301
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.sap|o|1422565558|75227
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v|i|1389715496|72817
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\syntmp\Top.plg|o|1422565557|0
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_prem.srd|o|1422565558|397301
+C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synlog\Top_premap.srr|o|1422565558|23298
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe|i|1401316816|14819328
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin\m_proasic.exe|i|1401314176|12178944

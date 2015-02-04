@@ -1,0 +1,881 @@
+KEY LIBERO "9.1"
+KEY CAPTURE "9.1.5.1"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\SDRv2_radio_on_linux2\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "d7243ce9-d189-45a5-8b01-84ad0592eac4"
+KEY HDLTechnology "VERILOG"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP6X5M2"
+KEY VendorTechnology_Package "fg484"
+KEY ProjectLocation "C:\Actelprj\SDRv2_radio_on_linux_asynrst"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "Top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+MSS_BFM_LIB
+COREAHBLITE_LIB
+ENDLIST
+LIST LIBRARY_MSS_BFM_LIB
+ALIAS=..\component\Actel\SmartFusionMSS\MSS\2.5.106\mti\user_verilog\MSS_BFM_LIB
+COMPILE_OPTION=REFRESH_AND_COMPILE
+ENDLIST
+LIST LIBRARY_COREAHBLITE_LIB
+ALIAS=..\component\Actel\DirectCore\CoreAHBLite\3.1.102\mti\user_vlog\COREAHBLITE_LIB
+COMPILE_OPTION=REFRESH_AND_COMPILE
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387062010"
+SIZE="3714"
+PARENT="<project>\component\work\Top\Top.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="2645"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\mti\scripts\wave_user.do,do"
+STATE="utd"
+TIME="1387062009"
+SIZE="912"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="28650"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v,hdl"
+STATE="utd"
+TIME="1387062009"
+SIZE="7717"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="1299"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="6699"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="4604"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="25186"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="116411"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="3648"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="4540"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1387062009"
+SIZE="41996"
+LIBRARY="COREAHBLITE_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061991"
+SIZE="945"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v,hdl"
+STATE="utd"
+TIME="1387061991"
+SIZE="11243"
+PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CCC\2.0.106\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061983"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061983"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_COM\1.0.200\MSS_COM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061983"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_DMA\1.0.101\MSS_DMA.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061983"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ENVM\2.3.102\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="253"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIC\1.0.101\MSS_FIC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIO\1.0.203\MSS_FIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_GPIO\1.0.101\MSS_GPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="253"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_INTR\1.0.101\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="253"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_MAC\2.1.101\MSS_MAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RESET\1.0.101\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="254"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RTC\1.0.100\MSS_RTC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_SPI\1.0.102\MSS_SPI.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="252"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_TIMER\1.0.100\MSS_TIMER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="254"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UART\1.0.101\MSS_UART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="253"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UFROM\1.0.100\MSS_UFROM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="254"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_WATCHDOG\1.0.101\MSS_WATCHDOG.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061986"
+SIZE="257"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\SDR_MSS\MSS_CCC_0\SDR_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061983"
+SIZE="481"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\SDR_MSS\MSS_CCC_0\SDR_MSS_tmp_MSS_CCC_0_MSS_CCC.v,hdl"
+STATE="utd"
+TIME="1387061983"
+SIZE="2882"
+PARENT="<project>\component\work\SDR_MSS\MSS_CCC_0\SDR_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\SDR_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+STATE="utd"
+TIME="1387061986"
+SIZE="249113"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\SDR_MSS\mss_tshell.v,hdl"
+STATE="utd"
+TIME="1387061986"
+SIZE="12560"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\SDR_MSS\SDR_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387061991"
+SIZE="21389"
+ENDFILE
+VALUE "<project>\component\work\SDR_MSS\SDR_MSS.pdc,pdc"
+STATE="utd"
+TIME="1387061980"
+SIZE="7521"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideDESIGNER"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\SDR_MSS\SDR_MSS.v,hdl"
+STATE="utd"
+TIME="1387061991"
+SIZE="17078"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\SDR_MSS\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1387061991"
+SIZE="2555"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1387062011"
+SIZE="2399"
+PARENT="<project>\component\work\Top\Top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top\Top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1387062010"
+SIZE="13854"
+ENDFILE
+VALUE "<project>\component\work\Top\Top.pdc,pdc"
+STATE="utd"
+TIME="1387062008"
+SIZE="10773"
+PARENT="<project>\component\work\Top\Top.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideDESIGNER"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top\Top.v,hdl"
+STATE="utd"
+TIME="1387062010"
+SIZE="115932"
+PARENT="<project>\component\work\Top\Top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\clock_constraint.sdc,sdc"
+STATE="utd"
+TIME="1347041604"
+SIZE="5518"
+ENDFILE
+VALUE "<project>\designer\impl1\Top.adb,adb"
+STATE="utd"
+TIME="1387206807"
+SIZE="9770496"
+ENDFILE
+VALUE "<project>\designer\impl1\Top.fdb,fdb"
+STATE="utd"
+TIME="1387206798"
+SIZE="244856"
+ENDFILE
+VALUE "<project>\designer\impl1\Top_fp\Top.pro,pro"
+STATE="utd"
+TIME="1387207060"
+SIZE="1958"
+ENDFILE
+VALUE "<project>\hdl\agc.v,hdl"
+STATE="utd"
+TIME="1386891190"
+SIZE="5787"
+ENDFILE
+VALUE "<project>\hdl\agc_table2.v,hdl"
+STATE="utd"
+TIME="1386891192"
+SIZE="1987"
+ENDFILE
+VALUE "<project>\hdl\bit_accumlator.v,hdl"
+STATE="utd"
+TIME="1328845824"
+SIZE="2157"
+ENDFILE
+VALUE "<project>\hdl\chip_seq.v,hdl"
+STATE="utd"
+TIME="1321050258"
+SIZE="2390"
+ENDFILE
+VALUE "<project>\hdl\correlator.v,hdl"
+STATE="utd"
+TIME="1387206328"
+SIZE="14384"
+ENDFILE
+VALUE "<project>\hdl\crc.v,hdl"
+STATE="utd"
+TIME="1386891789"
+SIZE="3424"
+ENDFILE
+VALUE "<project>\hdl\fifo2wave.v,hdl"
+STATE="utd"
+TIME="1386891723"
+SIZE="5165"
+ENDFILE
+VALUE "<project>\hdl\fifo_ctl.v,hdl"
+STATE="utd"
+TIME="1387206328"
+SIZE="17818"
+ENDFILE
+VALUE "<project>\hdl\fm_demux.v,hdl"
+STATE="utd"
+TIME="1387060703"
+SIZE="4190"
+ENDFILE
+VALUE "<project>\hdl\frame_ctl.v,hdl"
+STATE="utd"
+TIME="1386950954"
+SIZE="6564"
+ENDFILE
+VALUE "<project>\hdl\hs_match.v,hdl"
+STATE="utd"
+TIME="1386892604"
+SIZE="9776"
+ENDFILE
+VALUE "<project>\hdl\idx_ctl.v,hdl"
+STATE="utd"
+TIME="1386951034"
+SIZE="6408"
+ENDFILE
+VALUE "<project>\hdl\max2831_spi.v,hdl"
+STATE="utd"
+TIME="1386951057"
+SIZE="3944"
+ENDFILE
+VALUE "<project>\hdl\radio_ctl.v,hdl"
+STATE="utd"
+TIME="1387206328"
+SIZE="12263"
+ENDFILE
+VALUE "<project>\hdl\rssiADC.v,hdl"
+STATE="utd"
+TIME="1386893605"
+SIZE="2284"
+ENDFILE
+VALUE "<project>\hdl\SDRv2_top.v,hdl"
+STATE="utd"
+TIME="1387206328"
+SIZE="9217"
+ENDFILE
+VALUE "<project>\hdl\sdr_def.v,hdl"
+STATE="utd"
+TIME="1364310752"
+SIZE="34"
+ENDFILE
+VALUE "<project>\hdl\seq_compare.v,hdl"
+STATE="utd"
+TIME="1386893910"
+SIZE="6052"
+ENDFILE
+VALUE "<project>\hdl\sfd_sync.v,hdl"
+STATE="utd"
+TIME="1386894432"
+SIZE="3457"
+ENDFILE
+VALUE "<project>\hdl\sin_table.v,hdl"
+STATE="utd"
+TIME="1321050518"
+SIZE="3490"
+ENDFILE
+VALUE "<project>\hdl\spi_tx.v,hdl"
+STATE="utd"
+TIME="1386894704"
+SIZE="3877"
+ENDFILE
+VALUE "<project>\hdl\zero_finding.v,hdl"
+STATE="utd"
+TIME="1386950987"
+SIZE="4927"
+ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+STATE="utd"
+TIME="1387062011"
+SIZE="1462"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+ENDFILE
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+STATE="utd"
+TIME="1387061994"
+SIZE="41"
+PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreahblite_usertb_ahb_master0.bfm,sim"
+STATE="utd"
+TIME="1387062011"
+SIZE="10597"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreahblite_usertb_ahb_master1.bfm,sim"
+STATE="utd"
+TIME="1387062011"
+SIZE="10540"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreahblite_usertb_include.bfm,sim"
+STATE="utd"
+TIME="1387062011"
+SIZE="10049"
+PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1387062011"
+SIZE="726"
+PARENT="<project>\component\work\Top\Top.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1387061993"
+SIZE="5496"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1345759108"
+SIZE="670"
+PARENT="<project>\component\work\SDR_MSS\SDR_MSS.cxf"
+ENDFILE
+VALUE "<project>\smartgen\fifo128x8\fifo128x8.cxf,actgen_cxf"
+STATE="utd"
+TIME="1345760796"
+SIZE="2140"
+ENDFILE
+VALUE "<project>\smartgen\fifo128x8\fifo128x8.gen,gen"
+STATE="utd"
+TIME="1345760794"
+SIZE="920"
+PARENT="<project>\smartgen\fifo128x8\fifo128x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\fifo128x8\fifo128x8.log,log"
+STATE="utd"
+TIME="1345760796"
+SIZE="3984"
+PARENT="<project>\smartgen\fifo128x8\fifo128x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\fifo128x8\fifo128x8.v,hdl"
+STATE="utd"
+TIME="1345760796"
+SIZE="23167"
+PARENT="<project>\smartgen\fifo128x8\fifo128x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\fifo12x8\fifo12x8.cxf,actgen_cxf"
+STATE="utd"
+TIME="1346352982"
+SIZE="2136"
+ENDFILE
+VALUE "<project>\smartgen\fifo12x8\fifo12x8.gen,gen"
+STATE="utd"
+TIME="1346352980"
+SIZE="908"
+PARENT="<project>\smartgen\fifo12x8\fifo12x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\fifo12x8\fifo12x8.log,log"
+STATE="utd"
+TIME="1346352982"
+SIZE="3970"
+PARENT="<project>\smartgen\fifo12x8\fifo12x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\fifo12x8\fifo12x8.v,hdl"
+STATE="utd"
+TIME="1346352982"
+SIZE="30600"
+PARENT="<project>\smartgen\fifo12x8\fifo12x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\r_fifo\r_fifo.cxf,actgen_cxf"
+STATE="utd"
+TIME="1345759560"
+SIZE="2272"
+ENDFILE
+VALUE "<project>\smartgen\r_fifo\r_fifo.gen,gen"
+STATE="utd"
+TIME="1345759558"
+SIZE="735"
+PARENT="<project>\smartgen\r_fifo\r_fifo.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\r_fifo\r_fifo.log,log"
+STATE="utd"
+TIME="1345759560"
+SIZE="2964"
+PARENT="<project>\smartgen\r_fifo\r_fifo.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\r_fifo\r_fifo.v,hdl"
+STATE="utd"
+TIME="1345759560"
+SIZE="2615"
+PARENT="<project>\smartgen\r_fifo\r_fifo.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\signed_mult8x8\signed_mult8x8.cxf,actgen_cxf"
+STATE="utd"
+TIME="1345759590"
+SIZE="1441"
+ENDFILE
+VALUE "<project>\smartgen\signed_mult8x8\signed_mult8x8.gen,gen"
+STATE="utd"
+TIME="1345759588"
+SIZE="479"
+PARENT="<project>\smartgen\signed_mult8x8\signed_mult8x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\signed_mult8x8\signed_mult8x8.log,log"
+STATE="utd"
+TIME="1345759590"
+SIZE="2199"
+PARENT="<project>\smartgen\signed_mult8x8\signed_mult8x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\signed_mult8x8\signed_mult8x8.v,hdl"
+STATE="utd"
+TIME="1345759590"
+SIZE="29914"
+PARENT="<project>\smartgen\signed_mult8x8\signed_mult8x8.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\synthesis\Top.edn,syn_edn"
+STATE="utd"
+TIME="1387206455"
+SIZE="3971464"
+ENDFILE
+VALUE "<project>\synthesis\Top_drc.rpt,log"
+STATE="utd"
+TIME="1387206498"
+SIZE="31378"
+ENDFILE
+VALUE "<project>\synthesis\Top_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1387206455"
+SIZE="501"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "SDR_MSS::work"
+FILE "<project>\component\work\SDR_MSS\SDR_MSS.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\SDR_MSS\testbench.v,tb_hdl"
+VALUE "<project>\component\work\SDR_MSS\SDR_MSS.pdc,pdc"
+VALUE "<project>\component\work\SDR_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\SDR_MSS\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Top::work"
+FILE "<project>\component\work\Top\Top.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+VALUE "<project>\component\work\Top\testbench.v,tb_hdl"
+VALUE "<project>\component\work\Top\Top.pdc,pdc"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\Top\testbench.v,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\clock_constraint.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "CoreAHBLite::COREAHBLITE_LIB"
+FILE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreahblite_usertb_include.bfm,sim"
+VALUE "<project>\simulation\coreahblite_usertb_ahb_master0.bfm,sim"
+VALUE "<project>\simulation\coreahblite_usertb_ahb_master1.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\mti\scripts\wave_user.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST Top
+VALUE "<project>\component\work\Top\testbench.v,tb_hdl"
+ENDLIST
+LIST SDR_MSS
+VALUE "<project>\component\work\SDR_MSS\testbench.v,tb_hdl"
+ENDLIST
+LIST CoreAHBLite
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST Top
+VALUE "<project>\simulation\subsystem.bfm,sim"
+VALUE "<project>\component\work\Top\testbench.v,tb_hdl"
+VALUE "<project>\component\work\Top\Top.pdc,pdc"
+ENDLIST
+LIST SDR_MSS
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\SDR_MSS\testbench.v,tb_hdl"
+VALUE "<project>\component\work\SDR_MSS\SDR_MSS.pdc,pdc"
+VALUE "<project>\component\work\SDR_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+LIST CoreAHBLite
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreahblite_usertb_include.bfm,sim"
+VALUE "<project>\simulation\coreahblite_usertb_ahb_master0.bfm,sim"
+VALUE "<project>\simulation\coreahblite_usertb_ahb_master1.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\mti\scripts\wave_user.do,do"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Actel\Libero_v9.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Actel\Libero_v9.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "SDR_MSS::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Top::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "CoreAHBLite::COREAHBLITE_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+DESIGNFLOW:
+SD:Top::work
+ACTIVE_VIEW:0
+ENDLIST

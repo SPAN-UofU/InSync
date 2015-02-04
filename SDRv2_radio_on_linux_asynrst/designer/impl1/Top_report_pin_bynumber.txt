@@ -1,0 +1,496 @@
+*****************************************************************
+Pin Report - Date: Thu Jan 29 14:13:17 2015 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.4 SP1
+Version: 11.4.1.17
+Design Name: Top
+Family: SmartFusion
+Die: A2F500M3G
+Package: 484 FBGA
+*****************************************************************
+Number |Port          |Function                     |State       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|--------------|-----------------------------|------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+A1                     GND                           Reserved
+A2                     Not Bonded                    Unconnected
+A3                     Not Bonded                    Unconnected
+A4                     GND                           Reserved
+A5                     EMC_CS0_N/GAB0/IO05NDB0V0     Special
+A6      TEST_PTS[15]   EMC_CS1_N/GAB1/IO05PDB0V0     Special      LVTTL    12                 High  None           ---              No    35                No           No
+A7                     GND                           Reserved
+A8                     EMC_AB[0]/IO06NDB0V0          Unassigned
+A9      TEST_PTS[14]   EMC_AB[1]/IO06PDB0V0          Assigned     LVTTL    12                 High  None           ---              No    35                No           No
+A10                    GND                           Reserved
+A11                    Not Bonded                    Unconnected
+A12                    EMC_AB[7]/IO12PDB0V0          Unassigned
+A13                    GND                           Reserved
+A14                    EMC_AB[12]/IO14NDB0V0         Unassigned
+A15                    EMC_AB[13]/IO14PDB0V0         Unassigned
+A16                    GND                           Reserved
+A17     ADC_CLK        IO16NDB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+A18     DAC_CLK        IO16PDB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+A19                    GND                           Reserved
+A20                    Not Bonded                    Unconnected
+A21                    Not Bonded                    Unconnected
+A22                    GND                           Reserved
+AA1                    GPIO_4/IO52RSB4V0             Unassigned
+AA2     GPIO_12_OUT    GPIO_12/IO46RSB4V0            Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+AA3     MAC_0_MDC      MAC_MDC/IO57RSB4V0            Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+AA4     MAC_0_RXER     MAC_RXER/IO59RSB4V0           Fixed        LVTTL    ---                ---   None           No               ---   ---               No           Yes
+AA5     MAC_0_TXD[0]   MAC_TXD[0]/IO65RSB4V0         Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+AA6                    ABPS0                         Special
+AA7                    TM1                           Special
+AA8                    ADC1                          Special
+AA9                    GND15ADC1                     Reserved
+AA10                   GND33ADC1                     Reserved
+AA11                   CM3                           Special
+AA12                   GNDTM1                        Special
+AA13                   ADC10                         Special
+AA14                   ADC9                          Special
+AA15                   GND15ADC2                     Reserved
+AA16    MAINXIN        MAINXIN                       Dedicated
+AA17                   MAINXOUT                      Reserved
+AA18                   LPXIN                         Reserved
+AA19                   LPXOUT                        Reserved
+AA20                   Not Bonded                    Unconnected
+AA21                   Not Bonded                    Unconnected
+AA22    SPI_1_CLK      SPI_1_CLK/GPIO_26             Special      LVTTL    8                  High  None           No               No    35                No           Yes
+AB1                    GND                           Reserved
+AB2     GPIO_13_OUT    GPIO_13/IO45RSB4V0            Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+AB3     GPIO_14_OUT    GPIO_14/IO44RSB4V0            Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+AB4                    GND                           Reserved
+AB5                    PCAP                          Reserved
+AB6                    NCAP                          Reserved
+AB7                    ABPS3                         Special
+AB8                    ADC3                          Special
+AB9                    GND15ADC0                     Reserved
+AB10                   VCC33ADC1                     Reserved
+AB11                   VAREF1                        Special
+AB12                   TM2                           Special
+AB13                   CM2                           Special
+AB14                   ABPS4                         Special
+AB15                   GNDAQ                         Reserved
+AB16                   GNDMAINXTAL                   Reserved
+AB17                   GNDLPXTAL                     Reserved
+AB18                   VCCLPXTAL                     Reserved
+AB19                   VDDBAT                        Reserved
+AB20                   PTBASE                        Reserved
+AB21                   Not Bonded                    Unconnected
+AB22                   GND                           Reserved
+B1                     EMC_DB[15]/GAA2/IO88PDB5V0    Special
+B2                     GND                           Reserved
+B3                     Not Bonded                    Unconnected
+B4                     Not Bonded                    Unconnected
+B5                     VCCFPGAIOB0                   Reserved
+B6                     EMC_RW_N/GAA1/IO02PDB0V0      Special
+B7                     IO04PPB0V0                    Unassigned
+B8                     VCCFPGAIOB0                   Reserved
+B9                     EMC_BYTEN[0]/GAC0/IO07NDB0V0  Special
+B10                    EMC_AB[2]/IO09NDB0V0          Unassigned
+B11                    EMC_AB[3]/IO09PDB0V0          Unassigned
+B12                    EMC_AB[6]/IO12NDB0V0          Unassigned
+B13                    EMC_AB[14]/IO15NDB0V0         Unassigned
+B14                    EMC_AB[15]/IO15PDB0V0         Unassigned
+B15                    VCCFPGAIOB0                   Reserved
+B16                    EMC_AB[18]/IO18NDB0V0         Unassigned
+B17                    EMC_AB[19]/IO18PDB0V0         Unassigned
+B18                    VCCFPGAIOB0                   Reserved
+B19     SW2            GBB0/IO24NDB0V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+B20     in_phase[2]    GBB1/IO24PDB0V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+B21                    GND                           Reserved
+B22     DAC_DOUT[6]    GBA2/IO27PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+C1                     EMC_DB[14]/GAB2/IO88NDB5V0    Special
+C2                     Not Bonded                    Unconnected
+C3                     Not Bonded                    Unconnected
+C4      RF_GAIN[2]     IO01NDB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+C5      RF_GAIN[3]     IO01PDB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+C6                     EMC_CLK/GAA0/IO02NDB0V0       Special
+C7      RF_GAIN[5]     IO03PPB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+C8      RF_GAIN[6]     IO04NPB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+C9                     EMC_BYTEN[1]/GAC1/IO07PDB0V0  Special
+C10                    EMC_OEN1_N/IO08PDB0V0         Unassigned
+C11                    GND                           Reserved
+C12                    VCCFPGAIOB0                   Reserved
+C13                    EMC_AB[8]/IO13NDB0V0          Unassigned
+C14                    EMC_AB[16]/IO17NDB0V0         Unassigned
+C15                    EMC_AB[17]/IO17PDB0V0         Unassigned
+C16                    EMC_AB[24]/IO20NDB0V0         Unassigned
+C17                    EMC_AB[22]/IO19NDB0V0         Unassigned
+C18                    EMC_AB[23]/IO19PDB0V0         Unassigned
+C19     in_phase[3]    GBA0/IO23NPB0V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+C20                    Not Bonded                    Unconnected
+C21     in_phase[0]    GBC2/IO30PDB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+C22     DAC_DOUT[7]    GBB2/IO27NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+D1                     GND                           Reserved
+D2                     EMC_DB[12]/IO87NDB5V0         Unassigned
+D3                     EMC_DB[13]/GAC2/IO87PDB5V0    Special
+D4                     Not Bonded                    Unconnected
+D5                     Not Bonded                    Unconnected
+D6                     GND                           Reserved
+D7      RF_GAIN[0]     IO00NPB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+D8      RF_GAIN[4]     IO03NPB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+D9                     GND                           Reserved
+D10                    EMC_OEN0_N/IO08NDB0V0         Unassigned
+D11                    EMC_AB[10]/IO11NDB0V0         Unassigned
+D12                    EMC_AB[11]/IO11PDB0V0         Unassigned
+D13                    EMC_AB[9]/IO13PDB0V0          Unassigned
+D14                    GND                           Reserved
+D15     SW3            GBC1/IO22PPB0V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+D16                    EMC_AB[25]/IO20PDB0V0         Unassigned
+D17                    GND                           Reserved
+D18     ADC_S1         GBA1/IO23PPB0V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+D19                    Not Bonded                    Unconnected
+D20                    Not Bonded                    Unconnected
+D21     in_phase[1]    IO30NDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+D22                    GND                           Reserved
+E1      DAC_DOUT[0]    GFC2/IO84PPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+E2                     VCCFPGAIOB5                   Reserved
+E3      CLKC           GFA2/IO85PDB5V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+E4                     GND                           Reserved
+E5                     Not Bonded                    Unconnected
+E6                     GNDQ                          Reserved
+E7                     VCCFPGAIOB0                   Reserved
+E8      RF_GAIN[1]     IO00PPB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+E9                     Not Bonded                    Unconnected
+E10                    VCCFPGAIOB0                   Reserved
+E11                    EMC_AB[4]/IO10NDB0V0          Unassigned
+E12                    EMC_AB[5]/IO10PDB0V0          Unassigned
+E13                    VCCFPGAIOB0                   Reserved
+E14     SW4            GBC0/IO22NPB0V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+E15                    Not Bonded                    Unconnected
+E16                    VCCFPGAIOB0                   Reserved
+E17                    VCOMPLA1                      Reserved
+E18     quad_phase[6]  IO25NPB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+E19                    GND                           Reserved
+E20                    Not Bonded                    Unconnected
+E21                    VCCFPGAIOB1                   Reserved
+E22                    IO32NDB1V0                    Unassigned
+F1      DAC_DACEN      GFB1/IO82PPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+F2                     IO84NPB5V0                    Unassigned
+F3      DAC_DOUT[1]    GFB2/IO85NDB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+F4                     EMC_DB[10]/IO86NPB5V0         Unassigned
+F5                     VCCFPGAIOB5                   Reserved
+F6                     VCCPLL0                       Reserved
+F7                     VCOMPLA0                      Reserved
+F8                     Not Bonded                    Unconnected
+F9                     Not Bonded                    Unconnected
+F10                    Not Bonded                    Unconnected
+F11                    Not Bonded                    Unconnected
+F12                    Not Bonded                    Unconnected
+F13                    EMC_AB[20]/IO21NDB0V0         Unassigned
+F14                    EMC_AB[21]/IO21PDB0V0         Unassigned
+F15                    GNDQ                          Reserved
+F16                    VCCPLL1                       Reserved
+F17     quad_phase[7]  IO25PPB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+F18                    VCCFPGAIOB1                   Reserved
+F19     in_phase[5]    IO28NDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+F20     quad_phase[3]  IO31PDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+F21     quad_phase[2]  IO31NDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+F22                    IO32PDB1V0                    Unassigned
+G1                     GND                           Reserved
+G2      DAC_PD         GFB0/IO82NPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+G3                     EMC_DB[9]/GEC1/IO80PDB5V0     Special
+G4      DAC_DOUT[2]    GFC1/IO83PPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+G5                     EMC_DB[11]/IO86PPB5V0         Unassigned
+G6                     GNDQ                          Reserved
+G7                     Not Bonded                    Unconnected
+G8                     GND                           Reserved
+G9                     VCCFPGAIOB0                   Reserved
+G10                    GND                           Reserved
+G11                    VCCFPGAIOB0                   Reserved
+G12                    GND                           Reserved
+G13                    VCCFPGAIOB0                   Reserved
+G14                    GND                           Reserved
+G15                    VCCFPGAIOB0                   Reserved
+G16                    GNDQ                          Reserved
+G17     quad_phase[5]  IO26PDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+G18     quad_phase[4]  IO26NDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+G19     in_phase[4]    GCA2/IO28PDB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+G20     in_phase[7]    IO33NDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+G21     in_phase[6]    GCB2/IO33PDB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+G22                    GND                           Reserved
+H1                     EMC_DB[7]/GEB1/IO79PDB5V0     Special
+H2                     VCCFPGAIOB5                   Reserved
+H3                     EMC_DB[8]/GEC0/IO80NDB5V0     Special
+H4                     GND                           Reserved
+H5      DAC_DOUT[3]    GFC0/IO83NPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+H6      DAC_DOUT[4]    GFA1/IO81PDB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+H7                     GND                           Reserved
+H8                     VCC                           Reserved
+H9                     GND                           Reserved
+H10                    VCC                           Reserved
+H11                    GND                           Reserved
+H12                    VCC                           Reserved
+H13                    GND                           Reserved
+H14                    VCC                           Reserved
+H15                    GND                           Reserved
+H16                    VCCFPGAIOB1                   Reserved
+H17     RSSI_CS        IO29NDB1V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+H18     RSSI_CLK       GCC2/IO29PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+H19                    GND                           Reserved
+H20     RF_CS          GCC0/IO35NPB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+H21                    VCCFPGAIOB1                   Reserved
+H22     RSSI_DIN       GCB0/IO34NDB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+J1                     EMC_DB[6]/GEB0/IO79NDB5V0     Special
+J2                     EMC_DB[5]/GEA1/IO78PDB5V0     Special
+J3                     EMC_DB[4]/GEA0/IO78NDB5V0     Special
+J4                     EMC_DB[3]/GEC2/IO77PPB5V0     Special
+J5                     VCCFPGAIOB5                   Reserved
+J6      DAC_DOUT[5]    GFA0/IO81NDB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+J7                     VCCFPGAIOB5                   Reserved
+J8                     GND                           Reserved
+J9                     VCC                           Reserved
+J10                    GND                           Reserved
+J11                    VCC                           Reserved
+J12                    GND                           Reserved
+J13                    VCC                           Reserved
+J14                    GND                           Reserved
+J15                    VCC                           Reserved
+J16                    GND                           Reserved
+J17     quad_phase[1]  IO37PDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+J18                    VCCFPGAIOB1                   Reserved
+J19     LED[1]         GCA0/IO36NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+J20     LED[0]         GCA1/IO36PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+J21     SW1            GCC1/IO35PPB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+J22     RF_DOUT        GCB1/IO34PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+K1                     GND                           Reserved
+K2                     EMC_DB[0]/GEA2/IO76NDB5V0     Special
+K3                     EMC_DB[1]/GEB2/IO76PDB5V0     Special
+K4      TEST_PTS[13]   IO74PPB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+K5                     EMC_DB[2]/IO77NPB5V0          Unassigned
+K6      sfd_int        IO75PDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+K7                     GND                           Reserved
+K8                     VCC                           Reserved
+K9                     GND                           Reserved
+K10                    VCC                           Reserved
+K11                    GND                           Reserved
+K12                    VCC                           Reserved
+K13                    GND                           Reserved
+K14                    VCC                           Reserved
+K15                    GND                           Reserved
+K16                    VCCFPGAIOB1                   Reserved
+K17     quad_phase[0]  IO37NDB1V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
+K18     LED[6]         GDA1/IO40PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+K19     LED[7]         GDA0/IO40NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+K20     LED[2]         GDC1/IO38PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+K21     LED[3]         GDC0/IO38NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+K22                    GND                           Reserved
+L1      TEST_PTS[11]   IO73PDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+L2      TEST_PTS[10]   IO73NDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+L3      TEST_PTS[9]    IO72PPB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+L4                     GND                           Reserved
+L5      TEST_PTS[12]   IO74NPB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+L6      tx_complete    IO75NDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+L7                     VCCFPGAIOB5                   Reserved
+L8                     GND                           Reserved
+L9                     VCC                           Reserved
+L10                    GND                           Reserved
+L11                    VCC                           Reserved
+L12                    GND                           Reserved
+L13                    VCC                           Reserved
+L14                    GND                           Reserved
+L15                    VCC                           Reserved
+L16                    GND                           Reserved
+L17                    GNDQ                          Reserved
+L18     RF_RXTX        GDA2/IO42NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+L19                    VCCFPGAIOB1                   Reserved
+L20     LED[4]         GDB1/IO39PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+L21     LED[5]         GDB0/IO39NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+L22     RF_CLK         GDC2/IO41PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+M1      TEST_PTS[7]    IO71PDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+M2      TEST_PTS[6]    IO71NDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+M3                     VCCFPGAIOB5                   Reserved
+M4      TEST_PTS[8]    IO72NPB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+M5                     GNDQ                          Reserved
+M6      TEST_PTS[1]    IO68PDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+M7                     GND                           Reserved
+M8                     VCC                           Reserved
+M9                     GND                           Reserved
+M10                    VCC                           Reserved
+M11                    GND                           Reserved
+M12                    VCC                           Reserved
+M13                    GND                           Reserved
+M14                    VCC                           Reserved
+M15                    GND                           Reserved
+M16                    VCCFPGAIOB1                   Reserved
+M17                    Not Bonded                    Unconnected
+M18     RF_SHDN        GDB2/IO42PDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
+M19                    VJTAG                         Reserved
+M20                    GND                           Reserved
+M21                    VPP                           Reserved
+M22                    IO41NDB1V0                    Unassigned
+N1                     GND                           Reserved
+N2      TEST_PTS[5]    IO70PDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+N3      TEST_PTS[4]    IO70NDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+N4                     VCCRCOSC                      Reserved
+N5                     VCCFPGAIOB5                   Reserved
+N6      TEST_PTS[0]    IO68NDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+N7                     VCCFPGAIOB5                   Reserved
+N8                     GND                           Reserved
+N9                     VCC                           Reserved
+N10                    GND                           Reserved
+N11                    VCC                           Reserved
+N12                    GND                           Reserved
+N13                    VCC                           Reserved
+N14                    GND                           Reserved
+N15                    VCC                           Reserved
+N16                    GND                           Reserved
+N17                    Not Bonded                    Unconnected
+N18                    VCCFPGAIOB1                   Reserved
+N19                    VCCENVM                       Reserved
+N20                    GNDENVM                       Reserved
+N21                    Not Bonded                    Unconnected
+N22                    GND                           Reserved
+P1      TEST_PTS[2]    IO69NDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+P2      TEST_PTS[3]    IO69PDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+P3                     GNDRCOSC                      Reserved
+P4                     GND                           Reserved
+P5                     Not Bonded                    Unconnected
+P6                     Not Bonded                    Unconnected
+P7                     GND                           Reserved
+P8                     VCC                           Reserved
+P9                     GND                           Reserved
+P10                    VCC                           Reserved
+P11                    GND                           Reserved
+P12                    VCC                           Reserved
+P13                    GND                           Reserved
+P14                    VCC                           Reserved
+P15                    GND                           Reserved
+P16                    VCCFPGAIOB1                   Reserved
+P17                    TDI                           Reserved
+P18                    TCK                           Reserved
+P19                    GND                           Reserved
+P20                    TMS                           Reserved
+P21                    TDO                           Reserved
+P22                    TRSTB                         Reserved
+R1      MSS_RESET_N    MSS_RESET_N                   Special      LVTTL    ---                ---   None           No               ---   ---               No           Yes
+R2                     VCCFPGAIOB5                   Reserved
+R3                     GPIO_1/IO55RSB4V0             Unassigned
+R4                     Not Bonded                    Unconnected
+R5                     Not Bonded                    Unconnected
+R6                     Not Bonded                    Unconnected
+R7                     Not Bonded                    Unconnected
+R8                     GND                           Reserved
+R9                     VCC                           Reserved
+R10                    GND                           Reserved
+R11                    VCC                           Reserved
+R12                    GND                           Reserved
+R13                    VCC                           Reserved
+R14                    GND                           Reserved
+R15                    VCC                           Reserved
+R16                    JTAGSEL                       Reserved
+R17                    Not Bonded                    Unconnected
+R18                    Not Bonded                    Unconnected
+R19                    Not Bonded                    Unconnected
+R20                    Not Bonded                    Unconnected
+R21                    VCCFPGAIOB1                   Reserved
+R22                    Not Bonded                    Unconnected
+T1                     GND                           Reserved
+T2                     VCCMSSIOB4                    Reserved
+T3      GPIO_8_OUT     GPIO_8/IO48RSB4V0             Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+T4      GPIO_11_OUT    GPIO_11/IO66RSB4V0            Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+T5                     GND                           Reserved
+T6                     MAC_CLK                       Special
+T7                     VCCMSSIOB4                    Reserved
+T8                     VCC33SDD0                     Reserved
+T9                     VCC15A                        Reserved
+T10                    GNDAQ                         Reserved
+T11                    GND33ADC0                     Reserved
+T12                    ADC7                          Special
+T13                    TM4                           Special
+T14                    VAREF2                        Special
+T15                    VAREFOUT                      Special
+T16                    VCCMSSIOB2                    Reserved
+T17     SPI_1_DO       SPI_1_DO/GPIO_24              Special      LVTTL    8                  High  None           ---              No    35                No           Yes
+T18                    GND                           Reserved
+T19                    Not Bonded                    Unconnected
+T20                    Not Bonded                    Unconnected
+T21                    VCCMSSIOB2                    Reserved
+T22                    GND                           Reserved
+U1                     GND                           Reserved
+U2                     GPIO_5/IO51RSB4V0             Unassigned
+U3      GPIO_10_OUT    GPIO_10/IO67RSB4V0            Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+U4                     VCCMSSIOB4                    Reserved
+U5      MAC_0_RXD[1]   MAC_RXD[1]/IO62RSB4V0         Fixed        LVTTL    ---                ---   None           No               ---   ---               No           Yes
+U6                     Not Bonded                    Unconnected
+U7                     VCC33AP                       Reserved
+U8                     VCC33N                        Reserved
+U9                     CM1                           Special
+U10                    VAREF0                        Special
+U11                    GND33ADC1                     Reserved
+U12                    ADC4                          Special
+U13                    GNDTM2                        Special
+U14                    ADC11                         Special
+U15                    GNDVAREF                      Special
+U16                    VCC33SDD1                     Reserved
+U17                    SPI_0_DO/GPIO_16              Special
+U18     UART_0_RXD     UART_0_RXD/GPIO_21            Special      LVTTL    ---                ---   None           No               ---   ---               No           Yes
+U19                    VCCMSSIOB2                    Reserved
+U20                    I2C_1_SCL/GPIO_31             Special
+U21                    I2C_0_SCL/GPIO_23             Special
+U22                    GND                           Reserved
+V1                     GPIO_0/IO56RSB4V0             Unassigned
+V2                     GPIO_6/IO50RSB4V0             Unassigned
+V3      GPIO_9_OUT     GPIO_9/IO47RSB4V0             Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+V4      MAC_0_MDIO     MAC_MDIO/IO58RSB4V0           Fixed        LVTTL    8                  High  None           No               No    35                No           Yes
+V5      MAC_0_RXD[0]   MAC_RXD[0]/IO63RSB4V0         Fixed        LVTTL    ---                ---   None           No               ---   ---               No           Yes
+V6                     GND                           Reserved
+V7                     SDD0                          Special
+V8                     ABPS1                         Special
+V9                     ADC2                          Special
+V10                    VCC33ADC0                     Reserved
+V11                    ADC6                          Special
+V12                    ADC5                          Special
+V13                    ABPS5                         Special
+V14                    ADC8                          Special
+V15                    GND33ADC2                     Reserved
+V16                    Not Bonded                    Unconnected
+V17                    GND                           Reserved
+V18                    SPI_0_DI/GPIO_17              Special
+V19     SPI_1_DI       SPI_1_DI/GPIO_25              Special      LVTTL    ---                ---   None           No               ---   ---               No           Yes
+V20                    UART_1_TXD/GPIO_28            Special
+V21                    I2C_0_SDA/GPIO_22             Special
+V22                    I2C_1_SDA/GPIO_30             Special
+W1                     GPIO_2/IO54RSB4V0             Unassigned
+W2                     GPIO_7/IO49RSB4V0             Unassigned
+W3                     GND                           Reserved
+W4      MAC_0_CRSDV    MAC_CRSDV/IO60RSB4V0          Fixed        LVTTL    ---                ---   None           No               ---   ---               No           Yes
+W5      MAC_0_TXD[1]   MAC_TXD[1]/IO64RSB4V0         Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+W6                     SDD2                          Special
+W7                     GNDA                          Reserved
+W8                     TM0                           Special
+W9                     ABPS2                         Special
+W10                    GND33ADC0                     Reserved
+W11                    VCC15ADC1                     Reserved
+W12                    ABPS6                         Special
+W13                    CM4                           Special
+W14                    ABPS9                         Special
+W15                    VCC33ADC2                     Reserved
+W16                    GNDA                          Reserved
+W17                    PU_N                          Reserved
+W18                    GNDSDD1                       Reserved
+W19                    SPI_0_CLK/GPIO_18             Special
+W20                    GND                           Reserved
+W21     SPI_1_SS       SPI_1_SS/GPIO_27              Special      LVTTL    8                  High  None           No               No    35                No           Yes
+W22                    UART_1_RXD/GPIO_29            Special
+Y1                     GPIO_3/IO53RSB4V0             Unassigned
+Y2                     VCCMSSIOB4                    Reserved
+Y3      GPIO_15_OUT    GPIO_15/IO43RSB4V0            Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+Y4      MAC_0_TXEN     MAC_TXEN/IO61RSB4V0           Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+Y5                     VCCMSSIOB4                    Reserved
+Y6                     GNDSDD0                       Reserved
+Y7                     CM0                           Special
+Y8                     GNDTM0                        Special
+Y9                     ADC0                          Special
+Y10                    VCC15ADC0                     Reserved
+Y11                    ABPS7                         Special
+Y12                    TM3                           Special
+Y13                    ABPS8                         Special
+Y14                    GND33ADC2                     Reserved
+Y15                    VCC15ADC2                     Reserved
+Y16                    VCCMAINXTAL                   Reserved
+Y17                    SDD1                          Special
+Y18                    PTEM                          Reserved
+Y19                    VCC33A                        Reserved
+Y20                    SPI_0_SS/GPIO_19              Special
+Y21                    VCCMSSIOB2                    Reserved
+Y22     UART_0_TXD     UART_0_TXD/GPIO_20            Special      LVTTL    8                  High  None           ---              No    35                No           Yes

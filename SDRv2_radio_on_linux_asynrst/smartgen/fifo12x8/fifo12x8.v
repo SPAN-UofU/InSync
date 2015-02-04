@@ -1,0 +1,650 @@
+`timescale 1 ns/100 ps
+// Version: 9.1 SP5 9.1.5.1
+
+
+module fifo12x8(DATA,Q,WE,RE,CLK,FULL,EMPTY,RESET);
+input [7:0] DATA;
+output [3:0] Q;
+input  WE, RE, CLK;
+output  FULL, EMPTY;
+input  RESET;
+
+    wire RBINSHIFT_0_net, RBINSHIFT_1_net, RBINSHIFT_2_net, 
+        RBINSHIFT_3_net, RBINSHIFT_4_net, RBINSHIFT_5_net, 
+        RBINNXTSHIFT_0_net, RBINNXTSHIFT_1_net, 
+        RBINNXTSHIFT_2_net, RBINNXTSHIFT_3_net, 
+        RBINNXTSHIFT_4_net, RBINNXTSHIFT_5_net, 
+        WBINSYNCSHIFT_0_net, WBINSYNCSHIFT_1_net, 
+        WBINSYNCSHIFT_2_net, WBINSYNCSHIFT_3_net, 
+        WBINSYNCSHIFT_4_net, WBINSYNCSHIFT_5_net, 
+        WBINNXTSHIFT_0_net, WBINNXTSHIFT_1_net, 
+        WBINNXTSHIFT_2_net, WBINNXTSHIFT_3_net, 
+        WBINNXTSHIFT_4_net;
+    wire FULLCONSTVALUE_0_net = WBINSYNCSHIFT_0_net;
+    wire FULLCONSTVALUE_2_net, WDIFF_0_net, WDIFF_1_net, 
+        WDIFF_2_net, WDIFF_3_net, WDIFF_4_net, MEMORYWE, MEMWENEG, 
+        WGRY_0_net, WGRY_1_net, WGRY_2_net, WGRY_3_net, 
+        WGRY_4_net;
+    wire EMPTYVALUECONST_0_net = WBINSYNCSHIFT_0_net;
+    wire RDIFF_0_net, RDIFF_1_net, RDIFF_2_net, RDIFF_3_net, 
+        RDIFF_4_net, RDIFF_5_net, MEMORYRE, MEMRENEG, DVLDI, 
+        DVLDX, RGRY_0_net, RGRY_1_net, RGRY_2_net, RGRY_3_net, 
+        RGRY_4_net, RGRY_5_net, QXI_0_net, QXI_1_net, QXI_2_net, 
+        QXI_3_net, MEM_WADDR_0_net, MEM_WADDR_1_net, 
+        MEM_WADDR_2_net, MEM_WADDR_3_net, MEM_WADDR_4_net, 
+        MEM_RADDR_0_net, MEM_RADDR_1_net, MEM_RADDR_2_net, 
+        MEM_RADDR_3_net, MEM_RADDR_4_net, MEM_RADDR_5_net, 
+        NOR2A_1_Y, INV_0_Y, INV_9_Y, INV_2_Y, INV_12_Y, INV_11_Y, 
+        INV_6_Y, AND2_15_Y, AND2_11_Y, AND2_35_Y, AND2_28_Y, 
+        AND2_47_Y, AND2_23_Y, AND2_25_Y, XOR2_7_Y, XOR2_8_Y, 
+        XOR2_0_Y, XOR2_32_Y, XOR2_16_Y, AND2_31_Y, AO1_6_Y, 
+        AND2_36_Y, AND2_27_Y, AND2_0_Y, AO1_17_Y, AND2_44_Y, 
+        OR3_1_Y, AO1_2_Y, AO1_8_Y, AO1_12_Y, XOR2_28_Y, XOR2_50_Y, 
+        XOR2_47_Y, XOR2_43_Y, XOR2_39_Y, XOR2_15_Y, XOR2_22_Y, 
+        XOR2_33_Y, XOR2_34_Y, XOR2_44_Y, XOR2_48_Y, AND2_21_Y, 
+        AND2_8_Y, AND2_37_Y, AND2_2_Y, AND2_7_Y, XOR2_40_Y, 
+        XOR2_4_Y, XOR2_10_Y, XOR2_2_Y, XOR2_11_Y, XOR2_23_Y, 
+        AND2_40_Y, AO1_18_Y, AND2_50_Y, AO1_9_Y, AND2_42_Y, 
+        AND2_26_Y, AO1_19_Y, AND2_14_Y, AND2_5_Y, AND2_13_Y, 
+        AND2_45_Y, AO1_13_Y, AO1_14_Y, AO1_20_Y, AO1_7_Y, 
+        XOR2_3_Y, XOR2_45_Y, XOR2_6_Y, XOR2_9_Y, XOR2_37_Y;
+    wire WRADDRGEN_CONST_0_net = WBINSYNCSHIFT_0_net;
+    wire WRADDRGEN_CONST_2_net = FULLCONSTVALUE_2_net;
+    wire XOR2_49_Y, XOR3_8_Y, XOR3_0_Y, XOR3_3_Y, XOR3_2_Y, 
+        AND2A_0_Y, DFN1C0_1_Q, AND3_1_Y, INV_8_Y, AND2_1_Y, 
+        AND2_22_Y, MAJ3_0_Y, MAJ3_1_Y, MAJ3_5_Y, XNOR2_10_Y, 
+        XNOR2_6_Y, XNOR2_13_Y, XNOR2_0_Y, XNOR2_2_Y, AND3_4_Y, 
+        NAND2_1_Y, XOR2_27_Y, XOR2_25_Y, XOR2_19_Y, XOR2_38_Y, 
+        XOR2_36_Y, AND2_33_Y, AND2_6_Y, AND2_3_Y, AND2_39_Y, 
+        XOR2_31_Y, XOR2_26_Y, XOR2_18_Y, XOR2_46_Y, XOR2_42_Y, 
+        AND2_18_Y, AO1_16_Y, AND2_20_Y, AND2_19_Y, AND2_9_Y, 
+        AO1_15_Y, AND2_48_Y, AND2_16_Y, AO1_0_Y, AO1_5_Y, AO1_4_Y, 
+        XOR2_1_Y, XOR2_20_Y, XOR2_41_Y, XOR2_24_Y, 
+        RAM4K9_QXI_3__DOUTA0, RAM4K9_QXI_3__DOUTA1, 
+        RAM4K9_QXI_3__DOUTA2, RAM4K9_QXI_3__DOUTA3, 
+        RAM4K9_QXI_3__DOUTA4, RAM4K9_QXI_3__DOUTA5, 
+        RAM4K9_QXI_3__DOUTA6, RAM4K9_QXI_3__DOUTA7, AOI1_0_Y, 
+        AND3_3_Y, NAND3A_5_Y, NAND3A_4_Y, OR2A_4_Y, AO1C_0_Y, 
+        NOR3A_1_Y, OR2A_0_Y, NAND3A_1_Y, OR2A_3_Y, AO1C_1_Y, 
+        NOR3A_2_Y, OR2A_1_Y, NAND3A_3_Y, XNOR2_3_Y, XNOR2_4_Y, 
+        XNOR2_9_Y, NOR2A_0_Y, INV_3_Y, INV_10_Y, INV_4_Y, INV_1_Y, 
+        INV_5_Y, AND2_38_Y, AND2_32_Y, AND2_4_Y, AND2_49_Y, 
+        AND2_17_Y, AND2_46_Y, XOR2_12_Y, XOR2_13_Y, XOR2_5_Y, 
+        XOR2_35_Y, AND2_41_Y, AO1_3_Y, AND2_29_Y, AO1_1_Y, 
+        AND2_34_Y, AND2_24_Y, OR3_0_Y, AO1_11_Y, AO1_10_Y, 
+        XOR2_21_Y, XOR2_29_Y, XOR2_17_Y, XOR2_30_Y, AND2A_1_Y, 
+        AOI1_1_Y, AND2_10_Y, NOR3_0_Y, NAND3A_2_Y, OR2A_5_Y, 
+        AO1C_2_Y, NOR3A_0_Y, OR2A_2_Y, NAND3A_0_Y, OA1A_0_Y, 
+        AND2A_3_Y, OA1C_0_Y, XNOR2_11_Y, XNOR2_15_Y, NAND2_0_Y;
+    wire RDADDRGEN_CONST_0_net = WBINSYNCSHIFT_0_net;
+    wire RDADDRGEN_CONST_3_net = FULLCONSTVALUE_2_net;
+    wire XOR2_14_Y, XOR3_6_Y, XOR3_4_Y, XOR3_7_Y, XOR3_5_Y, 
+        XOR3_1_Y, AND2A_2_Y, DFN1C0_0_Q, AND3_0_Y, INV_7_Y, 
+        AND2_12_Y, AND2_43_Y, MAJ3_2_Y, MAJ3_3_Y, MAJ3_6_Y, 
+        MAJ3_4_Y, XNOR2_12_Y, XNOR2_1_Y, XNOR2_7_Y, XNOR2_8_Y, 
+        XNOR2_5_Y, XNOR2_14_Y, AND3_2_Y, AND2_30_Y;
+    wire VCC = FULLCONSTVALUE_2_net;
+    wire GND = WBINSYNCSHIFT_0_net;
+    
+    VCC VCC_1_net(.Y(FULLCONSTVALUE_2_net));
+    GND GND_1_net(.Y(WBINSYNCSHIFT_0_net));
+    INV INV_0(.A(RBINNXTSHIFT_1_net), .Y(INV_0_Y));
+    AND2 AND2_2(.A(RBINSHIFT_4_net), .B(GND), .Y(AND2_2_Y));
+    NOR3 NOR3_0(.A(OA1A_0_Y), .B(AND2A_3_Y), .C(OA1C_0_Y), .Y(
+        NOR3_0_Y));
+    AND2 AND2_20(.A(XOR2_18_Y), .B(XOR2_46_Y), .Y(AND2_20_Y));
+    XNOR2 XNOR2_13(.A(WRADDRGEN_CONST_2_net), .B(MEM_WADDR_2_net), 
+        .Y(XNOR2_13_Y));
+    AO1 AO1_11(.A(XOR2_13_Y), .B(OR3_0_Y), .C(AND2_49_Y), .Y(
+        AO1_11_Y));
+    AND2 AND2_11(.A(WBINSYNCSHIFT_1_net), .B(INV_6_Y), .Y(
+        AND2_11_Y));
+    XOR2 XOR2_WBINNXTSHIFT_2_inst(.A(XOR2_20_Y), .B(AO1_0_Y), .Y(
+        WBINNXTSHIFT_2_net));
+    AND2 AND2_22(.A(MEM_WADDR_0_net), .B(VCC), .Y(AND2_22_Y));
+    XNOR2 XNOR2_9(.A(RDIFF_5_net), .B(EMPTYVALUECONST_0_net), .Y(
+        XNOR2_9_Y));
+    DFN1C0 DFN1C0_FULL(.D(AOI1_1_Y), .CLK(CLK), .CLR(RESET), .Q(
+        FULL));
+    XOR2 XOR2_19(.A(WBINNXTSHIFT_2_net), .B(WBINNXTSHIFT_3_net), 
+        .Y(XOR2_19_Y));
+    AND2 AND2_44(.A(AND2_27_Y), .B(XOR2_16_Y), .Y(AND2_44_Y));
+    XOR2 XOR2_1(.A(WBINSYNCSHIFT_2_net), .B(GND), .Y(XOR2_1_Y));
+    XOR2 XOR2_23(.A(RBINSHIFT_5_net), .B(GND), .Y(XOR2_23_Y));
+    DFN1E1C0 DFN1E1C0_Q_1_inst(.D(QXI_1_net), .CLK(CLK), .CLR(
+        RESET), .E(DVLDI), .Q(Q[1]));
+    INV INV_1(.A(RBINSHIFT_5_net), .Y(INV_1_Y));
+    DFN1C0 DFN1C0_RBINSHIFT_5_inst(.D(RBINNXTSHIFT_5_net), .CLK(
+        CLK), .CLR(RESET), .Q(RBINSHIFT_5_net));
+    XOR2 XOR2_47(.A(WBINSYNCSHIFT_3_net), .B(INV_2_Y), .Y(
+        XOR2_47_Y));
+    XOR2 XOR2_38(.A(WBINNXTSHIFT_3_net), .B(WBINNXTSHIFT_4_net), 
+        .Y(XOR2_38_Y));
+    XOR2 XOR2_RBINNXTSHIFT_0_inst(.A(RBINSHIFT_0_net), .B(
+        MEMORYRE), .Y(RBINNXTSHIFT_0_net));
+    AO1 AO1_7(.A(XOR2_11_Y), .B(AO1_20_Y), .C(AND2_2_Y), .Y(
+        AO1_7_Y));
+    AO1C AO1C_1(.A(RDIFF_4_net), .B(EMPTYVALUECONST_0_net), .C(
+        RDIFF_3_net), .Y(AO1C_1_Y));
+    AND2 AND2_18(.A(XOR2_31_Y), .B(XOR2_26_Y), .Y(AND2_18_Y));
+    AND2 AND2_15(.A(WBINSYNCSHIFT_1_net), .B(INV_0_Y), .Y(
+        AND2_15_Y));
+    INV INV_7(.A(AND3_0_Y), .Y(INV_7_Y));
+    DFN1E1C0 DFN1E1C0_MEM_RADDR_4_inst(.D(XOR3_5_Y), .CLK(CLK), 
+        .CLR(DFN1C0_0_Q), .E(AND2A_2_Y), .Q(MEM_RADDR_4_net));
+    XOR2 XOR2_RDIFF_3_inst(.A(XOR2_47_Y), .B(AO1_2_Y), .Y(
+        RDIFF_3_net));
+    XOR2 XOR2_45(.A(RBINSHIFT_2_net), .B(GND), .Y(XOR2_45_Y));
+    DFN1C0 DFN1C0_0(.D(AND2_12_Y), .CLK(CLK), .CLR(RESET), .Q(
+        DFN1C0_0_Q));
+    AND2 AND2_1(.A(INV_8_Y), .B(RESET), .Y(AND2_1_Y));
+    AND2 AND2_49(.A(WBINNXTSHIFT_2_net), .B(INV_10_Y), .Y(
+        AND2_49_Y));
+    AO1 AO1_8(.A(XOR2_0_Y), .B(AO1_2_Y), .C(AND2_47_Y), .Y(
+        AO1_8_Y));
+    AND2 AND2_10(.A(XNOR2_11_Y), .B(XNOR2_15_Y), .Y(AND2_10_Y));
+    AND2 AND2_7(.A(RBINSHIFT_5_net), .B(GND), .Y(AND2_7_Y));
+    XOR2 XOR2_20(.A(WBINSYNCSHIFT_3_net), .B(GND), .Y(XOR2_20_Y));
+    AOI1 AOI1_1(.A(AND2_10_Y), .B(NAND3A_2_Y), .C(NOR3_0_Y), .Y(
+        AOI1_1_Y));
+    DFN1E1C0 DFN1E1C0_MEM_RADDR_5_inst(.D(XOR3_1_Y), .CLK(CLK), 
+        .CLR(DFN1C0_0_Q), .E(AND2A_2_Y), .Q(MEM_RADDR_5_net));
+    OR3 OR3_1(.A(AND2_15_Y), .B(AND2_11_Y), .C(AND2_35_Y), .Y(
+        OR3_1_Y));
+    AND2A AND2A_1(.A(EMPTY), .B(RE), .Y(AND2A_1_Y));
+    AND2 AND2_12(.A(INV_7_Y), .B(RESET), .Y(AND2_12_Y));
+    XOR2 XOR2_WBINNXTSHIFT_0_inst(.A(WBINSYNCSHIFT_1_net), .B(
+        MEMORYWE), .Y(WBINNXTSHIFT_0_net));
+    AO1 AO1_15(.A(XOR2_42_Y), .B(AO1_4_Y), .C(AND2_39_Y), .Y(
+        AO1_15_Y));
+    XOR2 XOR2_24(.A(WBINSYNCSHIFT_5_net), .B(GND), .Y(XOR2_24_Y));
+    XOR2 XOR2_21(.A(WBINNXTSHIFT_1_net), .B(INV_3_Y), .Y(
+        XOR2_21_Y));
+    NOR3A NOR3A_2(.A(OR2A_3_Y), .B(AO1C_1_Y), .C(
+        EMPTYVALUECONST_0_net), .Y(NOR3A_2_Y));
+    AND2 AND2_46(.A(WBINNXTSHIFT_4_net), .B(INV_1_Y), .Y(
+        AND2_46_Y));
+    INV INV_11(.A(RBINNXTSHIFT_5_net), .Y(INV_11_Y));
+    XOR2 XOR2_16(.A(WBINSYNCSHIFT_5_net), .B(INV_11_Y), .Y(
+        XOR2_16_Y));
+    AND2 AND2_43(.A(MEM_RADDR_0_net), .B(VCC), .Y(AND2_43_Y));
+    AND3 AND3_3(.A(XNOR2_3_Y), .B(XNOR2_4_Y), .C(XNOR2_9_Y), .Y(
+        AND3_3_Y));
+    INV INV_5(.A(NOR2A_0_Y), .Y(INV_5_Y));
+    INV MEMWEBUBBLE(.A(MEMORYWE), .Y(MEMWENEG));
+    AND2 AND2_6(.A(WBINSYNCSHIFT_3_net), .B(GND), .Y(AND2_6_Y));
+    AND3 AND3_0(.A(XNOR2_8_Y), .B(AND3_2_Y), .C(AND2_30_Y), .Y(
+        AND3_0_Y));
+    DFN1E1C0 DFN1E1C0_MEM_WADDR_0_inst(.D(XOR2_49_Y), .CLK(CLK), 
+        .CLR(DFN1C0_1_Q), .E(AND2A_0_Y), .Q(MEM_WADDR_0_net));
+    OR2A OR2A_4(.A(EMPTYVALUECONST_0_net), .B(RDIFF_2_net), .Y(
+        OR2A_4_Y));
+    DFN1C0 DFN1C0_RGRY_2_inst(.D(XOR2_33_Y), .CLK(CLK), .CLR(
+        RESET), .Q(RGRY_2_net));
+    XOR2 XOR2_33(.A(RBINNXTSHIFT_2_net), .B(RBINNXTSHIFT_3_net), 
+        .Y(XOR2_33_Y));
+    INV INV_3(.A(RBINSHIFT_2_net), .Y(INV_3_Y));
+    XNOR2 XNOR2_2(.A(WRADDRGEN_CONST_0_net), .B(MEM_WADDR_4_net), 
+        .Y(XNOR2_2_Y));
+    XOR2 XOR2_49(.A(MEM_WADDR_0_net), .B(VCC), .Y(XOR2_49_Y));
+    AO1 AO1_14(.A(XOR2_10_Y), .B(AO1_13_Y), .C(AND2_8_Y), .Y(
+        AO1_14_Y));
+    XOR2 XOR2_4(.A(RBINSHIFT_1_net), .B(GND), .Y(XOR2_4_Y));
+    XOR2 XOR2_WDIFF_0_inst(.A(WBINNXTSHIFT_0_net), .B(
+        RBINSHIFT_1_net), .Y(WDIFF_0_net));
+    AND3 AND3_1(.A(AND3_4_Y), .B(XNOR2_0_Y), .C(XNOR2_2_Y), .Y(
+        AND3_1_Y));
+    AND2 AND2_24(.A(AND2_41_Y), .B(XOR2_5_Y), .Y(AND2_24_Y));
+    XNOR2 XNOR2_0(.A(WRADDRGEN_CONST_2_net), .B(MEM_WADDR_3_net), 
+        .Y(XNOR2_0_Y));
+    MAJ3 MAJ3_0(.A(AND2_22_Y), .B(MEM_WADDR_1_net), .C(GND), .Y(
+        MAJ3_0_Y));
+    AND2 AND2_31(.A(XOR2_7_Y), .B(XOR2_8_Y), .Y(AND2_31_Y));
+    OR2A OR2A_3(.A(EMPTYVALUECONST_0_net), .B(RDIFF_5_net), .Y(
+        OR2A_3_Y));
+    DFN1E1C0 DFN1E1C0_MEM_RADDR_0_inst(.D(XOR2_14_Y), .CLK(CLK), 
+        .CLR(DFN1C0_0_Q), .E(AND2A_2_Y), .Q(MEM_RADDR_0_net));
+    XOR2 XOR2_18(.A(WBINSYNCSHIFT_3_net), .B(GND), .Y(XOR2_18_Y));
+    DFN1C0 DFN1C0_WBINSYNCSHIFT_2_inst(.D(WBINNXTSHIFT_1_net), 
+        .CLK(CLK), .CLR(RESET), .Q(WBINSYNCSHIFT_2_net));
+    XOR2 XOR2_RBINNXTSHIFT_4_inst(.A(XOR2_9_Y), .B(AO1_20_Y), .Y(
+        RBINNXTSHIFT_4_net));
+    DFN1C0 DFN1C0_RGRY_1_inst(.D(XOR2_22_Y), .CLK(CLK), .CLR(
+        RESET), .Q(RGRY_1_net));
+    DFN1C0 DFN1C0_WGRY_3_inst(.D(XOR2_38_Y), .CLK(CLK), .CLR(
+        RESET), .Q(WGRY_3_net));
+    XOR2 XOR2_8(.A(WBINSYNCSHIFT_2_net), .B(INV_9_Y), .Y(XOR2_8_Y)
+        );
+    NAND3A NAND3A_0(.A(WDIFF_1_net), .B(FULLCONSTVALUE_0_net), .C(
+        OR2A_5_Y), .Y(NAND3A_0_Y));
+    XOR2 XOR2_30(.A(WBINNXTSHIFT_4_net), .B(INV_1_Y), .Y(
+        XOR2_30_Y));
+    OR2A OR2A_2(.A(FULLCONSTVALUE_2_net), .B(WDIFF_2_net), .Y(
+        OR2A_2_Y));
+    AND2 AND2_38(.A(WBINNXTSHIFT_1_net), .B(INV_3_Y), .Y(
+        AND2_38_Y));
+    AND2 AND2_35(.A(INV_0_Y), .B(INV_6_Y), .Y(AND2_35_Y));
+    XOR2 XOR2_RDIFF_0_inst(.A(WBINSYNCSHIFT_0_net), .B(
+        RBINNXTSHIFT_0_net), .Y(RDIFF_0_net));
+    INV MEMREBUBBLE(.A(MEMORYRE), .Y(MEMRENEG));
+    XNOR2 XNOR2_RDIFF_1_inst(.A(XOR2_28_Y), .B(NOR2A_1_Y), .Y(
+        RDIFF_1_net));
+    AND2 AND2_29(.A(XOR2_5_Y), .B(XOR2_35_Y), .Y(AND2_29_Y));
+    DFN1E1C0 DFN1E1C0_MEM_WADDR_1_inst(.D(XOR3_8_Y), .CLK(CLK), 
+        .CLR(DFN1C0_1_Q), .E(AND2A_0_Y), .Q(MEM_WADDR_1_net));
+    XOR2 XOR2_34(.A(RBINNXTSHIFT_3_net), .B(RBINNXTSHIFT_4_net), 
+        .Y(XOR2_34_Y));
+    MAJ3 MAJ3_4(.A(MAJ3_6_Y), .B(MEM_RADDR_4_net), .C(GND), .Y(
+        MAJ3_4_Y));
+    XOR2 XOR2_31(.A(WBINSYNCSHIFT_1_net), .B(MEMORYWE), .Y(
+        XOR2_31_Y));
+    AND2 AND2_3(.A(WBINSYNCSHIFT_4_net), .B(GND), .Y(AND2_3_Y));
+    AND2 AND2_30(.A(XNOR2_5_Y), .B(XNOR2_14_Y), .Y(AND2_30_Y));
+    XOR2 XOR2_WBINNXTSHIFT_4_inst(.A(XOR2_24_Y), .B(AO1_4_Y), .Y(
+        WBINNXTSHIFT_4_net));
+    XNOR2 XNOR2_6(.A(WRADDRGEN_CONST_0_net), .B(MEM_WADDR_1_net), 
+        .Y(XNOR2_6_Y));
+    AND2 AND2_14(.A(AND2_26_Y), .B(AND2_42_Y), .Y(AND2_14_Y));
+    OA1C OA1C_0(.A(FULLCONSTVALUE_2_net), .B(WDIFF_3_net), .C(
+        FULLCONSTVALUE_0_net), .Y(OA1C_0_Y));
+    INV INV_4(.A(RBINSHIFT_4_net), .Y(INV_4_Y));
+    AND2 AND2_32(.A(WBINNXTSHIFT_1_net), .B(INV_5_Y), .Y(
+        AND2_32_Y));
+    OR2A OR2A_1(.A(RDIFF_5_net), .B(EMPTYVALUECONST_0_net), .Y(
+        OR2A_1_Y));
+    NAND3A NAND3A_2(.A(NOR3A_0_Y), .B(OR2A_2_Y), .C(NAND3A_0_Y), 
+        .Y(NAND3A_2_Y));
+    XOR3 XOR3_4(.A(MEM_RADDR_2_net), .B(GND), .C(MAJ3_2_Y), .Y(
+        XOR3_4_Y));
+    XOR2 XOR2_46(.A(WBINSYNCSHIFT_4_net), .B(GND), .Y(XOR2_46_Y));
+    XNOR2 XNOR2_11(.A(FULLCONSTVALUE_2_net), .B(WDIFF_3_net), .Y(
+        XNOR2_11_Y));
+    AO1 AO1_2(.A(XOR2_8_Y), .B(OR3_1_Y), .C(AND2_28_Y), .Y(
+        AO1_2_Y));
+    DFN1C0 DFN1C0_WGRY_0_inst(.D(XOR2_27_Y), .CLK(CLK), .CLR(
+        RESET), .Q(WGRY_0_net));
+    AND2 AND2_26(.A(AND2_40_Y), .B(AND2_50_Y), .Y(AND2_26_Y));
+    XOR2 XOR2_9(.A(RBINSHIFT_4_net), .B(GND), .Y(XOR2_9_Y));
+    XOR2 XOR2_WDIFF_2_inst(.A(XOR2_29_Y), .B(OR3_0_Y), .Y(
+        WDIFF_2_net));
+    DFN1C0 DFN1C0_WBINSYNCSHIFT_1_inst(.D(WBINNXTSHIFT_0_net), 
+        .CLK(CLK), .CLR(RESET), .Q(WBINSYNCSHIFT_1_net));
+    INV INV_12(.A(RBINNXTSHIFT_4_net), .Y(INV_12_Y));
+    AND2 AND2_23(.A(WBINSYNCSHIFT_4_net), .B(INV_12_Y), .Y(
+        AND2_23_Y));
+    XNOR2 XNOR2_4(.A(RDIFF_4_net), .B(EMPTYVALUECONST_0_net), .Y(
+        XNOR2_4_Y));
+    XOR2 XOR2_5(.A(WBINNXTSHIFT_3_net), .B(INV_4_Y), .Y(XOR2_5_Y));
+    AND2 AND2_19(.A(AND2_18_Y), .B(AND2_20_Y), .Y(AND2_19_Y));
+    DFN1E1C0 DFN1E1C0_Q_0_inst(.D(QXI_0_net), .CLK(CLK), .CLR(
+        RESET), .E(DVLDI), .Q(Q[0]));
+    XOR2 XOR2_22(.A(RBINNXTSHIFT_1_net), .B(RBINNXTSHIFT_2_net), 
+        .Y(XOR2_22_Y));
+    AO1 AO1_1(.A(AND2_29_Y), .B(AO1_11_Y), .C(AO1_3_Y), .Y(
+        AO1_1_Y));
+    XOR2 XOR2_13(.A(WBINNXTSHIFT_2_net), .B(INV_10_Y), .Y(
+        XOR2_13_Y));
+    INV INV_6(.A(NOR2A_1_Y), .Y(INV_6_Y));
+    DFN1E1C0 DFN1E1C0_MEM_WADDR_3_inst(.D(XOR3_3_Y), .CLK(CLK), 
+        .CLR(DFN1C0_1_Q), .E(AND2A_0_Y), .Q(MEM_WADDR_3_net));
+    AO1 AO1_3(.A(XOR2_35_Y), .B(AND2_17_Y), .C(AND2_46_Y), .Y(
+        AO1_3_Y));
+    AND2 AND2_47(.A(WBINSYNCSHIFT_3_net), .B(INV_2_Y), .Y(
+        AND2_47_Y));
+    AO1 AO1_18(.A(XOR2_2_Y), .B(AND2_8_Y), .C(AND2_37_Y), .Y(
+        AO1_18_Y));
+    XOR2 XOR2_48(.A(RBINNXTSHIFT_5_net), .B(GND), .Y(XOR2_48_Y));
+    XOR2 XOR2_RBINNXTSHIFT_3_inst(.A(XOR2_6_Y), .B(AO1_14_Y), .Y(
+        RBINNXTSHIFT_3_net));
+    AND2A AND2A_2(.A(AND3_0_Y), .B(MEMORYRE), .Y(AND2A_2_Y));
+    AO1C AO1C_0(.A(RDIFF_1_net), .B(EMPTYVALUECONST_0_net), .C(
+        RDIFF_0_net), .Y(AO1C_0_Y));
+    AND2 AND2_16(.A(WBINSYNCSHIFT_1_net), .B(MEMORYWE), .Y(
+        AND2_16_Y));
+    XOR2 XOR2_WDIFF_3_inst(.A(XOR2_17_Y), .B(AO1_11_Y), .Y(
+        WDIFF_3_net));
+    OR2A OR2A_5(.A(WDIFF_2_net), .B(FULLCONSTVALUE_2_net), .Y(
+        OR2A_5_Y));
+    AND2 AND2_13(.A(AND2_26_Y), .B(XOR2_11_Y), .Y(AND2_13_Y));
+    XNOR2 XNOR2_1(.A(RDADDRGEN_CONST_0_net), .B(MEM_RADDR_1_net), 
+        .Y(XNOR2_1_Y));
+    XOR2 XOR2_10(.A(RBINSHIFT_2_net), .B(GND), .Y(XOR2_10_Y));
+    INV INV_8(.A(AND3_1_Y), .Y(INV_8_Y));
+    DFN1C0 DFN1C0_RGRY_4_inst(.D(XOR2_44_Y), .CLK(CLK), .CLR(
+        RESET), .Q(RGRY_4_net));
+    MAJ3 MAJ3_3(.A(MAJ3_2_Y), .B(MEM_RADDR_2_net), .C(GND), .Y(
+        MAJ3_3_Y));
+    XOR2 XOR2_27(.A(WBINNXTSHIFT_0_net), .B(WBINNXTSHIFT_1_net), 
+        .Y(XOR2_27_Y));
+    XOR3 XOR3_3(.A(MEM_WADDR_3_net), .B(GND), .C(MAJ3_1_Y), .Y(
+        XOR3_3_Y));
+    AND2 AND2_MEMORYRE(.A(NAND2_1_Y), .B(RE), .Y(MEMORYRE));
+    XOR2 XOR2_7(.A(WBINSYNCSHIFT_1_net), .B(INV_0_Y), .Y(XOR2_7_Y)
+        );
+    AND2 AND2_5(.A(AND2_40_Y), .B(XOR2_10_Y), .Y(AND2_5_Y));
+    XOR2 XOR2_WBINNXTSHIFT_3_inst(.A(XOR2_41_Y), .B(AO1_5_Y), .Y(
+        WBINNXTSHIFT_3_net));
+    XOR2 XOR2_14(.A(MEM_RADDR_0_net), .B(VCC), .Y(XOR2_14_Y));
+    AND2 AND2_50(.A(XOR2_10_Y), .B(XOR2_2_Y), .Y(AND2_50_Y));
+    XNOR2 XNOR2_3(.A(RDIFF_3_net), .B(EMPTYVALUECONST_0_net), .Y(
+        XNOR2_3_Y));
+    XOR2 XOR2_11(.A(RBINSHIFT_4_net), .B(GND), .Y(XOR2_11_Y));
+    NAND3A NAND3A_3(.A(EMPTYVALUECONST_0_net), .B(RDIFF_4_net), 
+        .C(OR2A_3_Y), .Y(NAND3A_3_Y));
+    XOR3 XOR3_6(.A(MEM_RADDR_1_net), .B(GND), .C(AND2_43_Y), .Y(
+        XOR3_6_Y));
+    XOR2 XOR2_25(.A(WBINNXTSHIFT_1_net), .B(WBINNXTSHIFT_2_net), 
+        .Y(XOR2_25_Y));
+    XNOR2 XNOR2_15(.A(FULLCONSTVALUE_0_net), .B(WDIFF_4_net), .Y(
+        XNOR2_15_Y));
+    DFN1C0 DFN1C0_WBINSYNCSHIFT_4_inst(.D(WBINNXTSHIFT_3_net), 
+        .CLK(CLK), .CLR(RESET), .Q(WBINSYNCSHIFT_4_net));
+    DFN1E1C0 DFN1E1C0_MEM_RADDR_3_inst(.D(XOR3_7_Y), .CLK(CLK), 
+        .CLR(DFN1C0_0_Q), .E(AND2A_2_Y), .Q(MEM_RADDR_3_net));
+    AND2 AND2_34(.A(AND2_41_Y), .B(AND2_29_Y), .Y(AND2_34_Y));
+    AO1 AO1_6(.A(XOR2_32_Y), .B(AND2_47_Y), .C(AND2_23_Y), .Y(
+        AO1_6_Y));
+    AND3 AND3_2(.A(XNOR2_12_Y), .B(XNOR2_1_Y), .C(XNOR2_7_Y), .Y(
+        AND3_2_Y));
+    AO1 AO1_12(.A(AND2_36_Y), .B(AO1_2_Y), .C(AO1_6_Y), .Y(
+        AO1_12_Y));
+    XOR2 XOR2_32(.A(WBINSYNCSHIFT_4_net), .B(INV_12_Y), .Y(
+        XOR2_32_Y));
+    NOR3A NOR3A_1(.A(OR2A_4_Y), .B(AO1C_0_Y), .C(
+        EMPTYVALUECONST_0_net), .Y(NOR3A_1_Y));
+    OR3 OR3_0(.A(AND2_38_Y), .B(AND2_32_Y), .C(AND2_4_Y), .Y(
+        OR3_0_Y));
+    AND2 AND2_9(.A(AND2_18_Y), .B(XOR2_18_Y), .Y(AND2_9_Y));
+    NOR3A NOR3A_0(.A(OR2A_5_Y), .B(AO1C_2_Y), .C(WDIFF_0_net), .Y(
+        NOR3A_0_Y));
+    DFN1E1C0 DFN1E1C0_MEM_WADDR_4_inst(.D(XOR3_2_Y), .CLK(CLK), 
+        .CLR(DFN1C0_1_Q), .E(AND2A_0_Y), .Q(MEM_WADDR_4_net));
+    XOR2 XOR2_43(.A(WBINSYNCSHIFT_4_net), .B(INV_12_Y), .Y(
+        XOR2_43_Y));
+    DFN1C0 DFN1C0_RBINSHIFT_0_inst(.D(RBINNXTSHIFT_0_net), .CLK(
+        CLK), .CLR(RESET), .Q(RBINSHIFT_0_net));
+    XOR2 XOR2_RDIFF_2_inst(.A(XOR2_50_Y), .B(OR3_1_Y), .Y(
+        RDIFF_2_net));
+    INV INV_2(.A(RBINNXTSHIFT_3_net), .Y(INV_2_Y));
+    AND2A AND2A_3(.A(FULLCONSTVALUE_0_net), .B(WDIFF_4_net), .Y(
+        AND2A_3_Y));
+    AO1 AO1_9(.A(XOR2_23_Y), .B(AND2_2_Y), .C(AND2_7_Y), .Y(
+        AO1_9_Y));
+    AND2 AND2_39(.A(WBINSYNCSHIFT_5_net), .B(GND), .Y(AND2_39_Y));
+    DFN1C0 DFN1C0_DVLDX(.D(DVLDI), .CLK(CLK), .CLR(RESET), .Q(
+        DVLDX));
+    NAND3A NAND3A_1(.A(EMPTYVALUECONST_0_net), .B(RDIFF_1_net), 
+        .C(OR2A_4_Y), .Y(NAND3A_1_Y));
+    NAND2 NAND2_0(.A(FULL), .B(VCC), .Y(NAND2_0_Y));
+    MAJ3 MAJ3_6(.A(MAJ3_3_Y), .B(MEM_RADDR_3_net), .C(GND), .Y(
+        MAJ3_6_Y));
+    AND2 AND2_27(.A(AND2_31_Y), .B(AND2_36_Y), .Y(AND2_27_Y));
+    DFN1E1C0 DFN1E1C0_MEM_WADDR_2_inst(.D(XOR3_0_Y), .CLK(CLK), 
+        .CLR(DFN1C0_1_Q), .E(AND2A_0_Y), .Q(MEM_WADDR_2_net));
+    DFN1C0 DFN1C0_DVLDI(.D(AND2A_1_Y), .CLK(CLK), .CLR(RESET), .Q(
+        DVLDI));
+    XNOR2 XNOR2_10(.A(WRADDRGEN_CONST_0_net), .B(MEM_WADDR_0_net), 
+        .Y(XNOR2_10_Y));
+    AO1 AO1_20(.A(AND2_50_Y), .B(AO1_13_Y), .C(AO1_18_Y), .Y(
+        AO1_20_Y));
+    AND2 AND2_MEMORYWE(.A(NAND2_0_Y), .B(WE), .Y(MEMORYWE));
+    DFN1C0 DFN1C0_WGRY_2_inst(.D(XOR2_19_Y), .CLK(CLK), .CLR(
+        RESET), .Q(WGRY_2_net));
+    AO1 AO1_0(.A(XOR2_26_Y), .B(AND2_16_Y), .C(AND2_33_Y), .Y(
+        AO1_0_Y));
+    DFN1C0 DFN1C0_RBINSHIFT_2_inst(.D(RBINNXTSHIFT_2_net), .CLK(
+        CLK), .CLR(RESET), .Q(RBINSHIFT_2_net));
+    XOR2 XOR2_29(.A(WBINNXTSHIFT_2_net), .B(INV_10_Y), .Y(
+        XOR2_29_Y));
+    XOR2 XOR2_40(.A(RBINSHIFT_0_net), .B(MEMORYRE), .Y(XOR2_40_Y));
+    XOR3 XOR3_0(.A(MEM_WADDR_2_net), .B(GND), .C(MAJ3_0_Y), .Y(
+        XOR3_0_Y));
+    XOR2 XOR2_2(.A(RBINSHIFT_3_net), .B(GND), .Y(XOR2_2_Y));
+    DFN1C0 DFN1C0_RGRY_5_inst(.D(XOR2_48_Y), .CLK(CLK), .CLR(
+        RESET), .Q(RGRY_5_net));
+    DFN1C0 DFN1C0_RBINSHIFT_4_inst(.D(RBINNXTSHIFT_4_net), .CLK(
+        CLK), .CLR(RESET), .Q(RBINSHIFT_4_net));
+    AND2 AND2_36(.A(XOR2_0_Y), .B(XOR2_32_Y), .Y(AND2_36_Y));
+    XOR2 XOR2_37(.A(RBINSHIFT_5_net), .B(GND), .Y(XOR2_37_Y));
+    XNOR2 XNOR2_WDIFF_1_inst(.A(XOR2_21_Y), .B(NOR2A_0_Y), .Y(
+        WDIFF_1_net));
+    AND2A AND2A_0(.A(AND3_1_Y), .B(MEMORYWE), .Y(AND2A_0_Y));
+    OA1A OA1A_0(.A(FULLCONSTVALUE_2_net), .B(WDIFF_3_net), .C(
+        WDIFF_4_net), .Y(OA1A_0_Y));
+    XOR3 XOR3_5(.A(MEM_RADDR_4_net), .B(GND), .C(MAJ3_6_Y), .Y(
+        XOR3_5_Y));
+    XOR2 XOR2_RBINNXTSHIFT_5_inst(.A(XOR2_37_Y), .B(AO1_7_Y), .Y(
+        RBINNXTSHIFT_5_net));
+    AOI1 AOI1_0(.A(AND3_3_Y), .B(NAND3A_4_Y), .C(NAND3A_5_Y), .Y(
+        AOI1_0_Y));
+    DFN1C0 DFN1C0_WBINSYNCSHIFT_3_inst(.D(WBINNXTSHIFT_2_net), 
+        .CLK(CLK), .CLR(RESET), .Q(WBINSYNCSHIFT_3_net));
+    AND2 AND2_33(.A(WBINSYNCSHIFT_2_net), .B(GND), .Y(AND2_33_Y));
+    XOR2 XOR2_44(.A(RBINNXTSHIFT_4_net), .B(RBINNXTSHIFT_5_net), 
+        .Y(XOR2_44_Y));
+    AO1 AO1_10(.A(XOR2_5_Y), .B(AO1_11_Y), .C(AND2_17_Y), .Y(
+        AO1_10_Y));
+    XOR2 XOR2_41(.A(WBINSYNCSHIFT_4_net), .B(GND), .Y(XOR2_41_Y));
+    XOR2 XOR2_35(.A(WBINNXTSHIFT_4_net), .B(INV_1_Y), .Y(
+        XOR2_35_Y));
+    DFN1C0 DFN1C0_WGRY_1_inst(.D(XOR2_25_Y), .CLK(CLK), .CLR(
+        RESET), .Q(WGRY_1_net));
+    DFN1P0 DFN1P0_EMPTY(.D(AOI1_0_Y), .CLK(CLK), .PRE(RESET), .Q(
+        EMPTY));
+    DFN1E1C0 DFN1E1C0_Q_3_inst(.D(QXI_3_net), .CLK(CLK), .CLR(
+        RESET), .E(DVLDI), .Q(Q[3]));
+    NOR2A NOR2A_1(.A(RBINNXTSHIFT_0_net), .B(WBINSYNCSHIFT_0_net), 
+        .Y(NOR2A_1_Y));
+    XOR3 XOR3_8(.A(MEM_WADDR_1_net), .B(GND), .C(AND2_22_Y), .Y(
+        XOR3_8_Y));
+    AND2 AND2_41(.A(XOR2_12_Y), .B(XOR2_13_Y), .Y(AND2_41_Y));
+    AND2 AND2_0(.A(AND2_31_Y), .B(XOR2_0_Y), .Y(AND2_0_Y));
+    DFN1C0 DFN1C0_RBINSHIFT_1_inst(.D(RBINNXTSHIFT_1_net), .CLK(
+        CLK), .CLR(RESET), .Q(RBINSHIFT_1_net));
+    AO1 AO1_16(.A(XOR2_46_Y), .B(AND2_6_Y), .C(AND2_3_Y), .Y(
+        AO1_16_Y));
+    AND2 AND2_17(.A(WBINNXTSHIFT_3_net), .B(INV_4_Y), .Y(
+        AND2_17_Y));
+    NOR2A NOR2A_0(.A(RBINSHIFT_1_net), .B(WBINNXTSHIFT_0_net), .Y(
+        NOR2A_0_Y));
+    XOR2 XOR2_6(.A(RBINSHIFT_3_net), .B(GND), .Y(XOR2_6_Y));
+    AO1 AO1_13(.A(XOR2_4_Y), .B(AND2_45_Y), .C(AND2_21_Y), .Y(
+        AO1_13_Y));
+    MAJ3 MAJ3_5(.A(MAJ3_1_Y), .B(MEM_WADDR_3_net), .C(GND), .Y(
+        MAJ3_5_Y));
+    OR2A OR2A_0(.A(RDIFF_2_net), .B(EMPTYVALUECONST_0_net), .Y(
+        OR2A_0_Y));
+    XNOR2 XNOR2_12(.A(RDADDRGEN_CONST_0_net), .B(MEM_RADDR_0_net), 
+        .Y(XNOR2_12_Y));
+    XNOR2 XNOR2_7(.A(RDADDRGEN_CONST_0_net), .B(MEM_RADDR_2_net), 
+        .Y(XNOR2_7_Y));
+    XOR2 XOR2_12(.A(WBINNXTSHIFT_1_net), .B(INV_3_Y), .Y(
+        XOR2_12_Y));
+    AND2 AND2_48(.A(AND2_19_Y), .B(XOR2_42_Y), .Y(AND2_48_Y));
+    AND2 AND2_45(.A(RBINSHIFT_0_net), .B(MEMORYRE), .Y(AND2_45_Y));
+    DFN1E1C0 DFN1E1C0_MEM_RADDR_2_inst(.D(XOR3_4_Y), .CLK(CLK), 
+        .CLR(DFN1C0_0_Q), .E(AND2A_2_Y), .Q(MEM_RADDR_2_net));
+    AO1 AO1_19(.A(AND2_42_Y), .B(AO1_20_Y), .C(AO1_9_Y), .Y(
+        AO1_19_Y));
+    XOR2 XOR2_26(.A(WBINSYNCSHIFT_2_net), .B(GND), .Y(XOR2_26_Y));
+    DFN1C0 DFN1C0_1(.D(AND2_1_Y), .CLK(CLK), .CLR(RESET), .Q(
+        DFN1C0_1_Q));
+    XOR2 XOR2_RDIFF_4_inst(.A(XOR2_43_Y), .B(AO1_8_Y), .Y(
+        RDIFF_4_net));
+    AND2 AND2_4(.A(INV_3_Y), .B(INV_5_Y), .Y(AND2_4_Y));
+    AND2 AND2_40(.A(XOR2_40_Y), .B(XOR2_4_Y), .Y(AND2_40_Y));
+    XOR2 XOR2_50(.A(WBINSYNCSHIFT_2_net), .B(INV_9_Y), .Y(
+        XOR2_50_Y));
+    AND2 AND2_42(.A(XOR2_11_Y), .B(XOR2_23_Y), .Y(AND2_42_Y));
+    DFN1E1C0 DFN1E1C0_Q_2_inst(.D(QXI_2_net), .CLK(CLK), .CLR(
+        RESET), .E(DVLDI), .Q(Q[2]));
+    XNOR2 XNOR2_5(.A(RDADDRGEN_CONST_3_net), .B(MEM_RADDR_4_net), 
+        .Y(XNOR2_5_Y));
+    AO1 AO1_5(.A(XOR2_18_Y), .B(AO1_0_Y), .C(AND2_6_Y), .Y(
+        AO1_5_Y));
+    XOR2 XOR2_WDIFF_4_inst(.A(XOR2_30_Y), .B(AO1_10_Y), .Y(
+        WDIFF_4_net));
+    DFN1C0 DFN1C0_RGRY_3_inst(.D(XOR2_34_Y), .CLK(CLK), .CLR(
+        RESET), .Q(RGRY_3_net));
+    XOR3 XOR3_2(.A(MEM_WADDR_4_net), .B(GND), .C(MAJ3_5_Y), .Y(
+        XOR3_2_Y));
+    XOR2 XOR2_39(.A(WBINSYNCSHIFT_5_net), .B(INV_11_Y), .Y(
+        XOR2_39_Y));
+    AND2 AND2_8(.A(RBINSHIFT_2_net), .B(GND), .Y(AND2_8_Y));
+    XOR2 XOR2_3(.A(RBINSHIFT_1_net), .B(GND), .Y(XOR2_3_Y));
+    XOR3 XOR3_1(.A(MEM_RADDR_5_net), .B(GND), .C(MAJ3_4_Y), .Y(
+        XOR3_1_Y));
+    INV INV_10(.A(RBINSHIFT_3_net), .Y(INV_10_Y));
+    XOR2 XOR2_RBINNXTSHIFT_1_inst(.A(XOR2_3_Y), .B(AND2_45_Y), .Y(
+        RBINNXTSHIFT_1_net));
+    XOR2 XOR2_17(.A(WBINNXTSHIFT_3_net), .B(INV_4_Y), .Y(
+        XOR2_17_Y));
+    XOR2 XOR2_28(.A(WBINSYNCSHIFT_1_net), .B(INV_0_Y), .Y(
+        XOR2_28_Y));
+    INV INV_9(.A(RBINNXTSHIFT_2_net), .Y(INV_9_Y));
+    XOR2 XOR2_15(.A(RBINNXTSHIFT_0_net), .B(RBINNXTSHIFT_1_net), 
+        .Y(XOR2_15_Y));
+    DFN1C0 DFN1C0_RBINSHIFT_3_inst(.D(RBINNXTSHIFT_3_net), .CLK(
+        CLK), .CLR(RESET), .Q(RBINSHIFT_3_net));
+    AO1 AO1_17(.A(XOR2_16_Y), .B(AO1_12_Y), .C(AND2_25_Y), .Y(
+        AO1_17_Y));
+    XOR2 XOR2_RDIFF_5_inst(.A(XOR2_39_Y), .B(AO1_12_Y), .Y(
+        RDIFF_5_net));
+    RAM4K9 RAM4K9_QXI_3_inst(.ADDRA11(GND), .ADDRA10(GND), 
+        .ADDRA9(GND), .ADDRA8(GND), .ADDRA7(GND), .ADDRA6(GND), 
+        .ADDRA5(GND), .ADDRA4(GND), .ADDRA3(MEM_WADDR_3_net), 
+        .ADDRA2(MEM_WADDR_2_net), .ADDRA1(MEM_WADDR_1_net), 
+        .ADDRA0(MEM_WADDR_0_net), .ADDRB11(GND), .ADDRB10(GND), 
+        .ADDRB9(GND), .ADDRB8(GND), .ADDRB7(GND), .ADDRB6(GND), 
+        .ADDRB5(GND), .ADDRB4(MEM_RADDR_4_net), .ADDRB3(
+        MEM_RADDR_3_net), .ADDRB2(MEM_RADDR_2_net), .ADDRB1(
+        MEM_RADDR_1_net), .ADDRB0(MEM_RADDR_0_net), .DINA8(GND), 
+        .DINA7(DATA[7]), .DINA6(DATA[6]), .DINA5(DATA[5]), .DINA4(
+        DATA[4]), .DINA3(DATA[3]), .DINA2(DATA[2]), .DINA1(
+        DATA[1]), .DINA0(DATA[0]), .DINB8(GND), .DINB7(GND), 
+        .DINB6(GND), .DINB5(GND), .DINB4(GND), .DINB3(GND), 
+        .DINB2(GND), .DINB1(GND), .DINB0(GND), .WIDTHA0(VCC), 
+        .WIDTHA1(VCC), .WIDTHB0(GND), .WIDTHB1(VCC), .PIPEA(GND), 
+        .PIPEB(GND), .WMODEA(GND), .WMODEB(GND), .BLKA(MEMWENEG), 
+        .BLKB(MEMRENEG), .WENA(GND), .WENB(VCC), .CLKA(CLK), 
+        .CLKB(CLK), .RESET(RESET), .DOUTA8(), .DOUTA7(
+        RAM4K9_QXI_3__DOUTA7), .DOUTA6(RAM4K9_QXI_3__DOUTA6), 
+        .DOUTA5(RAM4K9_QXI_3__DOUTA5), .DOUTA4(
+        RAM4K9_QXI_3__DOUTA4), .DOUTA3(RAM4K9_QXI_3__DOUTA3), 
+        .DOUTA2(RAM4K9_QXI_3__DOUTA2), .DOUTA1(
+        RAM4K9_QXI_3__DOUTA1), .DOUTA0(RAM4K9_QXI_3__DOUTA0), 
+        .DOUTB8(), .DOUTB7(), .DOUTB6(), .DOUTB5(), .DOUTB4(), 
+        .DOUTB3(QXI_3_net), .DOUTB2(QXI_2_net), .DOUTB1(QXI_1_net)
+        , .DOUTB0(QXI_0_net));
+    DFN1E1C0 DFN1E1C0_MEM_RADDR_1_inst(.D(XOR3_6_Y), .CLK(CLK), 
+        .CLR(DFN1C0_0_Q), .E(AND2A_2_Y), .Q(MEM_RADDR_1_net));
+    NAND3A NAND3A_4(.A(NOR3A_1_Y), .B(OR2A_0_Y), .C(NAND3A_1_Y), 
+        .Y(NAND3A_4_Y));
+    AND3 AND3_4(.A(XNOR2_10_Y), .B(XNOR2_6_Y), .C(XNOR2_13_Y), .Y(
+        AND3_4_Y));
+    MAJ3 MAJ3_2(.A(AND2_43_Y), .B(MEM_RADDR_1_net), .C(GND), .Y(
+        MAJ3_2_Y));
+    DFN1C0 DFN1C0_RGRY_0_inst(.D(XOR2_15_Y), .CLK(CLK), .CLR(
+        RESET), .Q(RGRY_0_net));
+    XOR2 XOR2_WBINNXTSHIFT_1_inst(.A(XOR2_1_Y), .B(AND2_16_Y), .Y(
+        WBINNXTSHIFT_1_net));
+    AND2 AND2_21(.A(RBINSHIFT_1_net), .B(GND), .Y(AND2_21_Y));
+    XOR3 XOR3_7(.A(MEM_RADDR_3_net), .B(GND), .C(MAJ3_3_Y), .Y(
+        XOR3_7_Y));
+    DFN1C0 DFN1C0_WGRY_4_inst(.D(XOR2_36_Y), .CLK(CLK), .CLR(
+        RESET), .Q(WGRY_4_net));
+    XOR2 XOR2_0(.A(WBINSYNCSHIFT_3_net), .B(INV_2_Y), .Y(XOR2_0_Y)
+        );
+    NAND2 NAND2_1(.A(EMPTY), .B(VCC), .Y(NAND2_1_Y));
+    MAJ3 MAJ3_1(.A(MAJ3_0_Y), .B(MEM_WADDR_2_net), .C(GND), .Y(
+        MAJ3_1_Y));
+    NAND3A NAND3A_5(.A(NOR3A_2_Y), .B(OR2A_1_Y), .C(NAND3A_3_Y), 
+        .Y(NAND3A_5_Y));
+    AO1 AO1_4(.A(AND2_20_Y), .B(AO1_0_Y), .C(AO1_16_Y), .Y(
+        AO1_4_Y));
+    AND2 AND2_37(.A(RBINSHIFT_3_net), .B(GND), .Y(AND2_37_Y));
+    XNOR2 XNOR2_14(.A(RDADDRGEN_CONST_0_net), .B(MEM_RADDR_5_net), 
+        .Y(XNOR2_14_Y));
+    XOR2 XOR2_42(.A(WBINSYNCSHIFT_5_net), .B(GND), .Y(XOR2_42_Y));
+    XOR2 XOR2_RBINNXTSHIFT_2_inst(.A(XOR2_45_Y), .B(AO1_13_Y), .Y(
+        RBINNXTSHIFT_2_net));
+    XOR2 XOR2_36(.A(WBINNXTSHIFT_4_net), .B(GND), .Y(XOR2_36_Y));
+    XNOR2 XNOR2_8(.A(RDADDRGEN_CONST_3_net), .B(MEM_RADDR_3_net), 
+        .Y(XNOR2_8_Y));
+    AND2 AND2_28(.A(WBINSYNCSHIFT_2_net), .B(INV_9_Y), .Y(
+        AND2_28_Y));
+    AND2 AND2_25(.A(WBINSYNCSHIFT_5_net), .B(INV_11_Y), .Y(
+        AND2_25_Y));
+    DFN1C0 DFN1C0_WBINSYNCSHIFT_5_inst(.D(WBINNXTSHIFT_4_net), 
+        .CLK(CLK), .CLR(RESET), .Q(WBINSYNCSHIFT_5_net));
+    AO1C AO1C_2(.A(FULLCONSTVALUE_0_net), .B(WDIFF_1_net), .C(
+        FULLCONSTVALUE_0_net), .Y(AO1C_2_Y));
+    
+endmodule
+
+// _Disclaimer: Please leave the following comments in the file, they are for internal purposes only._
+
+
+// _GEN_File_Contents_
+
+// Version:9.1.5.1
+// ACTGENU_CALL:1
+// BATCH:T
+// FAM:SmartFusion
+// OUTFORMAT:Verilog
+// LPMTYPE:LPM_SOFTFIFO
+// LPM_HINT:MEMFF
+// INSERT_PAD:NO
+// INSERT_IOREG:NO
+// GEN_BHV_VHDL_VAL:F
+// GEN_BHV_VERILOG_VAL:F
+// MGNTIMER:F
+// MGNCMPL:T
+// DESDIR:C:/Actelprj/SDRv2/smartgen\fifo12x8
+// GEN_BEHV_MODULE:T
+// SMARTGEN_DIE:IP6X5M2
+// SMARTGEN_PACKAGE:fg484
+// AGENIII_IS_SUBPROJECT_LIBERO:T
+// WWIDTH:8
+// WDEPTH:12
+// RWIDTH:4
+// RDEPTH:24
+// CLKS:1
+// CLOCK_PN:CLK
+// WCLK_EDGE:RISE
+// ACLR_PN:RESET
+// RESET_POLARITY:0
+// INIT_RAM:F
+// WE_POLARITY:1
+// RE_POLARITY:1
+// FF_PN:FULL
+// AF_PN:AFULL
+// WACK_PN:WACK
+// OVRFLOW_PN:OVERFLOW
+// WRCNT_PN:WRCNT
+// WE_PN:WE
+// EF_PN:EMPTY
+// AE_PN:AEMPTY
+// DVLD_PN:DVLD
+// UDRFLOW_PN:UNDERFLOW
+// RDCNT_PN:RDCNT
+// RE_PN:RE
+// CONTROLLERONLY:F
+// FSTOP:YES
+// ESTOP:YES
+// WRITEACK:NO
+// OVERFLOW:NO
+// WRCOUNT:NO
+// DATAVALID:NO
+// UNDERFLOW:NO
+// RDCOUNT:NO
+// AF_PORT_PN:AFVAL
+// AE_PORT_PN:AEVAL
+// AFFLAG:NONE
+// AEFLAG:NONE
+// DATA_IN_PN:DATA
+// DATA_OUT_PN:Q
+// CASCADE:0
+
+// _End_Comments_
+

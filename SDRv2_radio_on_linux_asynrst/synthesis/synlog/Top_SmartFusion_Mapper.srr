@@ -1,0 +1,1425 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+Reading constraint file: C:\Actelprj\SDRv2_radio_on_linux_asynrst\constraint\clock_constraint.sdc
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+@W: MO111 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\work\sdr_mss\mss_ccc_0\sdr_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module SDR_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\work\sdr_mss\mss_ccc_0\sdr_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module SDR_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\work\sdr_mss\mss_ccc_0\sdr_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module SDR_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Register bit CAHBLTOI0I is always 0, optimizing ...
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CAHBLTIO0I of view:PrimLib.dffre(prim) because there are no references to its outputs 
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":691:0:691:5|Removing sequential instance CAHBLTIO0l[1:0] of view:PrimLib.dffre(prim) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":335:0:335:9|Removing instance CAHBLTO1I0 of view:COREAHBLITE_LIB.CAHBLTlI1_CAHBLTO1I0_CAHBLTO1I0(verilog) because there are no references to its outputs 
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":349:0:349:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI0I0l.CAHBLTIOl0.CAHBLTl11l[15:0] of view:PrimLib.dffre(prim) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":18889:0:18889:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTO0I0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":18711:0:18711:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTllI0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":18533:0:18533:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlI0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":18355:0:18355:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOlI0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":18177:0:18177:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTlII0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":17999:0:17999:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIII0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":17821:0:17821:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOII0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":17643:0:17643:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTlOI0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":16753:0:16753:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTO1O0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":16575:0:16575:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl0O0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":16397:0:16397:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI0O0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":16219:0:16219:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTO0O0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":16041:0:16041:10|Removing instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTllO0l of view:COREAHBLITE_LIB.CAHBLTl0Il_CAHBLTllO0l(verilog) because there are no references to its outputs 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W:"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\work\sdr_mss\mss_ccc_0\sdr_mss_tmp_mss_ccc_0_mss_ccc.v":76:41:76:48|Net SDR_MSS_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+@W:"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\work\sdr_mss\mss_ccc_0\sdr_mss_tmp_mss_ccc_0_mss_ccc.v":76:41:76:48|Net SDR_MSS_0.MSS_ADLIB_INST_MACCLKCCC appears to be a clock source which was not identfied. Assuming default frequency. 
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 70MB peak: 73MB)
+
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOO0I[2] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[31] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[30] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[29] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[28] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[27] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[26] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[25] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[24] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[23] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[22] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[21] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[20] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1581:0:1581:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I[4] is always 0, optimizing ...
+Encoding state machine COREAHBLITE_LIB.CAHBLTlI1_CAHBLTO1I0_CoreAHBLite_0_CAHBLTO1I0l_CAHBLTI1O0l_CAHBLTlI0l(verilog)-CAHBLTllOI[7:0]
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":314:0:314:8|Register bit CAHBLTllOI[1] is always 0, optimizing ...
+Encoding state machine COREAHBLITE_LIB.CAHBLTlI1_CAHBLTO1I0_CoreAHBLite_0_CAHBLTO1I0l_CAHBLTl1O0l_CAHBLTlI0l(verilog)-CAHBLTllOI[7:0]
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":314:0:314:8|Register bit CAHBLTllOI[1] is always 0, optimizing ...
+Encoding state machine COREAHBLITE_LIB.CAHBLTlI1_CAHBLTO1I0_CoreAHBLite_0_CAHBLTO1I0l_CAHBLTOOI0l_CAHBLTlI0l(verilog)-CAHBLTllOI[7:0]
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":314:0:314:8|Register bit CAHBLTllOI[1] is always 0, optimizing ...
+Encoding state machine COREAHBLITE_LIB.CAHBLTlI1_CAHBLTO1I0_CoreAHBLite_0_CAHBLTO1I0l_CAHBLTIOI0l_CAHBLTlI0l(verilog)-CAHBLTllOI[7:0]
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":314:0:314:8|Register bit CAHBLTllOI[1] is always 0, optimizing ...
+@N: MF176 |Default generator successful 
+@N: MF184 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\fm_demux.v":54:33:54:46|Found 17 by 17 bit subtractor, 'un1_mult0_1_0_0[16:0]'
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF239 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\fm_demux.v":63:75:63:95|Found 19 bit decrementor, 'un1_mult_res8[18:0]'
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\radio_ctl.v":183:0:183:5|Found counter in view:work.radio_ctl(verilog) inst auto_tx_cnt[13:0]
+Encoding state machine work.radio_ctl(verilog)-radio_mode[8:0]
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0011 -> 000000100
+   0100 -> 000001000
+   0101 -> 000010000
+   1000 -> 000100000
+   1001 -> 001000000
+   1100 -> 010000000
+   1101 -> 100000000
+Encoding state machine work.radio_ctl(verilog)-auto_tx_state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine work.radio_ctl(verilog)-fsm[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MF176 |Default generator successful 
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":261:0:261:5|Found counter in view:work.correlator(verilog) inst cur_length[6:0]
+Encoding state machine work.correlator(verilog)-fsm[5:0]
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine work.correlator(verilog)-st_state[7:0]
+original code -> new code
+   0000 -> 00000001
+   0001 -> 00000010
+   0010 -> 00000100
+   0011 -> 00001000
+   0100 -> 00010000
+   0101 -> 00100000
+   0110 -> 01000000
+   0111 -> 10000000
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":401:7:401:34|Found 8 bit by 8 bit '<' comparator, 'next_fifo_WE13'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":398:7:398:34|Found 8 bit by 8 bit '<' comparator, 'next_glossy_crc_start6'
+@N: MF239 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":172:33:172:45|Found 8 bit decrementor, 'un1_fifo_data[7:0]'
+@N: MF239 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":404:20:404:32|Found 7 bit decrementor, 'un1_dat_length[7:1]'
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\crc.v":67:0:67:5|Found counter in view:work.crc_rx_crc(verilog) inst bit_cnt[2:0]
+Encoding state machine work.crc_rx_crc(verilog)-state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\crc.v":67:0:67:5|Found counter in view:work.crc_glossy_crc(verilog) inst bit_cnt[2:0]
+Encoding state machine work.crc_glossy_crc(verilog)-state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":100:0:100:5|Found counter in view:work.zero_finding(verilog) inst bit_counter[7:0]
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":85:30:85:63|Found 5 bit by 5 bit '<' comparator, 'un1_seq0123_mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":71:18:71:37|Found 5 bit by 5 bit '<' comparator, 'un1_seq0_cal'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":72:18:72:37|Found 5 bit by 5 bit '<' comparator, 'un1_seq2_cal'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":73:18:73:37|Found 5 bit by 5 bit '<' comparator, 'un1_seq4_cal'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":74:18:74:37|Found 5 bit by 5 bit '<' comparator, 'un1_seq6_cal'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":80:20:80:49|Found 5 bit by 5 bit '<' comparator, 'un1_seq01_mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\zero_finding.v":81:20:81:49|Found 5 bit by 5 bit '<' comparator, 'un1_seq45_mim_val'
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\seq_compare.v":178:0:178:5|Found counter in view:work.sequence_compare(verilog) inst cmp_idx[2:0]
+Encoding state machine work.sequence_compare(verilog)-state[5:0]
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\seq_compare.v":93:2:93:13|Removing sequential instance state[0] of view:PrimLib.dffs(prim) because there are no references to its outputs 
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\seq_compare.v":149:8:149:31|Found 5 bit by 5 bit '<' comparator, 'next_chip_mim_val7'
+Encoding state machine work.hs_match(verilog)-state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":190:7:190:44|Found 5 bit by 5 bit '<' comparator, 'next_output_val5'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":127:24:127:57|Found 5 bit by 5 bit '<' comparator, 'un1_chip0001mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":128:24:128:57|Found 5 bit by 5 bit '<' comparator, 'un1_chip0405mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":129:24:129:57|Found 5 bit by 5 bit '<' comparator, 'un1_chip0809mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":130:24:130:57|Found 5 bit by 5 bit '<' comparator, 'un1_chip1213mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":136:22:136:63|Found 5 bit by 5 bit '<' comparator, 'un1_chip00010203mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":137:22:137:63|Found 5 bit by 5 bit '<' comparator, 'un1_chip08091011mim_val'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":110:20:110:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip00_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":111:20:111:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip02_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":112:20:112:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip04_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":113:20:113:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip06_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":114:20:114:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip08_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":115:20:115:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip10_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":116:20:116:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip12_reg'
+@N: MF179 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\hs_match.v":117:20:117:43|Found 5 bit by 5 bit '<' comparator, 'un1_chip14_reg'
+Encoding state machine work.sfd_sync(verilog)-state[5:0]
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\fifo_ctl.v":186:0:186:5|Found counter in view:work.fifo_ctl(verilog) inst txrx_turn_cnt[13:0]
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\fifo_ctl.v":526:0:526:5|Found counter in view:work.fifo_ctl(verilog) inst ack_zero_cnt[2:0]
+Encoding state machine work.fifo_ctl(verilog)-ack_gl_state_1[6:0]
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine work.fifo_ctl(verilog)-crc_state[5:0]
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine work.fifo_ctl(verilog)-ack_state[10:0]
+original code -> new code
+   0000 -> 00000000001
+   0010 -> 00000000010
+   0011 -> 00000000100
+   0100 -> 00000001000
+   0101 -> 00000010000
+   0110 -> 00000100000
+   0111 -> 00001000000
+   1000 -> 00010000000
+   1001 -> 00100000000
+   1010 -> 01000000000
+   1111 -> 10000000000
+Encoding state machine work.fifo_ctl(verilog)-glossy_state[6:0]
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine work.fifo_ctl(verilog)-own_fsm[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO106 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\chip_seq.v":47:1:47:4|Found ROM, 'seq0.seq[31:0]', 16 words by 32 bits 
+@N: MO106 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\sin_table.v":48:1:48:4|Found ROM, 't1.out_reg[7:0]', 48 words by 8 bits 
+@N: MO106 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\sin_table.v":48:1:48:4|Found ROM, 't0.out_reg[7:0]', 48 words by 8 bits 
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\fifo2wave.v":83:0:83:5|Found counter in view:work.fifo2wave(verilog) inst bit_pos[4:1]
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\crc.v":67:0:67:5|Found counter in view:work.crc_tx_crc(verilog) inst bit_cnt[2:0]
+Encoding state machine work.crc_tx_crc(verilog)-state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\idx_ctl.v":102:0:102:5|Found counter in view:work.idx_control(verilog) inst pkt_cnt[7:0]
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\idx_ctl.v":102:0:102:5|Found counter in view:work.idx_control(verilog) inst zero_cnt[2:0]
+Encoding state machine work.idx_control(verilog)-crc_state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine work.idx_control(verilog)-pkt_end_state[2:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine work.idx_control(verilog)-pkt_state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine work.idx_control(verilog)-fsm[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MF239 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\idx_ctl.v":160:12:160:47|Found 8 bit decrementor, 'pkt_state12_a_4[8:0]'
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\crc.v":67:0:67:5|Found counter in view:work.crc_tx_crc_0(verilog) inst bit_cnt[2:0]
+Encoding state machine work.crc_tx_crc_0(verilog)-state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine work.agc(verilog)-state[10:0]
+original code -> new code
+   0000 -> 00000000001
+   0001 -> 00000000010
+   0010 -> 00000000100
+   0011 -> 00000001000
+   0100 -> 00000010000
+   0101 -> 00000100000
+   0111 -> 00001000000
+   1000 -> 00010000000
+   1001 -> 00100000000
+   1010 -> 01000000000
+   1011 -> 10000000000
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\agc.v":81:0:81:5|Register bit B[6] is always 1, optimizing ...
+Encoding state machine work.agc_table2(verilog)-lna_gain[1:0]
+original code -> new code
+   10 -> 0
+   11 -> 1
+@N: MF176 |Default generator successful 
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\rssiadc.v":31:0:31:5|Found counter in view:work.serialADC(verilog) inst counter[4:0]
+Encoding state machine work.serialADC(verilog)-state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine work.max2831_spi(verilog)-fsm[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\spi_tx.v":61:0:61:5|Found counter in view:work.spi_tx(verilog) inst bit_pos[4:0]
+Encoding state machine work.spi_tx(verilog)-dat_state[2:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine work.spi_tx(verilog)-state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1581:0:1581:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I[16] is always 0, optimizing ...
+@W: MO161 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1610:0:1610:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIlIl is always 0, optimizing ...
+@W: BN132 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\correlator.v":261:0:261:5|Removing sequential instance sdrv2_top_0.cr0.crc_start,  because it is equivalent to instance sdrv2_top_0.cr0.st_state[5]
+@W: BN132 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\agc.v":81:0:81:5|Removing sequential instance sdrv2_top_0.agc0.agc_table_en,  because it is equivalent to instance sdrv2_top_0.agc0.state[4]
+Auto Dissolve of ms0 (inst of view:work.max2831_spi(verilog))
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\max2831_spi.v":76:0:76:5|Removing sequential instance ms0.rx_gain_rdy of view:PrimLib.dffs(prim) because there are no references to its outputs 
+@A: BN291 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\max2831_spi.v":76:0:76:5|Boundary register ms0.rx_gain_rdy has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+Finished factoring (Time elapsed 0h:00m:12s; Memory used current: 82MB peak: 82MB)
+
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[11] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Boundary register CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[11] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[10] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Boundary register CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[10] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[9] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Boundary register CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[9] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Boundary register CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[8] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":202:0:202:5|Removing sequential instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTIO0l[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":202:0:202:5|Boundary register CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTIO0l[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN116 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\crc.v":67:0:67:5|Removing sequential instance sdrv2_top_0.cr0.glossy_crc.out_ready of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\crc.v":67:0:67:5|Boundary register sdrv2_top_0.cr0.glossy_crc.out_ready has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: BN132 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\hdl\radio_ctl.v":299:0:299:5|Removing sequential instance sdrv2_top_0.rc0.length_int_reg,  because it is equivalent to instance sdrv2_top_0.fc0.length_int_reg
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:12s; Memory used current: 85MB peak: 87MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:14s; Memory used current: 100MB peak: 101MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:15s; Memory used current: 101MB peak: 102MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:16s; Memory used current: 101MB peak: 102MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:16s; Memory used current: 100MB peak: 102MB)
+
+Finished preparing to map (Time elapsed 0h:00m:18s; Memory used current: 121MB peak: 122MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                                  Fanout, notes                   
+--------------------------------------------------------------------------------------------
+SDR_MSS_0.MSS_ADLIB_INST / M2FRESETn                        895 : 890 asynchronous set/reset
+sdrv2_top_0.fc0.ack_gl_state_1[0] / Q                       38                              
+sdrv2_top_0.agc0.state[0] / Q                               25                              
+sdrv2_top_0.ic0.tx_crc.state[0] / Q                         32                              
+sdrv2_top_0.fc0.un1_nreset_1_0_a2 / Y                       25                              
+sdrv2_top_0.fc0.un1_nreset_2_0_a2 / Y                       25                              
+sdrv2_top_0.fc0.tx_crc.state[0] / Q                         34                              
+sdrv2_top_0.fc0.tx_crc.state[1] / Q                         32                              
+sdrv2_top_0.cr0.un1_HRESETn / Y                             676 : 676 asynchronous set/reset
+sdrv2_top_0.cr0.haddr_reg[2] / Q                            36                              
+sdrv2_top_0.cr0.haddr_reg[3] / Q                            36                              
+sdrv2_top_0.cr0.haddr_reg[4] / Q                            47                              
+sdrv2_top_0.cr0.corr_rstn / Y                               235 : 235 asynchronous set/reset
+sdrv2_top_0.cr0.cmp0.cmp_start / Q                          82                              
+sdrv2_top_0.cr0.cmp0.cmp_idx[0] / Q                         35                              
+sdrv2_top_0.cr0.cmp0.cmp_idx[1] / Q                         65                              
+sdrv2_top_0.cr0.cmp0.cmp_idx[2] / Q                         126                             
+sdrv2_top_0.cr0.cmp0.state[2] / Q                           34                              
+sdrv2_top_0.cr0.glossy_crc.state[0] / Q                     30                              
+sdrv2_top_0.cr0.rx_crc.state[0] / Q                         34                              
+sdrv2_top_0.cr0.rx_crc.state[1] / Q                         32                              
+sdrv2_top_0.cr0.sfd_sync0.idx_out[0] / Q                    30                              
+sdrv2_top_0.cr0.sfd_sync0.idx_out[1] / Q                    31                              
+sdrv2_top_0.cr0.sfd_sync0.idx_out[2] / Q                    31                              
+sdrv2_top_0.cr0.sfd_sync0.idx_out[3] / Q                    31                              
+sdrv2_top_0.cr0.sfd_sync0.idx_out[4] / Q                    31                              
+sdrv2_top_0.cr0.sfd_sync0.idx_out[5] / Q                    31                              
+sdrv2_top_0.cr0.sfd_sync0.idx_out[6] / Q                    31                              
+sdrv2_top_0.cr0.sfd_sync0.idx_out[7] / Q                    28                              
+sdrv2_top_0.cr0.f0.bit_counter_c2_0_o2 / Y                  32                              
+sdrv2_top_0.cr0.f0.in_seq012_0_a4 / Y                       31                              
+sdrv2_top_0.cr0.cmp0.next_state_0_sqmuxa_0_a3_0_a5 / Y      250                             
+sdrv2_top_0.cr0.f0.in_seq014_0_a4 / Y                       31                              
+sdrv2_top_0.cr0.f0.in_seq010_0_a4 / Y                       31                              
+sdrv2_top_0.cr0.f0.in_seq08_0_a4 / Y                        31                              
+sdrv2_top_0.cr0.f0.in_seq011_0_a4 / Y                       31                              
+sdrv2_top_0.cr0.f0.in_seq013_0_a4 / Y                       31                              
+sdrv2_top_0.cr0.f0.in_seq09_0_a4 / Y                        31                              
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTllIl113 / Y     35                              
+sdrv2_top_0.cr0.ctl_0.src_addr_0_a2_1_a4[0] / Y             48                              
+sdrv2_top_0.cr0.ctl_0.src_addr_4_sqmuxa_0_a3_0_a4 / Y       48                              
+sdrv2_top_0.cr0.ctl_0.src_addr_6_sqmuxa_0_a3_0_a4 / Y       48                              
+sdrv2_top_0.cr0.ctl_0.src_pan_3_sqmuxa_0_a3_0_a2 / Y        33                              
+sdrv2_top_0.cr0.ctl_0.src_pan_2_sqmuxa_0_a3_0_a2 / Y        33                              
+sdrv2_top_0.cr0.ctl_0.src_addr_9_m_0_a2_2_a2[63] / Y        48                              
+sdrv2_top_0.cr0.ctl_0.src_addr_5_m_0_a2_1_a2[63] / Y        48                              
+sdrv2_top_0.cr0.ctl_0.dest_addr_i_0_o4[16] / Y              61                              
+sdrv2_top_0.cr0.un1_fsm_1_0_0 / Y                           32                              
+sdrv2_top_0.cr0.un1_fsm_1_0_a2_0_a2 / Y                     33                              
+sdrv2_top_0.cr0.HRDATA_10_6_i_a2_1_a2[6] / Y                32                              
+sdrv2_top_0.cr0.ctl_0.dest_addr_i_0_o2[0] / Y               40                              
+sdrv2_top_0.rc0.un1_radio_mode_12_i_0_a2_0_a2 / Y           32                              
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIIlI_iv / Y     37                              
+============================================================================================
+
+@N: FP130 |Promoting Net sdrv2_top_0.cr0.sfd_sync0.sfd_sync_rstn on CLKINT  I_965 
+@N: FP130 |Promoting Net sdrv2_top_0.cr0.cmp0.next_state_0_sqmuxa on CLKINT  I_966 
+@N: FP130 |Promoting Net sdrv2_top_0.cr0.corr_rstn on CLKINT  I_967 
+Replicating Combinational Instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIIlI_iv, fanout 37 segments 2
+Replicating Combinational Instance sdrv2_top_0.rc0.un1_radio_mode_12_i_0_a2_0_a2, fanout 32 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.dest_addr_i_0_o2[0], fanout 40 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.HRDATA_10_6_i_a2_1_a2[6], fanout 32 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.un1_fsm_1_0_a2_0_a2, fanout 33 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.un1_fsm_1_0_0, fanout 32 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.dest_addr_i_0_o4[16], fanout 61 segments 3
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.src_addr_5_m_0_a2_1_a2[63], fanout 48 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.src_addr_9_m_0_a2_2_a2[63], fanout 48 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.src_pan_2_sqmuxa_0_a3_0_a2, fanout 33 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.src_pan_3_sqmuxa_0_a3_0_a2, fanout 33 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.src_addr_6_sqmuxa_0_a3_0_a4, fanout 48 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.src_addr_4_sqmuxa_0_a3_0_a4, fanout 48 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.ctl_0.src_addr_0_a2_1_a4[0], fanout 48 segments 2
+Replicating Combinational Instance CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTllIl113, fanout 35 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.f0.in_seq09_0_a4, fanout 31 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.f0.in_seq013_0_a4, fanout 31 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.f0.in_seq011_0_a4, fanout 31 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.f0.in_seq08_0_a4, fanout 31 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.f0.in_seq010_0_a4, fanout 31 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.f0.in_seq014_0_a4, fanout 31 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.f0.in_seq012_0_a4, fanout 31 segments 2
+Replicating Combinational Instance sdrv2_top_0.cr0.f0.bit_counter_c2_0_o2, fanout 32 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.sfd_sync0.idx_out[7], fanout 28 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.sfd_sync0.idx_out[6], fanout 31 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.sfd_sync0.idx_out[5], fanout 31 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.sfd_sync0.idx_out[4], fanout 31 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.sfd_sync0.idx_out[3], fanout 31 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.sfd_sync0.idx_out[2], fanout 31 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.sfd_sync0.idx_out[1], fanout 31 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.sfd_sync0.idx_out[0], fanout 30 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.rx_crc.state[1], fanout 32 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.rx_crc.state[0], fanout 34 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.glossy_crc.state[0], fanout 30 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.cmp0.state[2], fanout 34 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.cmp0.cmp_idx[2], fanout 126 segments 6
+Replicating Sequential Instance sdrv2_top_0.cr0.cmp0.cmp_idx[1], fanout 65 segments 3
+Replicating Sequential Instance sdrv2_top_0.cr0.cmp0.cmp_idx[0], fanout 35 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.cmp0.cmp_start, fanout 82 segments 4
+Replicating Sequential Instance sdrv2_top_0.cr0.haddr_reg[4], fanout 49 segments 3
+Replicating Sequential Instance sdrv2_top_0.cr0.haddr_reg[3], fanout 38 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.haddr_reg[2], fanout 38 segments 2
+Replicating Sequential Instance sdrv2_top_0.fc0.tx_crc.state[1], fanout 32 segments 2
+Replicating Sequential Instance sdrv2_top_0.fc0.tx_crc.state[0], fanout 34 segments 2
+Replicating Combinational Instance sdrv2_top_0.fc0.un1_nreset_2_0_a2, fanout 25 segments 2
+Replicating Combinational Instance sdrv2_top_0.fc0.un1_nreset_1_0_a2, fanout 25 segments 2
+Replicating Sequential Instance sdrv2_top_0.ic0.tx_crc.state[0], fanout 32 segments 2
+Replicating Sequential Instance sdrv2_top_0.agc0.state[0], fanout 25 segments 2
+Replicating Sequential Instance sdrv2_top_0.fc0.ack_gl_state_1[0], fanout 38 segments 2
+Replicating Sequential Instance sdrv2_top_0.cr0.FCF_reg[6], fanout 27 segments 2
+Finished technology mapping (Time elapsed 0h:00m:20s; Memory used current: 142MB peak: 147MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:21s; Memory used current: 142MB peak: 147MB)
+
+
+Added 0 Buffers
+Added 59 Cells via replication
+	Added 33 Sequential Cells via replication
+	Added 26 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:21s; Memory used current: 143MB peak: 147MB)
+
+Writing Analyst data base C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:22s; Memory used current: 134MB peak: 147MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:23s; Memory used current: 136MB peak: 147MB)
+
+@W: MT246 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\work\sdr_mss\sdr_mss.v":335:11:335:23|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\work\sdr_mss\sdr_mss.v":312:54:312:65|Blackbox TRIBUFF_MSS is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\actelprj\sdrv2_radio_on_linux_asynrst\component\work\sdr_mss\mss_ccc_0\sdr_mss_tmp_mss_ccc_0_mss_ccc.v":95:15:95:22|Blackbox MSS_XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock SDR_MSS|MSS_ADLIB_INST_EMCCLK_inferred_clock with period 16.67ns. A user-defined clock should be declared on object "n:SDR_MSS_0.MSS_ADLIB_INST_EMCCLK"
+
+@W: MT420 |Found inferred clock SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_MACCLKCCC_inferred_clock with period 16.67ns. A user-defined clock should be declared on object "n:SDR_MSS_0.MSS_ADLIB_INST_MACCLKCCC"
+
+@W: MT420 |Found inferred clock SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock with period 16.67ns. A user-defined clock should be declared on object "n:SDR_MSS_0.MSS_ADLIB_INST_FCLK"
+
+Found clock SDR_MSS_0.MSS_CCC_0.FAB_CLK with period 16.67ns 
+Found clock SDR_MSS_0.MSS_CCC_0.GLB with period 62.50ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Dec 16 10:07:36 2013
+#
+
+
+Top view:               Top
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    16.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Actelprj\SDRv2_radio_on_linux_asynrst\constraint\clock_constraint.sdc
+                       
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -5.646
+
+                                                                     Requested     Estimated      Requested     Estimated                Clock        Clock              
+Starting Clock                                                       Frequency     Frequency      Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSS_CCC_0.FAB_CLK                                          60.0 MHz      44.8 MHz       16.667        22.313        -5.646     declared     default_clkgroup_0 
+SDR_MSS_0.MSS_CCC_0.GLB                                              16.0 MHz      26.5 MHz       62.500        37.796        24.704     declared     default_clkgroup_1 
+SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     60.0 MHz      201.4 MHz      16.667        4.964         11.702     inferred     Inferred_clkgroup_1
+System                                                               60.0 MHz      3110.4 MHz     16.667        0.322         16.345     system       system_clkgroup    
+=========================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                          Ending                                                            |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                            System                                                            |  16.667      16.345  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                            SDR_MSS_0.MSS_CCC_0.FAB_CLK                                       |  16.667      14.173  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                            SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  |  16.667      15.829  |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_0.MSS_CCC_0.FAB_CLK                                       System                                                            |  16.667      12.840  |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_0.MSS_CCC_0.FAB_CLK                                       SDR_MSS_0.MSS_CCC_0.FAB_CLK                                       |  16.667      -5.647  |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_0.MSS_CCC_0.FAB_CLK                                       SDR_MSS_0.MSS_CCC_0.GLB                                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_0.MSS_CCC_0.FAB_CLK                                       SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_0.MSS_CCC_0.GLB                                           System                                                            |  62.500      61.377  |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_0.MSS_CCC_0.GLB                                           SDR_MSS_0.MSS_CCC_0.FAB_CLK                                       |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_0.MSS_CCC_0.GLB                                           SDR_MSS_0.MSS_CCC_0.GLB                                           |  62.500      24.704  |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  System                                                            |  16.667      11.702  |  No paths    -      |  No paths    -      |  No paths    -    
+SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  SDR_MSS_0.MSS_CCC_0.FAB_CLK                                       |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: SDR_MSS_0.MSS_CCC_0.FAB_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                                Arrival           
+Instance                                                 Reference                       Type         Pin     Net                Time        Slack 
+                                                         Clock                                                                                     
+---------------------------------------------------------------------------------------------------------------------------------------------------
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I         SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1C0       Q       CAHBLTOI0I         0.737       -5.646
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[18]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     Q       CAHBLTI1lI[18]     0.737       -3.707
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[19]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     Q       CAHBLTI1lI[19]     0.737       -3.385
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[16]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     Q       CAHBLTI1lI[16]     0.737       -2.796
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[17]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     Q       CAHBLTI1lI[17]     0.737       -2.657
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I         SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1C0       Q       CAHBLTIO0I         0.737       -2.615
+sdrv2_top_0.rc0.turn_cnt[8]                              SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1C0       Q       turn_cnt[8]        0.737       -1.919
+sdrv2_top_0.rc0.turn_cnt[13]                             SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1C0       Q       turn_cnt[13]       0.737       -1.823
+sdrv2_top_0.rc0.turn_cnt[12]                             SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1C0       Q       turn_cnt[12]       0.737       -1.820
+sdrv2_top_0.rc0.turn_cnt[7]                              SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1C0       Q       turn_cnt[7]        0.737       -1.780
+===================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                        Starting                                                                    Required           
+Instance                                                Reference                       Type         Pin     Net                    Time         Slack 
+                                                        Clock                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I        SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1C0       D       CAHBLTIO0I_RNO         16.128       -5.646
+sdrv2_top_0.cr0.HREADYOUT                               SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1P0     E       un1_TYPE_BEACON_21     16.058       -5.033
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[0]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     E       CAHBLTO1lI             16.232       -4.858
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[1]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     E       CAHBLTO1lI             16.232       -4.858
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[2]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     E       CAHBLTO1lI             16.232       -4.858
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[3]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     E       CAHBLTO1lI             16.232       -4.858
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[4]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     E       CAHBLTO1lI             16.232       -4.858
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[5]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     E       CAHBLTO1lI             16.232       -4.858
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[6]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     E       CAHBLTO1lI             16.232       -4.858
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[7]     SDR_MSS_0.MSS_CCC_0.FAB_CLK     DFN1E1C0     E       CAHBLTO1lI             16.232       -4.858
+=======================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      16.667
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.128
+
+    - Propagation time:                      21.774
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.646
+
+    Number of logic level(s):                14
+    Starting point:                          CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I / Q
+    Ending point:                            CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I / D
+    The start point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I                                DFN1C0     Q        Out     0.737     0.737       -         
+CAHBLTOI0I                                                                      Net        -        -       2.437     -           23        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI2VDI[18]                    MX2        S        In      -         3.174       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI2VDI[18]                    MX2        Y        Out     0.396     3.570       -         
+CAHBLTI0ll[18]                                                                  Net        -        -       1.669     -           9         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      A        In      -         5.238       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      Y        Out     0.627     5.866       -         
+N_79                                                                            Net        -        -       1.184     -           4         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      B        In      -         7.049       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      Y        Out     0.627     7.677       -         
+CAHBLTl1II_0[7]                                                                 Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNIJI6O2_1                     NOR2B      A        In      -         8.483       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNIJI6O2_1                     NOR2B      Y        Out     0.514     8.998       -         
+CAHBLTO1lII                                                                     Net        -        -       1.639     -           8         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      A        In      -         10.636      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      Y        Out     0.627     11.264      -         
+N_92                                                                            Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNI24OD3[0]         NOR2B      A        In      -         11.650      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNI24OD3[0]         NOR2B      Y        Out     0.514     12.164      -         
+CAHBLTllOI_RNI24OD3[0]                                                          Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIGTSG3[2]         NOR2       A        In      -         12.486      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIGTSG3[2]         NOR2       Y        Out     0.507     12.993      -         
+N_102                                                                           Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIR5MU6[2]         OR2B       B        In      -         13.379      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIR5MU6[2]         OR2B       Y        Out     0.516     13.895      -         
+CAHBLTOO0l[1]                                                                   Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIQ5OQ9[2]         AO1B       B        In      -         14.701      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIQ5OQ9[2]         AO1B       Y        Out     0.596     15.297      -         
+CAHBLTl1lII                                                                     Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_1                       NOR2B      A        In      -         15.619      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_1                       NOR2B      Y        Out     0.514     16.133      -         
+un1_CAHBLTlI0I_17_1                                                             Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       A        In      -         16.455      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       Y        Out     0.514     16.969      -         
+un1_CAHBLTlI0I_17                                                               Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      B        In      -         17.355      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      Y        Out     0.516     17.871      -         
+CAHBLTO1lI14                                                                    Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      A        In      -         18.192      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      Y        Out     0.516     18.709      -         
+CAHBLTO1lI                                                                      Net        -        -       2.381     -           21        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        A        In      -         21.090      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        Y        Out     0.363     21.453      -         
+CAHBLTIO0I_RNO                                                                  Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I                                DFN1C0     D        In      -         21.774      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 22.313 is 8.627(38.7%) logic and 13.687(61.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      16.667
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.128
+
+    - Propagation time:                      21.660
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -5.532
+
+    Number of logic level(s):                13
+    Starting point:                          CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I / Q
+    Ending point:                            CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I / D
+    The start point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I                                DFN1C0     Q        Out     0.737     0.737       -         
+CAHBLTOI0I                                                                      Net        -        -       2.437     -           23        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI2VDI[18]                    MX2        S        In      -         3.174       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI2VDI[18]                    MX2        Y        Out     0.396     3.570       -         
+CAHBLTI0ll[18]                                                                  Net        -        -       1.669     -           9         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      A        In      -         5.238       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      Y        Out     0.627     5.866       -         
+N_79                                                                            Net        -        -       1.184     -           4         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      B        In      -         7.049       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      Y        Out     0.627     7.677       -         
+CAHBLTl1II_0[7]                                                                 Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNIJI6O2[16]                   NOR3B      B        In      -         8.483       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNIJI6O2[16]                   NOR3B      Y        Out     0.607     9.090       -         
+CAHBLTIl0II                                                                     Net        -        -       1.639     -           8         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      A        In      -         10.729      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      Y        Out     0.627     11.356      -         
+N_73                                                                            Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIHMTD3[2]         AOI1       A        In      -         11.742      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIHMTD3[2]         AOI1       Y        Out     0.911     12.652      -         
+N_83                                                                            Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIIFNP6[2]         OR2B       B        In      -         13.038      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIIFNP6[2]         OR2B       Y        Out     0.516     13.554      -         
+CAHBLTOO0l[1]                                                                   Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIQ5NR9[2]         AO1B       B        In      -         14.361      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIQ5NR9[2]         AO1B       Y        Out     0.596     14.957      -         
+CAHBLTO00II                                                                     Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_0                       NOR2B      B        In      -         15.278      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_0                       NOR2B      Y        Out     0.627     15.906      -         
+un1_CAHBLTlI0I_17_0                                                             Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       B        In      -         16.227      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       Y        Out     0.627     16.855      -         
+un1_CAHBLTlI0I_17                                                               Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      B        In      -         17.240      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      Y        Out     0.516     17.756      -         
+CAHBLTO1lI14                                                                    Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      A        In      -         18.078      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      Y        Out     0.516     18.594      -         
+CAHBLTO1lI                                                                      Net        -        -       2.381     -           21        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        A        In      -         20.975      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        Y        Out     0.363     21.338      -         
+CAHBLTIO0I_RNO                                                                  Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I                                DFN1C0     D        In      -         21.660      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 22.199 is 8.834(39.8%) logic and 13.365(60.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      16.667
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.128
+
+    - Propagation time:                      21.616
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -5.488
+
+    Number of logic level(s):                14
+    Starting point:                          CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I / Q
+    Ending point:                            CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I / D
+    The start point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I                                DFN1C0     Q        Out     0.737     0.737       -         
+CAHBLTOI0I                                                                      Net        -        -       2.437     -           23        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI33EI[19]                    MX2        S        In      -         3.174       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI33EI[19]                    MX2        Y        Out     0.480     3.653       -         
+CAHBLTI0ll[19]                                                                  Net        -        -       1.669     -           9         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      B        In      -         5.322       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      Y        Out     0.386     5.707       -         
+N_79                                                                            Net        -        -       1.184     -           4         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      B        In      -         6.891       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      Y        Out     0.627     7.519       -         
+CAHBLTl1II_0[7]                                                                 Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNIJI6O2_1                     NOR2B      A        In      -         8.325       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNIJI6O2_1                     NOR2B      Y        Out     0.514     8.839       -         
+CAHBLTO1lII                                                                     Net        -        -       1.639     -           8         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      A        In      -         10.478      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      Y        Out     0.627     11.106      -         
+N_92                                                                            Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNI24OD3[0]         NOR2B      A        In      -         11.491      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNI24OD3[0]         NOR2B      Y        Out     0.514     12.006      -         
+CAHBLTllOI_RNI24OD3[0]                                                          Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIGTSG3[2]         NOR2       A        In      -         12.327      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIGTSG3[2]         NOR2       Y        Out     0.507     12.835      -         
+N_102                                                                           Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIR5MU6[2]         OR2B       B        In      -         13.220      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIR5MU6[2]         OR2B       Y        Out     0.516     13.737      -         
+CAHBLTOO0l[1]                                                                   Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIQ5OQ9[2]         AO1B       B        In      -         14.543      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTI1O0l.CAHBLTlI0l.CAHBLTllOI_RNIQ5OQ9[2]         AO1B       Y        Out     0.596     15.139      -         
+CAHBLTl1lII                                                                     Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_1                       NOR2B      A        In      -         15.461      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_1                       NOR2B      Y        Out     0.514     15.975      -         
+un1_CAHBLTlI0I_17_1                                                             Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       A        In      -         16.297      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       Y        Out     0.514     16.811      -         
+un1_CAHBLTlI0I_17                                                               Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      B        In      -         17.197      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      Y        Out     0.516     17.713      -         
+CAHBLTO1lI14                                                                    Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      A        In      -         18.034      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      Y        Out     0.516     18.550      -         
+CAHBLTO1lI                                                                      Net        -        -       2.381     -           21        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        A        In      -         20.932      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        Y        Out     0.363     21.295      -         
+CAHBLTIO0I_RNO                                                                  Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I                                DFN1C0     D        In      -         21.616      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 22.155 is 8.468(38.2%) logic and 13.687(61.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      16.667
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.128
+
+    - Propagation time:                      21.502
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -5.374
+
+    Number of logic level(s):                13
+    Starting point:                          CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I / Q
+    Ending point:                            CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I / D
+    The start point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I                                DFN1C0     Q        Out     0.737     0.737       -         
+CAHBLTOI0I                                                                      Net        -        -       2.437     -           23        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI33EI[19]                    MX2        S        In      -         3.174       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI33EI[19]                    MX2        Y        Out     0.480     3.653       -         
+CAHBLTI0ll[19]                                                                  Net        -        -       1.669     -           9         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      B        In      -         5.322       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      Y        Out     0.386     5.707       -         
+N_79                                                                            Net        -        -       1.184     -           4         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      B        In      -         6.891       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      Y        Out     0.627     7.519       -         
+CAHBLTl1II_0[7]                                                                 Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNIJI6O2[16]                   NOR3B      B        In      -         8.325       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNIJI6O2[16]                   NOR3B      Y        Out     0.607     8.931       -         
+CAHBLTIl0II                                                                     Net        -        -       1.639     -           8         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      A        In      -         10.570      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      Y        Out     0.627     11.198      -         
+N_73                                                                            Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIHMTD3[2]         AOI1       A        In      -         11.584      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIHMTD3[2]         AOI1       Y        Out     0.911     12.494      -         
+N_83                                                                            Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIIFNP6[2]         OR2B       B        In      -         12.880      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIIFNP6[2]         OR2B       Y        Out     0.516     13.396      -         
+CAHBLTOO0l[1]                                                                   Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIQ5NR9[2]         AO1B       B        In      -         14.203      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNIQ5NR9[2]         AO1B       Y        Out     0.596     14.799      -         
+CAHBLTO00II                                                                     Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_0                       NOR2B      B        In      -         15.120      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_0                       NOR2B      Y        Out     0.627     15.748      -         
+un1_CAHBLTlI0I_17_0                                                             Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       B        In      -         16.069      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       Y        Out     0.627     16.696      -         
+un1_CAHBLTlI0I_17                                                               Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      B        In      -         17.082      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      Y        Out     0.516     17.598      -         
+CAHBLTO1lI14                                                                    Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      A        In      -         17.920      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      Y        Out     0.516     18.436      -         
+CAHBLTO1lI                                                                      Net        -        -       2.381     -           21        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        A        In      -         20.817      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        Y        Out     0.363     21.180      -         
+CAHBLTIO0I_RNO                                                                  Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I                                DFN1C0     D        In      -         21.502      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 22.040 is 8.675(39.4%) logic and 13.365(60.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      16.667
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.128
+
+    - Propagation time:                      21.455
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -5.327
+
+    Number of logic level(s):                13
+    Starting point:                          CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I / Q
+    Ending point:                            CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I / D
+    The start point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I                                DFN1C0     Q        Out     0.737     0.737       -         
+CAHBLTOI0I                                                                      Net        -        -       2.437     -           23        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI2VDI[18]                    MX2        S        In      -         3.174       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNI2VDI[18]                    MX2        Y        Out     0.396     3.570       -         
+CAHBLTI0ll[18]                                                                  Net        -        -       1.669     -           9         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      A        In      -         5.238       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_22_sqmuxa_0_a2_0     NOR2A      Y        Out     0.627     5.866       -         
+N_79                                                                            Net        -        -       1.184     -           4         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      B        In      -         7.049       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNII0BJ1                       NOR2B      Y        Out     0.627     7.677       -         
+CAHBLTl1II_0[7]                                                                 Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNIJI6O2_0                     NOR2B      A        In      -         8.483       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNIJI6O2_0                     NOR2B      Y        Out     0.514     8.998       -         
+CAHBLTlO1II                                                                     Net        -        -       1.639     -           8         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOOI0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      A        In      -         10.636      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOOI0l.CAHBLTlI0l.CAHBLTllOI_ns_o3[0]            NOR2A      Y        Out     0.627     11.264      -         
+N_73                                                                            Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOOI0l.CAHBLTlI0l.CAHBLTllOI_RNIMLVU3[2]         AOI1       A        In      -         11.650      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOOI0l.CAHBLTlI0l.CAHBLTllOI_RNIMLVU3[2]         AOI1       Y        Out     0.911     12.560      -         
+N_83                                                                            Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOOI0l.CAHBLTlI0l.CAHBLTllOI_RNI5E5M7[2]         OR2B       B        In      -         12.946      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOOI0l.CAHBLTlI0l.CAHBLTllOI_RNI5E5M7[2]         OR2B       Y        Out     0.516     13.462      -         
+CAHBLTOO0l[1]                                                                   Net        -        -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOOI0l.CAHBLTlI0l.CAHBLTllOI_RNICJSFA[2]         AO1B       B        In      -         14.269      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTOOI0l.CAHBLTlI0l.CAHBLTllOI_RNICJSFA[2]         AO1B       Y        Out     0.596     14.865      -         
+CAHBLTII1II                                                                     Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_0                       NOR2B      A        In      -         15.186      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17_0                       NOR2B      Y        Out     0.514     15.701      -         
+un1_CAHBLTlI0I_17_0                                                             Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       B        In      -         16.022      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.un1_CAHBLTlI0I_17                         OR2B       Y        Out     0.627     16.650      -         
+un1_CAHBLTlI0I_17                                                               Net        -        -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      B        In      -         17.035      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1_RNICN9BP1            NOR2B      Y        Out     0.516     17.551      -         
+CAHBLTO1lI14                                                                    Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      A        In      -         17.873      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOI0I_RNIVMNEP1                      NOR2A      Y        Out     0.516     18.389      -         
+CAHBLTO1lI                                                                      Net        -        -       2.381     -           21        
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        A        In      -         20.770      -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNO                            OR2        Y        Out     0.363     21.133      -         
+CAHBLTIO0I_RNO                                                                  Net        -        -       0.322     -           1         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I                                DFN1C0     D        In      -         21.455      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 21.993 is 8.628(39.2%) logic and 13.365(60.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: SDR_MSS_0.MSS_CCC_0.GLB
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                      Arrival           
+Instance                           Reference                   Type         Pin     Net          Time        Slack 
+                                   Clock                                                                           
+-------------------------------------------------------------------------------------------------------------------
+sdrv2_top_0.cr0.f0.in_seq2[21]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq2[21]     0.737       24.704
+sdrv2_top_0.cr0.f0.in_seq5[18]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq5[18]     0.737       24.718
+sdrv2_top_0.cr0.f0.in_seq2[15]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq2[15]     0.737       24.843
+sdrv2_top_0.cr0.f0.in_seq2[19]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq2[19]     0.737       25.053
+sdrv2_top_0.cr0.f0.in_seq5[17]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq5[17]     0.737       25.067
+sdrv2_top_0.cr0.f0.in_seq2[14]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq2[14]     0.737       25.192
+sdrv2_top_0.cr0.f0.in_seq2[20]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq2[20]     0.737       25.201
+sdrv2_top_0.cr0.f0.in_seq5[16]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq5[16]     0.737       25.215
+sdrv2_top_0.cr0.f0.in_seq5[15]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq5[15]     0.737       25.260
+sdrv2_top_0.cr0.f0.in_seq2[18]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1E1C0     Q       seq2[18]     0.737       25.284
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                      Starting                                                                  Required           
+Instance                              Reference                   Type       Pin     Net                        Time         Slack 
+                                      Clock                                                                                        
+-----------------------------------------------------------------------------------------------------------------------------------
+sdrv2_top_0.cr0.f0.bit_counter[3]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_20                       61.926       24.704
+sdrv2_top_0.cr0.f0.bit_counter[7]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_28                       61.926       24.704
+sdrv2_top_0.cr0.f0.bit_counter[0]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_14                       61.926       24.872
+sdrv2_top_0.cr0.f0.bit_counter[1]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_16                       61.926       25.043
+sdrv2_top_0.cr0.f0.bit_counter[2]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_18                       61.926       25.043
+sdrv2_top_0.cr0.f0.bit_counter[4]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_22                       61.926       25.043
+sdrv2_top_0.cr0.f0.bit_counter[5]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_24                       61.926       25.043
+sdrv2_top_0.cr0.f0.bit_counter[6]     SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_26                       61.926       25.043
+sdrv2_top_0.cr0.f0.zero_found         SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       N_43                       61.961       27.160
+sdrv2_top_0.fm0.mult_res0[16]         SDR_MSS_0.MSS_CCC_0.GLB     DFN1C0     D       ADD_18x18_slow_I16_S_0     61.926       31.744
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      62.500
+    - Setup time:                            0.574
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         61.926
+
+    - Propagation time:                      37.223
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 24.704
+
+    Number of logic level(s):                27
+    Starting point:                          sdrv2_top_0.cr0.f0.in_seq2[21] / Q
+    Ending point:                            sdrv2_top_0.cr0.f0.bit_counter[3] / D
+    The start point is clocked by            SDR_MSS_0.MSS_CCC_0.GLB [rising] on pin CLK
+    The end   point is clocked by            SDR_MSS_0.MSS_CCC_0.GLB [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+sdrv2_top_0.cr0.f0.in_seq2[21]                    DFN1E1C0     Q        Out     0.737     0.737       -         
+seq2[21]                                          Net          -        -       1.184     -           4         
+sdrv2_top_0.cr0.f0.N_259_1.SUM0_0                 XOR3         C        In      -         1.921       -         
+sdrv2_top_0.cr0.f0.N_259_1.SUM0_0                 XOR3         Y        Out     0.985     2.906       -         
+N_4074                                            Net          -        -       0.386     -           2         
+sdrv2_top_0.cr0.f0.N_277_0_0_1.SUM0_0             XNOR3        C        In      -         3.292       -         
+sdrv2_top_0.cr0.f0.N_277_0_0_1.SUM0_0             XNOR3        Y        Out     0.985     4.277       -         
+N_5285_i                                          Net          -        -       0.806     -           3         
+sdrv2_top_0.cr0.f0.N_287_20                       NOR2         B        In      -         5.083       -         
+sdrv2_top_0.cr0.f0.N_287_20                       NOR2         Y        Out     0.646     5.730       -         
+CO0_11                                            Net          -        -       0.386     -           2         
+sdrv2_top_0.cr0.f0.N_288_0_0_1.CO0_i              MIN3         B        In      -         6.116       -         
+sdrv2_top_0.cr0.f0.N_288_0_0_1.CO0_i              MIN3         Y        Out     0.984     7.099       -         
+N_7_16                                            Net          -        -       0.386     -           2         
+sdrv2_top_0.cr0.f0.N_288_0_0_1.SUM1_0             XOR3         C        In      -         7.485       -         
+sdrv2_top_0.cr0.f0.N_288_0_0_1.SUM1_0             XOR3         Y        Out     0.985     8.471       -         
+N_5451_i                                          Net          -        -       0.806     -           3         
+sdrv2_top_0.cr0.f0.N_293_0_0_0                    XOR2         A        In      -         9.277       -         
+sdrv2_top_0.cr0.f0.N_293_0_0_0                    XOR2         Y        Out     0.488     9.765       -         
+N_5325                                            Net          -        -       0.386     -           2         
+sdrv2_top_0.cr0.f0.N_293_0_0_1.SUM0_0_0_x3        XOR2         B        In      -         10.151      -         
+sdrv2_top_0.cr0.f0.N_293_0_0_1.SUM0_0_0_x3        XOR2         Y        Out     0.937     11.088      -         
+N_5327                                            Net          -        -       0.386     -           2         
+sdrv2_top_0.cr0.f0.seq2_cal_0_0_1.CO0_i           MAJ3         A        In      -         11.474      -         
+sdrv2_top_0.cr0.f0.seq2_cal_0_0_1.CO0_i           MAJ3         Y        Out     0.396     11.870      -         
+N_7_i_0                                           Net          -        -       0.386     -           2         
+sdrv2_top_0.cr0.f0.seq2_cal_0_0_1.CO1_i           MIN3         B        In      -         12.256      -         
+sdrv2_top_0.cr0.f0.seq2_cal_0_0_1.CO1_i           MIN3         Y        Out     0.984     13.239      -         
+N_5_35                                            Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.b2.out_17.SUM4_0               AX1D         C        In      -         13.561      -         
+sdrv2_top_0.cr0.f0.b2.out_17.SUM4_0               AX1D         Y        Out     0.405     13.966      -         
+seq2_cal[4]                                       Net          -        -       0.806     -           3         
+sdrv2_top_0.cr0.f0.un1_seq2_cal_0.I_4             OR2A         B        In      -         14.772      -         
+sdrv2_top_0.cr0.f0.un1_seq2_cal_0.I_4             OR2A         Y        Out     0.646     15.419      -         
+N_7_48                                            Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.un1_seq2_cal_0.I_9             AO1C         C        In      -         15.740      -         
+sdrv2_top_0.cr0.f0.un1_seq2_cal_0.I_9             AO1C         Y        Out     0.633     16.373      -         
+N_12_4                                            Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.un1_seq2_cal_0.I_11            OA1          B        In      -         16.694      -         
+sdrv2_top_0.cr0.f0.un1_seq2_cal_0.I_11            OA1          Y        Out     0.902     17.596      -         
+I_11_4                                            Net          -        -       1.279     -           5         
+sdrv2_top_0.cr0.f0.seq23_mim_val[1]               MX2          S        In      -         18.875      -         
+sdrv2_top_0.cr0.f0.seq23_mim_val[1]               MX2          Y        Out     0.480     19.355      -         
+seq23_mim_val[1]                                  Net          -        -       0.806     -           3         
+sdrv2_top_0.cr0.f0.un1_seq01_mim_val_0.I_1        OR2A         A        In      -         20.162      -         
+sdrv2_top_0.cr0.f0.un1_seq01_mim_val_0.I_1        OR2A         Y        Out     0.537     20.698      -         
+N_4_0                                             Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.un1_seq01_mim_val_0.I_7        AO1C         C        In      -         21.020      -         
+sdrv2_top_0.cr0.f0.un1_seq01_mim_val_0.I_7        AO1C         Y        Out     0.633     21.653      -         
+N_10_11                                           Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.un1_seq01_mim_val_0.I_10       OA1A         B        In      -         21.974      -         
+sdrv2_top_0.cr0.f0.un1_seq01_mim_val_0.I_10       OA1A         Y        Out     0.902     22.876      -         
+N_13_0                                            Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.un1_seq01_mim_val_0.I_11       OA1          A        In      -         23.198      -         
+sdrv2_top_0.cr0.f0.un1_seq01_mim_val_0.I_11       OA1          Y        Out     0.984     24.181      -         
+I_11_1                                            Net          -        -       1.279     -           5         
+sdrv2_top_0.cr0.f0.seq0123_mim_val[1]             MX2          S        In      -         25.461      -         
+sdrv2_top_0.cr0.f0.seq0123_mim_val[1]             MX2          Y        Out     0.396     25.857      -         
+seq0123_mim_val[1]                                Net          -        -       0.806     -           3         
+sdrv2_top_0.cr0.f0.un1_seq0123_mim_val_0.I_1      OR2A         B        In      -         26.663      -         
+sdrv2_top_0.cr0.f0.un1_seq0123_mim_val_0.I_1      OR2A         Y        Out     0.646     27.310      -         
+N_4_5                                             Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.un1_seq0123_mim_val_0.I_7      AO1C         C        In      -         27.631      -         
+sdrv2_top_0.cr0.f0.un1_seq0123_mim_val_0.I_7      AO1C         Y        Out     0.633     28.264      -         
+N_10_16                                           Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.un1_seq0123_mim_val_0.I_10     OA1A         B        In      -         28.585      -         
+sdrv2_top_0.cr0.f0.un1_seq0123_mim_val_0.I_10     OA1A         Y        Out     0.902     29.487      -         
+N_13_5                                            Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.un1_seq0123_mim_val_0.I_11     OA1          A        In      -         29.809      -         
+sdrv2_top_0.cr0.f0.un1_seq0123_mim_val_0.I_11     OA1          Y        Out     0.984     30.792      -         
+I_11                                              Net          -        -       1.279     -           5         
+sdrv2_top_0.cr0.f0.seq_tot_mim_val[2]             MX2C         S        In      -         32.072      -         
+sdrv2_top_0.cr0.f0.seq_tot_mim_val[2]             MX2C         Y        Out     0.480     32.551      -         
+seq_tot_mim_val[2]                                Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.in_seq1_RNI46VV8V2[30]         AO1          C        In      -         32.873      -         
+sdrv2_top_0.cr0.f0.in_seq1_RNI46VV8V2[30]         AO1          Y        Out     0.655     33.528      -         
+un1_seq_tot_mim_vallt4                            Net          -        -       0.386     -           2         
+sdrv2_top_0.cr0.f0.zero_found_RNICFI2SJ2          NOR3B        A        In      -         33.914      -         
+sdrv2_top_0.cr0.f0.zero_found_RNICFI2SJ2          NOR3B        Y        Out     0.666     34.579      -         
+N_44                                              Net          -        -       1.639     -           8         
+sdrv2_top_0.cr0.f0.bit_counter_RNO[3]             NOR3         C        In      -         36.218      -         
+sdrv2_top_0.cr0.f0.bit_counter_RNO[3]             NOR3         Y        Out     0.683     36.901      -         
+N_20                                              Net          -        -       0.322     -           1         
+sdrv2_top_0.cr0.f0.bit_counter[3]                 DFN1C0       D        In      -         37.223      -         
+================================================================================================================
+Total path delay (propagation time + setup) of 37.796 is 20.867(55.2%) logic and 16.929(44.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                                                        Arrival           
+Instance                     Reference                                                            Type        Pin         Net                Time        Slack 
+                             Clock                                                                                                                             
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSS_ADLIB_INST     SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_AHB     SPI1DO      MSS_SPI_1_DO_D     4.643       11.702
+SDR_MSS_0.MSS_ADLIB_INST     SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_AHB     SPI1DOE     MSS_SPI_1_DO_E     4.318       12.027
+SDR_MSS_0.MSS_ADLIB_INST     SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_AHB     GPO[6]      MSSINT_GPO_6_A     4.132       12.213
+SDR_MSS_0.MSS_ADLIB_INST     SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_AHB     GPO[7]      MSSINT_GPO_7_A     4.132       12.213
+===============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                                                        Required           
+Instance                   Reference                                                            Type            Pin     Net                Time         Slack 
+                           Clock                                                                                                                              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSS_SPI_1_DO     SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     TRIBUFF_MSS     D       MSS_SPI_1_DO_D     16.667       11.702
+SDR_MSS_0.MSS_SPI_1_DO     SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     TRIBUFF_MSS     E       MSS_SPI_1_DO_E     16.667       12.027
+SDR_MSS_0.MSSINT_GPO_6     SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSSINT          A       MSSINT_GPO_6_A     16.667       12.213
+SDR_MSS_0.MSSINT_GPO_7     SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSSINT          A       MSSINT_GPO_7_A     16.667       12.213
+==============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      16.667
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         16.667
+
+    - Propagation time:                      4.965
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 11.702
+
+    Number of logic level(s):                0
+    Starting point:                          SDR_MSS_0.MSS_ADLIB_INST / SPI1DO
+    Ending point:                            SDR_MSS_0.MSS_SPI_1_DO / D
+    The start point is clocked by            SDR_MSS_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock [rising] on pin FCLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                               Pin        Pin               Arrival     No. of    
+Name                         Type            Name       Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSS_ADLIB_INST     MSS_AHB         SPI1DO     Out     4.643     4.643       -         
+MSS_SPI_1_DO_D               Net             -          -       0.322     -           1         
+SDR_MSS_0.MSS_SPI_1_DO       TRIBUFF_MSS     D          In      -         4.965       -         
+================================================================================================
+Total path delay (propagation time + setup) of 4.965 is 4.643(93.5%) logic and 0.322(6.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                             Arrival           
+Instance                    Reference     Type       Pin     Net                 Time        Slack 
+                            Clock                                                                  
+---------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSSINT_GPO_7      System        MSSINT     Y       TEST_PTS_c[9]       0.000       14.173
+SDR_MSS_0.MSSINT_GPI_16     System        MSSINT     Y       MSSINT_GPI_16_Y     0.000       15.829
+SDR_MSS_0.MSSINT_GPI_17     System        MSSINT     Y       MSSINT_GPI_17_Y     0.000       15.829
+SDR_MSS_0.MSSINT_GPI_19     System        MSSINT     Y       MSSINT_GPI_19_Y     0.000       15.829
+SDR_MSS_0.MSSINT_GPI_23     System        MSSINT     Y       MSSINT_GPI_23_Y     0.000       15.829
+SDR_MSS_0.MSSINT_GPI_24     System        MSSINT     Y       MSSINT_GPI_24_Y     0.000       15.829
+SDR_MSS_0.MSSINT_GPI_25     System        MSSINT     Y       MSSINT_GPI_25_Y     0.000       15.829
+SDR_MSS_0.MSSINT_GPI_26     System        MSSINT     Y       MSSINT_GPI_26_Y     0.000       15.829
+SDR_MSS_0.MSSINT_GPI_27     System        MSSINT     Y       MSSINT_GPI_27_Y     0.000       15.829
+SDR_MSS_0.MSSINT_GPI_30     System        MSSINT     Y       MSSINT_GPI_30_Y     0.000       15.829
+===================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                            Required           
+Instance                            Reference     Type         Pin         Net                          Time         Slack 
+                                    Clock                                                                                  
+---------------------------------------------------------------------------------------------------------------------------
+sdrv2_top_0.rc0.tx_fire_sampled     System        DFN1E0C0     E           tx_fire_sampled_1_sqmuxa     16.232       14.173
+sdrv2_top_0.rc0.fire_en             System        DFN1E0P0     D           TEST_PTS_c_i[9]              16.128       14.493
+SDR_MSS_0.MSS_ADLIB_INST            System        MSS_AHB      GPI[16]     MSSINT_GPI_16_Y              16.151       15.829
+SDR_MSS_0.MSS_ADLIB_INST            System        MSS_AHB      GPI[17]     MSSINT_GPI_17_Y              16.151       15.829
+SDR_MSS_0.MSS_ADLIB_INST            System        MSS_AHB      GPI[19]     MSSINT_GPI_19_Y              16.151       15.829
+SDR_MSS_0.MSS_ADLIB_INST            System        MSS_AHB      GPI[23]     MSSINT_GPI_23_Y              16.151       15.829
+SDR_MSS_0.MSS_ADLIB_INST            System        MSS_AHB      GPI[24]     MSSINT_GPI_24_Y              16.151       15.829
+SDR_MSS_0.MSS_ADLIB_INST            System        MSS_AHB      GPI[25]     MSSINT_GPI_25_Y              16.151       15.829
+SDR_MSS_0.MSS_ADLIB_INST            System        MSS_AHB      GPI[26]     MSSINT_GPI_26_Y              16.151       15.829
+SDR_MSS_0.MSS_ADLIB_INST            System        MSS_AHB      GPI[27]     MSSINT_GPI_27_Y              16.151       15.829
+===========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      16.667
+    - Setup time:                            0.434
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.232
+
+    - Propagation time:                      2.059
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 14.173
+
+    Number of logic level(s):                1
+    Starting point:                          SDR_MSS_0.MSSINT_GPO_7 / Y
+    Ending point:                            sdrv2_top_0.rc0.tx_fire_sampled / E
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            SDR_MSS_0.MSS_CCC_0.FAB_CLK [rising] on pin CLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+SDR_MSS_0.MSSINT_GPO_7                    MSSINT       Y        Out     0.000     0.000       -         
+TEST_PTS_c[9]                             Net          -        -       0.806     -           3         
+sdrv2_top_0.rc0.tx_fire_sampled_RNO_0     AOI1         B        In      -         0.806       -         
+sdrv2_top_0.rc0.tx_fire_sampled_RNO_0     AOI1         Y        Out     0.931     1.738       -         
+tx_fire_sampled_1_sqmuxa                  Net          -        -       0.322     -           1         
+sdrv2_top_0.rc0.tx_fire_sampled           DFN1E0C0     E        In      -         2.059       -         
+========================================================================================================
+Total path delay (propagation time + setup) of 2.494 is 1.366(54.8%) logic and 1.128(45.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A2F500M3G_FBGA484_Std
+Report for cell Top.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2   112      1.0      112.0
+             AND2A     8      1.0        8.0
+              AND3    16      1.0       16.0
+               AO1    99      1.0       99.0
+              AO13   120      1.0      120.0
+              AO18    88      1.0       88.0
+              AO1A    33      1.0       33.0
+              AO1B    90      1.0       90.0
+              AO1C   104      1.0      104.0
+              AO1D    12      1.0       12.0
+              AOI1    26      1.0       26.0
+             AOI1A     2      1.0        2.0
+             AOI1B   177      1.0      177.0
+               AX1     7      1.0        7.0
+              AX1A     5      1.0        5.0
+              AX1B    10      1.0       10.0
+              AX1C    15      1.0       15.0
+              AX1D    13      1.0       13.0
+              AX1E    14      1.0       14.0
+              AXO5     1      1.0        1.0
+              AXO6     1      1.0        1.0
+              AXO7     1      1.0        1.0
+             AXOI3     2      1.0        2.0
+             AXOI4     1      1.0        1.0
+             AXOI5     4      1.0        4.0
+             AXOI7     1      1.0        1.0
+            CLKINT     3      0.0        0.0
+               GND    61      0.0        0.0
+               INV    72      1.0       72.0
+              MAJ3   218      1.0      218.0
+              MIN3   109      1.0      109.0
+            MSSINT    12      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+               MX2   385      1.0      385.0
+              MX2A     7      1.0        7.0
+              MX2B    11      1.0       11.0
+              MX2C    93      1.0       93.0
+             NAND2    23      1.0       23.0
+            NAND3A     5      1.0        5.0
+              NOR2   167      1.0      167.0
+             NOR2A   259      1.0      259.0
+             NOR2B   348      1.0      348.0
+              NOR3    51      1.0       51.0
+             NOR3A    78      1.0       78.0
+             NOR3B   119      1.0      119.0
+             NOR3C   152      1.0      152.0
+               OA1    74      1.0       74.0
+              OA1A   116      1.0      116.0
+              OA1B    10      1.0       10.0
+              OA1C    15      1.0       15.0
+              OAI1    30      1.0       30.0
+               OR2   137      1.0      137.0
+              OR2A   309      1.0      309.0
+              OR2B   389      1.0      389.0
+               OR3    65      1.0       65.0
+              OR3A    43      1.0       43.0
+              OR3B   127      1.0      127.0
+              OR3C   112      1.0      112.0
+            PLLINT     1      0.0        0.0
+               VCC    61      0.0        0.0
+               XA1    26      1.0       26.0
+              XA1A    30      1.0       30.0
+              XA1B    65      1.0       65.0
+              XA1C    21      1.0       21.0
+              XAI1    19      1.0       19.0
+             XAI1A    12      1.0       12.0
+             XNOR2   173      1.0      173.0
+             XNOR3   197      1.0      197.0
+               XO1    11      1.0       11.0
+              XO1A     5      1.0        5.0
+              XOR2   341      1.0      341.0
+              XOR3   280      1.0      280.0
+
+
+            DFN1C0   499      1.0      499.0
+            DFN1C1     2      1.0        2.0
+          DFN1E0C0   645      1.0      645.0
+          DFN1E0C1    10      1.0       10.0
+          DFN1E0P0    28      1.0       28.0
+          DFN1E0P1     5      1.0        5.0
+            DFN1E1     1      1.0        1.0
+          DFN1E1C0   680      1.0      680.0
+          DFN1E1P0    28      1.0       28.0
+            DFN1P0    33      1.0       33.0
+          FIFO4K18     1      0.0        0.0
+           MSS_AHB     1      0.0        0.0
+            RAM4K9     3      0.0        0.0
+                   -----          ----------
+             TOTAL  7741              7597.0
+
+
+  IO Cell usage:
+              cell count
+         BIBUF_MSS     3
+             INBUF    22
+         INBUF_MSS     7
+        MSS_XTLOSC     1
+            OUTBUF    51
+        OUTBUF_MSS    13
+       TRIBUFF_MSS     1
+                   -----
+             TOTAL    98
+
+
+Core Cells         : 7597 of 11520 (66%)
+IO Cells           : 98
+
+  RAM/ROM Usage Summary
+Block Rams : 3 of 24 (12%)
+
+Mapper successful!
+Process took 0h:00m:24s realtime, 0h:00m:23s cputime
+# Mon Dec 16 10:07:36 2013
+
+###########################################################]

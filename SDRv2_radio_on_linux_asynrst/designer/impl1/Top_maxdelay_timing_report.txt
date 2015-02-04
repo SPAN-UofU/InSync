@@ -1,0 +1,2748 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.4 SP1
+Microsemi Corporation - Microsemi Libero Software Release v11.4 SP1 (Version 11.4.1.17)
+Date: Thu Jan 29 14:13:33 2015
+
+
+Design: Top
+Family: SmartFusion
+Die: A2F500M3G
+Package: 484 FBGA
+Temperature: COM
+Voltage: COM
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               CLKC
+Period (ns):                4.000
+Frequency (MHz):            250.000
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_aclk
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_fabric_interface_clock
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_pclk1
+Period (ns):                5.489
+Frequency (MHz):            182.183
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        5.559
+External Hold (ns):         -2.331
+Min Clock-To-Out (ns):      3.801
+Max Clock-To-Out (ns):      8.721
+
+Clock Domain:               mss_ccc_gla1
+Period (ns):                16.196
+Frequency (MHz):            61.744
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.095
+Max Clock-To-Out (ns):      9.117
+
+Clock Domain:               mss_ccc_gla0
+Period (ns):                10.000
+Frequency (MHz):            100.000
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        -1.383
+External Hold (ns):         1.283
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_ccc_glb
+Period (ns):                33.874
+Frequency (MHz):            29.521
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        2.837
+External Hold (ns):         -0.049
+Min Clock-To-Out (ns):      2.462
+Max Clock-To-Out (ns):      6.738
+
+Clock Domain:               SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:MACCLK
+Period (ns):                20.000
+Frequency (MHz):            50.000
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.695
+Max Clock-To-Out (ns):      5.583
+
+Clock Domain:               SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+Period (ns):                16.196
+Frequency (MHz):            61.744
+Required Period (ns):       16.667
+Required Frequency (MHz):   59.999
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.095
+Max Clock-To-Out (ns):      9.117
+
+Clock Domain:               SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+Period (ns):                33.874
+Frequency (MHz):            29.521
+Required Period (ns):       62.500
+Required Frequency (MHz):   16.000
+External Setup (ns):        2.837
+External Hold (ns):         -0.049
+Min Clock-To-Out (ns):      2.462
+Max Clock-To-Out (ns):      6.738
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain CLKC
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin CLKC_pad/U0/U0:PAD
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_aclk
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_fabric_interface_clock
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_pclk1
+
+SET Register to Register
+
+Path 1
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[30]
+  Delay (ns):                  5.139
+  Slack (ns):
+  Arrival (ns):                5.139
+  Required (ns):
+  Setup (ns):                  0.350
+  Minimum Period (ns):         5.489
+
+
+Expanded Path 1
+  From: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[30]
+  data required time                             N/C
+  data arrival time                          -   5.139
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_pclk1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     3.647          cell: ADLIB:MSS_AHB_IP
+  3.647                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPO[6] (r)
+               +     0.000          net: SDR_MSS_0/MSS_ADLIB_INST/GPO[6]INT_NET
+  3.647                        SDR_MSS_0/MSS_ADLIB_INST/U_26:PIN1INT (r)
+               +     0.074          cell: ADLIB:MSS_IF
+  3.721                        SDR_MSS_0/MSS_ADLIB_INST/U_26:PIN1 (r)
+               +     1.256          net: SDR_MSS_0/GPO_net_0[6]
+  4.977                        SDR_MSS_0/MSS_ADLIB_INST/U_6:PIN6 (r)
+               +     0.063          cell: ADLIB:MSS_IF
+  5.040                        SDR_MSS_0/MSS_ADLIB_INST/U_6:PIN6INT (r)
+               +     0.099          net: SDR_MSS_0/MSS_ADLIB_INST/GPI[30]INT_NET
+  5.139                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[30] (r)
+                                    
+  5.139                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_pclk1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               -     0.350          Library setup time: ADLIB:MSS_AHB_IP
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[30]
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        SW4
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[27]
+  Delay (ns):                  6.307
+  Slack (ns):
+  Arrival (ns):                6.307
+  Required (ns):
+  Setup (ns):                  -0.748
+  External Setup (ns):         5.559
+
+Path 2
+  From:                        SW3
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[26]
+  Delay (ns):                  5.707
+  Slack (ns):
+  Arrival (ns):                5.707
+  Required (ns):
+  Setup (ns):                  -0.581
+  External Setup (ns):         5.126
+
+Path 3
+  From:                        SW2
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[25]
+  Delay (ns):                  5.684
+  Slack (ns):
+  Arrival (ns):                5.684
+  Required (ns):
+  Setup (ns):                  -0.666
+  External Setup (ns):         5.018
+
+Path 4
+  From:                        SW1
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[24]
+  Delay (ns):                  5.165
+  Slack (ns):
+  Arrival (ns):                5.165
+  Required (ns):
+  Setup (ns):                  -0.714
+  External Setup (ns):         4.451
+
+
+Expanded Path 1
+  From: SW4
+  To: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[27]
+  data required time                             N/C
+  data arrival time                          -   6.307
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SW4 (r)
+               +     0.000          net: SW4
+  0.000                        SW4_pad/U0/U0:PAD (r)
+               +     0.806          cell: ADLIB:IOPAD_IN
+  0.806                        SW4_pad/U0/U0:Y (r)
+               +     0.000          net: SW4_pad/U0/NET1
+  0.806                        SW4_pad/U0/U1:YIN (r)
+               +     0.033          cell: ADLIB:IOIN_IB
+  0.839                        SW4_pad/U0/U1:Y (r)
+               +     5.207          net: SW4_c
+  6.046                        SDR_MSS_0/MSS_ADLIB_INST/U_5:PIN6 (r)
+               +     0.158          cell: ADLIB:MSS_IF
+  6.204                        SDR_MSS_0/MSS_ADLIB_INST/U_5:PIN6INT (r)
+               +     0.103          net: SDR_MSS_0/MSS_ADLIB_INST/GPI[27]INT_NET
+  6.307                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[27] (r)
+                                    
+  6.307                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_pclk1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               -    -0.748          Library setup time: ADLIB:MSS_AHB_IP
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[27]
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          TEST_PTS[9]
+  Delay (ns):                  8.721
+  Slack (ns):
+  Arrival (ns):                8.721
+  Required (ns):
+  Clock to Out (ns):           8.721
+
+Path 2
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_14_OUT
+  Delay (ns):                  8.353
+  Slack (ns):
+  Arrival (ns):                8.353
+  Required (ns):
+  Clock to Out (ns):           8.353
+
+Path 3
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_12_OUT
+  Delay (ns):                  8.176
+  Slack (ns):
+  Arrival (ns):                8.176
+  Required (ns):
+  Clock to Out (ns):           8.176
+
+Path 4
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_13_OUT
+  Delay (ns):                  8.124
+  Slack (ns):
+  Arrival (ns):                8.124
+  Required (ns):
+  Clock to Out (ns):           8.124
+
+Path 5
+  From:                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                          GPIO_15_OUT
+  Delay (ns):                  7.760
+  Slack (ns):
+  Arrival (ns):                7.760
+  Required (ns):
+  Clock to Out (ns):           7.760
+
+
+Expanded Path 1
+  From: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To: TEST_PTS[9]
+  data required time                             N/C
+  data arrival time                          -   8.721
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_pclk1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     3.453          cell: ADLIB:MSS_AHB_IP
+  3.453                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:GPO[7] (f)
+               +     0.000          net: SDR_MSS_0/MSS_ADLIB_INST/GPO[7]INT_NET
+  3.453                        SDR_MSS_0/MSS_ADLIB_INST/U_27:PIN1INT (f)
+               +     0.073          cell: ADLIB:MSS_IF
+  3.526                        SDR_MSS_0/MSS_ADLIB_INST/U_27:PIN1 (f)
+               +     1.887          net: SDR_MSS_0/GPO_net_0[7]
+  5.413                        TEST_PTS_pad[9]/U0/U1:D (f)
+               +     0.500          cell: ADLIB:IOTRI_OB_EB
+  5.913                        TEST_PTS_pad[9]/U0/U1:DOUT (f)
+               +     0.000          net: TEST_PTS_pad[9]/U0/NET1
+  5.913                        TEST_PTS_pad[9]/U0/U0:D (f)
+               +     2.808          cell: ADLIB:IOPAD_TRI
+  8.721                        TEST_PTS_pad[9]/U0/U0:PAD (f)
+               +     0.000          net: TEST_PTS[9]
+  8.721                        TEST_PTS[9] (f)
+                                    
+  8.721                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+                                    
+  N/C                          TEST_PTS[9] (f)
+                                    
+  N/C                          data required time
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla1
+
+SET Register to Register
+
+Path 1
+  From:                        sdrv2_top_0/rc0/turn_cnt[3]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[15]:D
+  Delay (ns):                  15.799
+  Slack (ns):
+  Arrival (ns):                16.339
+  Required (ns):
+  Setup (ns):                  0.409
+  Minimum Period (ns):         16.196
+
+Path 2
+  From:                        sdrv2_top_0/rc0/turn_cnt[2]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[15]:D
+  Delay (ns):                  15.668
+  Slack (ns):
+  Arrival (ns):                16.212
+  Required (ns):
+  Setup (ns):                  0.409
+  Minimum Period (ns):         16.069
+
+Path 3
+  From:                        sdrv2_top_0/rc0/turn_cnt[11]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[15]:D
+  Delay (ns):                  15.608
+  Slack (ns):
+  Arrival (ns):                16.144
+  Required (ns):
+  Setup (ns):                  0.409
+  Minimum Period (ns):         16.001
+
+Path 4
+  From:                        sdrv2_top_0/rc0/turn_cnt[15]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[15]:D
+  Delay (ns):                  15.586
+  Slack (ns):
+  Arrival (ns):                16.138
+  Required (ns):
+  Setup (ns):                  0.409
+  Minimum Period (ns):         15.995
+
+Path 5
+  From:                        sdrv2_top_0/rc0/turn_cnt[3]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[11]:D
+  Delay (ns):                  15.504
+  Slack (ns):
+  Arrival (ns):                16.044
+  Required (ns):
+  Setup (ns):                  0.435
+  Minimum Period (ns):         15.943
+
+
+Expanded Path 1
+  From: sdrv2_top_0/rc0/turn_cnt[3]:CLK
+  To: sdrv2_top_0/rc0/turn_cnt[15]:D
+  data required time                             N/C
+  data arrival time                          -   16.339
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.540          net: FAB_CLK
+  0.540                        sdrv2_top_0/rc0/turn_cnt[3]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1C0
+  1.099                        sdrv2_top_0/rc0/turn_cnt[3]:Q (f)
+               +     0.397          net: sdrv2_top_0/rc0/turn_cnt[3]
+  1.496                        sdrv2_top_0/rc0/turn_cnt_RNI9L5N[15]:B (f)
+               +     0.490          cell: ADLIB:OR2
+  1.986                        sdrv2_top_0/rc0/turn_cnt_RNI9L5N[15]:Y (f)
+               +     0.789          net: sdrv2_top_0/rc0/G_2_0
+  2.775                        sdrv2_top_0/rc0/turn_cnt_RNI3LN42[10]:B (f)
+               +     0.473          cell: ADLIB:OR3
+  3.248                        sdrv2_top_0/rc0/turn_cnt_RNI3LN42[10]:Y (f)
+               +     1.177          net: sdrv2_top_0/rc0/G_2_10
+  4.425                        sdrv2_top_0/rc0/turn_cnt_RNI7F035[1]:C (f)
+               +     0.504          cell: ADLIB:OR3
+  4.929                        sdrv2_top_0/rc0/turn_cnt_RNI7F035[1]:Y (f)
+               +     0.818          net: sdrv2_top_0/rc0/N_580
+  5.747                        sdrv2_top_0/rc0/radio_mode_RNICK4F7[3]:B (f)
+               +     0.504          cell: ADLIB:MX2A
+  6.251                        sdrv2_top_0/rc0/radio_mode_RNICK4F7[3]:Y (f)
+               +     1.969          net: sdrv2_top_0/rc0/N_561_0
+  8.220                        sdrv2_top_0/rc0/un1_turn_cnt_16_I_21:B (f)
+               +     0.749          cell: ADLIB:XOR2
+  8.969                        sdrv2_top_0/rc0/un1_turn_cnt_16_I_21:Y (f)
+               +     0.281          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_pog_array_0_3[0]
+  9.250                        sdrv2_top_0/rc0/un1_turn_cnt_16_I_97:A (f)
+               +     0.390          cell: ADLIB:AND2
+  9.640                        sdrv2_top_0/rc0/un1_turn_cnt_16_I_97:Y (f)
+               +     0.737          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_pog_array_1_1[0]
+  10.377                       sdrv2_top_0/rc0/un1_turn_cnt_16_I_98:A (f)
+               +     0.293          cell: ADLIB:AND2
+  10.670                       sdrv2_top_0/rc0/un1_turn_cnt_16_I_98:Y (f)
+               +     0.245          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_pog_array_2[0]
+  10.915                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_16:A (f)
+               +     0.276          cell: ADLIB:AO1
+  11.191                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_16:Y (f)
+               +     0.981          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_g_array_3[0]
+  12.172                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_20:B (f)
+               +     0.453          cell: ADLIB:AO1
+  12.625                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_20:Y (f)
+               +     0.247          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_g_array_10[0]
+  12.872                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_12:B (f)
+               +     0.453          cell: ADLIB:AO1
+  13.325                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_12:Y (f)
+               +     0.703          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_g_array_11_2[0]
+  14.028                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_13:C (f)
+               +     0.540          cell: ADLIB:XA1
+  14.568                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_13:Y (f)
+               +     0.255          net: sdrv2_top_0/rc0/N_1_2
+  14.823                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_6:B (f)
+               +     0.502          cell: ADLIB:AX1D
+  15.325                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_6:Y (r)
+               +     0.247          net: sdrv2_top_0/rc0/un1_turn_cnt_16[15]
+  15.572                       sdrv2_top_0/rc0/turn_cnt_RNO[15]:A (r)
+               +     0.505          cell: ADLIB:MX2
+  16.077                       sdrv2_top_0/rc0/turn_cnt_RNO[15]:Y (r)
+               +     0.262          net: sdrv2_top_0/rc0/N_149
+  16.339                       sdrv2_top_0/rc0/turn_cnt[15]:D (r)
+                                    
+  16.339                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.552          net: FAB_CLK
+  N/C                          sdrv2_top_0/rc0/turn_cnt[15]:CLK (r)
+               -     0.409          Library setup time: ADLIB:DFN1C0
+  N/C                          sdrv2_top_0/rc0/turn_cnt[15]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        sdrv2_top_0/fc0/f2w0/data_out[7]:CLK
+  To:                          DAC_DOUT[7]
+  Delay (ns):                  8.585
+  Slack (ns):
+  Arrival (ns):                9.117
+  Required (ns):
+  Clock to Out (ns):           9.117
+
+Path 2
+  From:                        sdrv2_top_0/rc0/radio_mode[8]:CLK
+  To:                          TEST_PTS[14]
+  Delay (ns):                  8.460
+  Slack (ns):
+  Arrival (ns):                9.036
+  Required (ns):
+  Clock to Out (ns):           9.036
+
+Path 3
+  From:                        sdrv2_top_0/rc0/radio_mode[5]:CLK
+  To:                          TEST_PTS[12]
+  Delay (ns):                  8.108
+  Slack (ns):
+  Arrival (ns):                8.648
+  Required (ns):
+  Clock to Out (ns):           8.648
+
+Path 4
+  From:                        sdrv2_top_0/rc0/radio_mode[7]:CLK
+  To:                          TEST_PTS[14]
+  Delay (ns):                  8.097
+  Slack (ns):
+  Arrival (ns):                8.647
+  Required (ns):
+  Clock to Out (ns):           8.647
+
+Path 5
+  From:                        sdrv2_top_0/rc0/radio_mode[3]:CLK
+  To:                          TEST_PTS[14]
+  Delay (ns):                  7.901
+  Slack (ns):
+  Arrival (ns):                8.441
+  Required (ns):
+  Clock to Out (ns):           8.441
+
+
+Expanded Path 1
+  From: sdrv2_top_0/fc0/f2w0/data_out[7]:CLK
+  To: DAC_DOUT[7]
+  data required time                             N/C
+  data arrival time                          -   9.117
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.532          net: FAB_CLK
+  0.532                        sdrv2_top_0/fc0/f2w0/data_out[7]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1C0
+  1.091                        sdrv2_top_0/fc0/f2w0/data_out[7]:Q (f)
+               +     4.817          net: DAC_DOUT_c[7]
+  5.908                        DAC_DOUT_pad[7]/U0/U1:D (f)
+               +     0.500          cell: ADLIB:IOTRI_OB_EB
+  6.408                        DAC_DOUT_pad[7]/U0/U1:DOUT (f)
+               +     0.000          net: DAC_DOUT_pad[7]/U0/NET1
+  6.408                        DAC_DOUT_pad[7]/U0/U0:D (f)
+               +     2.709          cell: ADLIB:IOPAD_TRI
+  9.117                        DAC_DOUT_pad[7]/U0/U0:PAD (f)
+               +     0.000          net: DAC_DOUT[7]
+  9.117                        DAC_DOUT[7] (f)
+                                    
+  9.117                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+                                    
+  N/C                          DAC_DOUT[7] (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:RESET
+  Delay (ns):                  5.484
+  Slack (ns):
+  Arrival (ns):                6.081
+  Required (ns):
+  Recovery (ns):               1.523
+  Minimum Period (ns):         6.811
+  Skew (ns):                   -0.196
+
+Path 2
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1C0_RBINSHIFT_0_inst:CLR
+  Delay (ns):                  6.381
+  Slack (ns):
+  Arrival (ns):                6.978
+  Required (ns):
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.607
+  Skew (ns):                   0.001
+
+Path 3
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:RESET
+  Delay (ns):                  5.252
+  Slack (ns):
+  Arrival (ns):                5.849
+  Required (ns):
+  Recovery (ns):               1.523
+  Minimum Period (ns):         6.587
+  Skew (ns):                   -0.188
+
+Path 4
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1C0_WBINSYNCSHIFT_3_inst:CLR
+  Delay (ns):                  6.332
+  Slack (ns):
+  Arrival (ns):                6.929
+  Required (ns):
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.566
+  Skew (ns):                   0.009
+
+Path 5
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1C0_WBINSYNCSHIFT_1_inst:CLR
+  Delay (ns):                  6.142
+  Slack (ns):
+  Arrival (ns):                6.739
+  Required (ns):
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.355
+  Skew (ns):                   -0.012
+
+
+Expanded Path 1
+  From: sdrv2_top_0/rc0/fifo_rst:CLK
+  To: sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:RESET
+  data required time                             N/C
+  data arrival time                          -   6.081
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.597          net: FAB_CLK
+  0.597                        sdrv2_top_0/rc0/fifo_rst:CLK (r)
+               +     0.440          cell: ADLIB:DFN1E1P0
+  1.037                        sdrv2_top_0/rc0/fifo_rst:Q (r)
+               +     1.059          net: sdrv2_top_0/RadiotoFIFO_fifo_rst
+  2.096                        sdrv2_top_0/cr0/un1_HRESETn_1:A (r)
+               +     0.308          cell: ADLIB:NOR2B
+  2.404                        sdrv2_top_0/cr0/un1_HRESETn_1:Y (r)
+               +     1.580          net: sdrv2_top_0/un1_HRESETn_1
+  3.984                        sdrv2_top_0/fc0/afrst_RNIP8KT:B (r)
+               +     0.448          cell: ADLIB:NOR2B
+  4.432                        sdrv2_top_0/fc0/afrst_RNIP8KT:Y (r)
+               +     1.649          net: sdrv2_top_0/fc0/afrst_RNIP8KT
+  6.081                        sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:RESET (r)
+                                    
+  6.081                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.793          net: FAB_CLK
+  N/C                          sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:CLKA (r)
+               -     1.523          Library recovery time: ADLIB:RAM4K9
+  N/C                          sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:RESET
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla0
+
+Info: The maximum frequency of this clock domain is limited by the period of pin SDR_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        MSS_RESET_N
+  To:                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+  Delay (ns):                  0.781
+  Slack (ns):
+  Arrival (ns):                0.781
+  Required (ns):
+  Setup (ns):                  -1.782
+  External Setup (ns):         -1.383
+
+
+Expanded Path 1
+  From: MSS_RESET_N
+  To: SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+  data required time                             N/C
+  data arrival time                          -   0.781
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        MSS_RESET_N (r)
+               +     0.000          net: MSS_RESET_N
+  0.000                        SDR_MSS_0/MSS_RESET_0_MSS_RESET_N:PAD (r)
+               +     0.781          cell: ADLIB:IOPAD_IN
+  0.781                        SDR_MSS_0/MSS_RESET_0_MSS_RESET_N:Y (r)
+               +     0.000          net: SDR_MSS_0/MSS_RESET_0_MSS_RESET_N_Y
+  0.781                        SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn (r)
+                                    
+  0.781                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla0
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLAMSS (r)
+               +     0.382          net: SDR_MSS_0/GLA0
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK (r)
+               -    -1.782          Library setup time: ADLIB:MSS_AHB_IP
+  N/C                          SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_glb
+
+SET Register to Register
+
+Path 1
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[6]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[1]:D
+  Delay (ns):                  33.370
+  Slack (ns):
+  Arrival (ns):                34.017
+  Required (ns):
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.874
+
+Path 2
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[4]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[1]:D
+  Delay (ns):                  33.233
+  Slack (ns):
+  Arrival (ns):                33.880
+  Required (ns):
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.737
+
+Path 3
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[5]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[1]:D
+  Delay (ns):                  33.156
+  Slack (ns):
+  Arrival (ns):                33.803
+  Required (ns):
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.660
+
+Path 4
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[6]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[7]:D
+  Delay (ns):                  33.093
+  Slack (ns):
+  Arrival (ns):                33.740
+  Required (ns):
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.650
+
+Path 5
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[4]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[7]:D
+  Delay (ns):                  32.956
+  Slack (ns):
+  Arrival (ns):                33.603
+  Required (ns):
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.513
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/f0/in_seq2[6]:CLK
+  To: sdrv2_top_0/cr0/f0/bit_counter[1]:D
+  data required time                             N/C
+  data arrival time                          -   34.017
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_glb
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.647          net: ADC_CLK_c
+  0.647                        sdrv2_top_0/cr0/f0/in_seq2[6]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1E1C0
+  1.206                        sdrv2_top_0/cr0/f0/in_seq2[6]:Q (f)
+               +     0.388          net: sdrv2_top_0/cr0/seq2[6]
+  1.594                        sdrv2_top_0/cr0/f0/N_269_1_SUM0:C (f)
+               +     0.571          cell: ADLIB:XOR3
+  2.165                        sdrv2_top_0/cr0/f0/N_269_1_SUM0:Y (r)
+               +     1.226          net: sdrv2_top_0/cr0/f0/N_1811
+  3.391                        sdrv2_top_0/cr0/f0/N_271_0_0_1_SUM0:C (r)
+               +     0.747          cell: ADLIB:XOR3
+  4.138                        sdrv2_top_0/cr0/f0/N_271_0_0_1_SUM0:Y (f)
+               +     1.318          net: sdrv2_top_0/cr0/f0/N_4237
+  5.456                        sdrv2_top_0/cr0/f0/N_203_1_N_291_21:C (f)
+               +     0.540          cell: ADLIB:XA1
+  5.996                        sdrv2_top_0/cr0/f0/N_203_1_N_291_21:Y (f)
+               +     1.287          net: sdrv2_top_0/cr0/f0/CO0_80
+  7.283                        sdrv2_top_0/cr0/f0/seq2_cal_1_SUM0_2:A (f)
+               +     0.397          cell: ADLIB:XOR2
+  7.680                        sdrv2_top_0/cr0/f0/seq2_cal_1_SUM0_2:Y (f)
+               +     0.854          net: sdrv2_top_0/cr0/f0/seq2_cal_2[1]
+  8.534                        sdrv2_top_0/cr0/f0/N_292_1_SUM0:A (f)
+               +     0.370          cell: ADLIB:XOR2
+  8.904                        sdrv2_top_0/cr0/f0/N_292_1_SUM0:Y (r)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_1807
+  9.159                        sdrv2_top_0/cr0/f0/seq2_cal_1_CO0:C (r)
+               +     0.548          cell: ADLIB:MAJ3
+  9.707                        sdrv2_top_0/cr0/f0/seq2_cal_1_CO0:Y (r)
+               +     0.738          net: sdrv2_top_0/cr0/f0/CO1_0
+  10.445                       sdrv2_top_0/cr0/f0/seq2_cal_0_0_1_CO0:B (r)
+               +     0.746          cell: ADLIB:MAJ3
+  11.191                       sdrv2_top_0/cr0/f0/seq2_cal_0_0_1_CO0:Y (r)
+               +     0.320          net: sdrv2_top_0/cr0/f0/CO0_63
+  11.511                       sdrv2_top_0/cr0/f0/seq2_cal_0_0_1_CO1:B (r)
+               +     0.746          cell: ADLIB:MAJ3
+  12.257                       sdrv2_top_0/cr0/f0/seq2_cal_0_0_1_CO1:Y (r)
+               +     0.264          net: sdrv2_top_0/cr0/f0/CO3_0
+  12.521                       sdrv2_top_0/cr0/f0/b2/out_17_SUM4:B (r)
+               +     0.476          cell: ADLIB:XOR2
+  12.997                       sdrv2_top_0/cr0/f0/b2/out_17_SUM4:Y (f)
+               +     1.171          net: sdrv2_top_0/cr0/f0/seq2_cal[4]
+  14.168                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_4:B (f)
+               +     0.490          cell: ADLIB:OR2A
+  14.658                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_4:Y (f)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_5_0
+  14.913                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_9:C (f)
+               +     0.534          cell: ADLIB:AO1C
+  15.447                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_9:Y (r)
+               +     0.247          net: sdrv2_top_0/cr0/f0/N_10_0
+  15.694                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_11:B (r)
+               +     0.691          cell: ADLIB:OA1
+  16.385                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_11:Y (r)
+               +     0.918          net: sdrv2_top_0/cr0/f0/I_11_4
+  17.303                       sdrv2_top_0/cr0/f0/N_203_1_seq23_mim_val[0]:S (r)
+               +     0.277          cell: ADLIB:MX2
+  17.580                       sdrv2_top_0/cr0/f0/N_203_1_seq23_mim_val[0]:Y (r)
+               +     1.687          net: sdrv2_top_0/cr0/f0/seq23_mim_val[0]
+  19.267                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_3:A (r)
+               +     0.392          cell: ADLIB:NOR2A
+  19.659                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_3:Y (r)
+               +     0.247          net: sdrv2_top_0/cr0/f0/N_4_4
+  19.906                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_5:C (r)
+               +     0.581          cell: ADLIB:AO1C
+  20.487                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_5:Y (f)
+               +     0.928          net: sdrv2_top_0/cr0/f0/N_6_4
+  21.415                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_10:A (f)
+               +     0.746          cell: ADLIB:OA1A
+  22.161                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_10:Y (r)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_11_4
+  22.416                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_11:A (r)
+               +     0.746          cell: ADLIB:OA1
+  23.162                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_11:Y (r)
+               +     1.352          net: sdrv2_top_0/cr0/f0/I_11_1
+  24.514                       sdrv2_top_0/cr0/f0/N_153_1_seq0123_mim_val[1]:S (r)
+               +     0.282          cell: ADLIB:MX2
+  24.796                       sdrv2_top_0/cr0/f0/N_153_1_seq0123_mim_val[1]:Y (f)
+               +     0.340          net: sdrv2_top_0/cr0/f0/seq0123_mim_val[1]
+  25.136                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_1:B (f)
+               +     0.490          cell: ADLIB:OR2A
+  25.626                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_1:Y (f)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_2_2
+  25.881                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_7:C (f)
+               +     0.534          cell: ADLIB:AO1C
+  26.415                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_7:Y (r)
+               +     0.247          net: sdrv2_top_0/cr0/f0/N_8_2
+  26.662                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_10:B (r)
+               +     0.691          cell: ADLIB:OA1A
+  27.353                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_10:Y (r)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_11_2
+  27.608                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_11:A (r)
+               +     0.746          cell: ADLIB:OA1
+  28.354                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_11:Y (r)
+               +     0.930          net: sdrv2_top_0/cr0/f0/I_11
+  29.284                       sdrv2_top_0/cr0/f0/N_153_1_seq_tot_mim_val[3]:S (r)
+               +     0.282          cell: ADLIB:MX2
+  29.566                       sdrv2_top_0/cr0/f0/N_153_1_seq_tot_mim_val[3]:Y (f)
+               +     0.247          net: sdrv2_top_0/cr0/f0/seq_tot_mim_val[3]
+  29.813                       sdrv2_top_0/cr0/f0/N_153_1_un1_seq_tot_mim_vallto4_0:B (f)
+               +     0.490          cell: ADLIB:NOR2
+  30.303                       sdrv2_top_0/cr0/f0/N_153_1_un1_seq_tot_mim_vallto4_0:Y (r)
+               +     0.985          net: sdrv2_top_0/cr0/f0/un1_seq_tot_mim_vallto4_0
+  31.288                       sdrv2_top_0/cr0/f0/N_153_1_next_zero_found5_0_a4:B (r)
+               +     0.473          cell: ADLIB:NOR3B
+  31.761                       sdrv2_top_0/cr0/f0/N_153_1_next_zero_found5_0_a4:Y (r)
+               +     1.748          net: sdrv2_top_0/cr0/f0/next_zero_found5
+  33.509                       sdrv2_top_0/cr0/f0/N_153_1_bit_counter_n1:C (r)
+               +     0.261          cell: ADLIB:XA1B
+  33.770                       sdrv2_top_0/cr0/f0/N_153_1_bit_counter_n1:Y (f)
+               +     0.247          net: sdrv2_top_0/cr0/f0/bit_counter_n1
+  34.017                       sdrv2_top_0/cr0/f0/bit_counter[1]:D (f)
+                                    
+  34.017                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_glb
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.578          net: ADC_CLK_c
+  N/C                          sdrv2_top_0/cr0/f0/bit_counter[1]:CLK (r)
+               -     0.435          Library setup time: ADLIB:DFN1C0
+  N/C                          sdrv2_top_0/cr0/f0/bit_counter[1]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        RSSI_DIN
+  To:                          sdrv2_top_0/agc0/adc0/data_out[0]:D
+  Delay (ns):                  2.988
+  Slack (ns):
+  Arrival (ns):                2.988
+  Required (ns):
+  Setup (ns):                  0.382
+  External Setup (ns):         2.837
+
+Path 2
+  From:                        quad_phase[3]
+  To:                          sdrv2_top_0/fm0/Q_smp[3]:D
+  Delay (ns):                  1.979
+  Slack (ns):
+  Arrival (ns):                1.979
+  Required (ns):
+  Setup (ns):                  0.435
+  External Setup (ns):         1.860
+
+Path 3
+  From:                        in_phase[2]
+  To:                          sdrv2_top_0/fm0/I_smp[2]:D
+  Delay (ns):                  1.758
+  Slack (ns):
+  Arrival (ns):                1.758
+  Required (ns):
+  Setup (ns):                  0.435
+  External Setup (ns):         1.654
+
+Path 4
+  From:                        quad_phase[6]
+  To:                          sdrv2_top_0/fm0/Q_smp[6]:D
+  Delay (ns):                  1.742
+  Slack (ns):
+  Arrival (ns):                1.742
+  Required (ns):
+  Setup (ns):                  0.435
+  External Setup (ns):         1.645
+
+Path 5
+  From:                        quad_phase[7]
+  To:                          sdrv2_top_0/fm0/Q_smp[7]:D
+  Delay (ns):                  1.710
+  Slack (ns):
+  Arrival (ns):                1.710
+  Required (ns):
+  Setup (ns):                  0.435
+  External Setup (ns):         1.606
+
+
+Expanded Path 1
+  From: RSSI_DIN
+  To: sdrv2_top_0/agc0/adc0/data_out[0]:D
+  data required time                             N/C
+  data arrival time                          -   2.988
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        RSSI_DIN (r)
+               +     0.000          net: RSSI_DIN
+  0.000                        RSSI_DIN_pad/U0/U0:PAD (r)
+               +     0.779          cell: ADLIB:IOPAD_IN
+  0.779                        RSSI_DIN_pad/U0/U0:Y (r)
+               +     0.000          net: RSSI_DIN_pad/U0/NET1
+  0.779                        RSSI_DIN_pad/U0/U1:YIN (r)
+               +     0.033          cell: ADLIB:IOIN_IB
+  0.812                        RSSI_DIN_pad/U0/U1:Y (r)
+               +     2.176          net: RSSI_DIN_c
+  2.988                        sdrv2_top_0/agc0/adc0/data_out[0]:D (r)
+                                    
+  2.988                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_glb
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.533          net: ADC_CLK_c
+  N/C                          sdrv2_top_0/agc0/adc0/data_out[0]:CLK (r)
+               -     0.382          Library setup time: ADLIB:DFN1E1C0
+  N/C                          sdrv2_top_0/agc0/adc0/data_out[0]:D
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[7]:CLK
+  To:                          TEST_PTS[7]
+  Delay (ns):                  6.127
+  Slack (ns):
+  Arrival (ns):                6.738
+  Required (ns):
+  Clock to Out (ns):           6.738
+
+Path 2
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[0]:CLK
+  To:                          TEST_PTS[0]
+  Delay (ns):                  6.058
+  Slack (ns):
+  Arrival (ns):                6.672
+  Required (ns):
+  Clock to Out (ns):           6.672
+
+Path 3
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[4]:CLK
+  To:                          TEST_PTS[4]
+  Delay (ns):                  5.793
+  Slack (ns):
+  Arrival (ns):                6.407
+  Required (ns):
+  Clock to Out (ns):           6.407
+
+Path 4
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[1]:CLK
+  To:                          TEST_PTS[1]
+  Delay (ns):                  5.705
+  Slack (ns):
+  Arrival (ns):                6.319
+  Required (ns):
+  Clock to Out (ns):           6.319
+
+Path 5
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[5]:CLK
+  To:                          TEST_PTS[5]
+  Delay (ns):                  5.679
+  Slack (ns):
+  Arrival (ns):                6.293
+  Required (ns):
+  Clock to Out (ns):           6.293
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/sfd_sync0/idx_out[7]:CLK
+  To: TEST_PTS[7]
+  data required time                             N/C
+  data arrival time                          -   6.738
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_glb
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.611          net: ADC_CLK_c
+  0.611                        sdrv2_top_0/cr0/sfd_sync0/idx_out[7]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1E1C0
+  1.170                        sdrv2_top_0/cr0/sfd_sync0/idx_out[7]:Q (f)
+               +     2.260          net: TEST_PTS_c[7]
+  3.430                        TEST_PTS_pad[7]/U0/U1:D (f)
+               +     0.500          cell: ADLIB:IOTRI_OB_EB
+  3.930                        TEST_PTS_pad[7]/U0/U1:DOUT (f)
+               +     0.000          net: TEST_PTS_pad[7]/U0/NET1
+  3.930                        TEST_PTS_pad[7]/U0/U0:D (f)
+               +     2.808          cell: ADLIB:IOPAD_TRI
+  6.738                        TEST_PTS_pad[7]/U0/U0:PAD (f)
+               +     0.000          net: TEST_PTS[7]
+  6.738                        TEST_PTS[7] (f)
+                                    
+  6.738                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_glb
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+                                    
+  N/C                          TEST_PTS[7] (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[2]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):
+  Arrival (ns):                6.929
+  Required (ns):
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+Path 2
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq4[10]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):
+  Arrival (ns):                6.929
+  Required (ns):
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+Path 3
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[10]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):
+  Arrival (ns):                6.929
+  Required (ns):
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+Path 4
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[11]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):
+  Arrival (ns):                6.929
+  Required (ns):
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+Path 5
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[14]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):
+  Arrival (ns):                6.929
+  Required (ns):
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/cmp_rst:CLK
+  To: sdrv2_top_0/cr0/f0/in_seq0[2]:CLR
+  data required time                             N/C
+  data arrival time                          -   6.929
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_glb
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.614          net: ADC_CLK_c
+  0.614                        sdrv2_top_0/cr0/cmp_rst:CLK (r)
+               +     0.440          cell: ADLIB:DFN1P0
+  1.054                        sdrv2_top_0/cr0/cmp_rst:Q (r)
+               +     2.452          net: sdrv2_top_0/cr0/cmp_rst
+  3.506                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE:A (r)
+               +     0.308          cell: ADLIB:NOR2B
+  3.814                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE:Y (r)
+               +     1.807          net: sdrv2_top_0/cr0/cmp_rst_RNIE6HE
+  5.621                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC:A (r)
+               +     0.691          cell: ADLIB:CLKSRC
+  6.312                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC:Y (r)
+               +     0.617          net: sdrv2_top_0/cr0/sfd_sync_rstn
+  6.929                        sdrv2_top_0/cr0/f0/in_seq0[2]:CLR (r)
+                                    
+  6.929                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_glb
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.591          net: ADC_CLK_c
+  N/C                          sdrv2_top_0/cr0/f0/in_seq0[2]:CLK (r)
+               -     0.225          Library recovery time: ADLIB:DFN1E1C0
+  N/C                          sdrv2_top_0/cr0/f0/in_seq0[2]:CLR
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:MACCLK
+
+Info: The maximum frequency of this clock domain is limited by the period of pin SDR_MSS_0/MSS_ADLIB_INST/U_CORE:MACCLKCCC
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To:                          RSSI_CLK
+  Delay (ns):                  5.583
+  Slack (ns):
+  Arrival (ns):                5.583
+  Required (ns):
+  Clock to Out (ns):           5.583
+
+Path 2
+  From:                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To:                          ADC_CLK
+  Delay (ns):                  5.146
+  Slack (ns):
+  Arrival (ns):                5.146
+  Required (ns):
+  Clock to Out (ns):           5.146
+
+
+Expanded Path 1
+  From: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To: RSSI_CLK
+  data required time                             N/C
+  data arrival time                          -   5.583
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT (r)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/N_CLKA_XTLOSC
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA (r)
+               +     1.246          cell: ADLIB:MSS_CCC_IP
+  1.246                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (f)
+               +     0.000          net: SDR_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  1.246                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (f)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  1.246                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (f)
+               +     0.534          net: ADC_CLK_c
+  1.780                        sdrv2_top_0/agc0/adc0/clk_en_RNIFTHG:A (f)
+               +     0.390          cell: ADLIB:NOR2B
+  2.170                        sdrv2_top_0/agc0/adc0/clk_en_RNIFTHG:Y (f)
+               +     0.262          net: RSSI_CLK_c
+  2.432                        RSSI_CLK_pad/U0/U1:D (f)
+               +     0.442          cell: ADLIB:IOTRI_OB_EB
+  2.874                        RSSI_CLK_pad/U0/U1:DOUT (f)
+               +     0.000          net: RSSI_CLK_pad/U0/NET1
+  2.874                        RSSI_CLK_pad/U0/U0:D (f)
+               +     2.709          cell: ADLIB:IOPAD_TRI
+  5.583                        RSSI_CLK_pad/U0/U0:PAD (f)
+               +     0.000          net: RSSI_CLK
+  5.583                        RSSI_CLK (f)
+                                    
+  5.583                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT (r)
+                                    
+  N/C                          RSSI_CLK (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+
+SET Register to Register
+
+Path 1
+  From:                        sdrv2_top_0/rc0/turn_cnt[3]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[15]:D
+  Delay (ns):                  15.799
+  Slack (ns):                  0.471
+  Arrival (ns):                16.339
+  Required (ns):               16.810
+  Setup (ns):                  0.409
+  Minimum Period (ns):         16.196
+
+Path 2
+  From:                        sdrv2_top_0/rc0/turn_cnt[2]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[15]:D
+  Delay (ns):                  15.668
+  Slack (ns):                  0.598
+  Arrival (ns):                16.212
+  Required (ns):               16.810
+  Setup (ns):                  0.409
+  Minimum Period (ns):         16.069
+
+Path 3
+  From:                        sdrv2_top_0/rc0/turn_cnt[11]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[15]:D
+  Delay (ns):                  15.608
+  Slack (ns):                  0.666
+  Arrival (ns):                16.144
+  Required (ns):               16.810
+  Setup (ns):                  0.409
+  Minimum Period (ns):         16.001
+
+Path 4
+  From:                        sdrv2_top_0/rc0/turn_cnt[15]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[15]:D
+  Delay (ns):                  15.586
+  Slack (ns):                  0.672
+  Arrival (ns):                16.138
+  Required (ns):               16.810
+  Setup (ns):                  0.409
+  Minimum Period (ns):         15.995
+
+Path 5
+  From:                        sdrv2_top_0/rc0/turn_cnt[3]:CLK
+  To:                          sdrv2_top_0/rc0/turn_cnt[11]:D
+  Delay (ns):                  15.504
+  Slack (ns):                  0.724
+  Arrival (ns):                16.044
+  Required (ns):               16.768
+  Setup (ns):                  0.435
+  Minimum Period (ns):         15.943
+
+
+Expanded Path 1
+  From: sdrv2_top_0/rc0/turn_cnt[3]:CLK
+  To: sdrv2_top_0/rc0/turn_cnt[15]:D
+  data required time                             16.810
+  data arrival time                          -   16.339
+  slack                                          0.471
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.540          net: FAB_CLK
+  0.540                        sdrv2_top_0/rc0/turn_cnt[3]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1C0
+  1.099                        sdrv2_top_0/rc0/turn_cnt[3]:Q (f)
+               +     0.397          net: sdrv2_top_0/rc0/turn_cnt[3]
+  1.496                        sdrv2_top_0/rc0/turn_cnt_RNI9L5N[15]:B (f)
+               +     0.490          cell: ADLIB:OR2
+  1.986                        sdrv2_top_0/rc0/turn_cnt_RNI9L5N[15]:Y (f)
+               +     0.789          net: sdrv2_top_0/rc0/G_2_0
+  2.775                        sdrv2_top_0/rc0/turn_cnt_RNI3LN42[10]:B (f)
+               +     0.473          cell: ADLIB:OR3
+  3.248                        sdrv2_top_0/rc0/turn_cnt_RNI3LN42[10]:Y (f)
+               +     1.177          net: sdrv2_top_0/rc0/G_2_10
+  4.425                        sdrv2_top_0/rc0/turn_cnt_RNI7F035[1]:C (f)
+               +     0.504          cell: ADLIB:OR3
+  4.929                        sdrv2_top_0/rc0/turn_cnt_RNI7F035[1]:Y (f)
+               +     0.818          net: sdrv2_top_0/rc0/N_580
+  5.747                        sdrv2_top_0/rc0/radio_mode_RNICK4F7[3]:B (f)
+               +     0.504          cell: ADLIB:MX2A
+  6.251                        sdrv2_top_0/rc0/radio_mode_RNICK4F7[3]:Y (f)
+               +     1.969          net: sdrv2_top_0/rc0/N_561_0
+  8.220                        sdrv2_top_0/rc0/un1_turn_cnt_16_I_21:B (f)
+               +     0.749          cell: ADLIB:XOR2
+  8.969                        sdrv2_top_0/rc0/un1_turn_cnt_16_I_21:Y (f)
+               +     0.281          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_pog_array_0_3[0]
+  9.250                        sdrv2_top_0/rc0/un1_turn_cnt_16_I_97:A (f)
+               +     0.390          cell: ADLIB:AND2
+  9.640                        sdrv2_top_0/rc0/un1_turn_cnt_16_I_97:Y (f)
+               +     0.737          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_pog_array_1_1[0]
+  10.377                       sdrv2_top_0/rc0/un1_turn_cnt_16_I_98:A (f)
+               +     0.293          cell: ADLIB:AND2
+  10.670                       sdrv2_top_0/rc0/un1_turn_cnt_16_I_98:Y (f)
+               +     0.245          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_pog_array_2[0]
+  10.915                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_16:A (f)
+               +     0.276          cell: ADLIB:AO1
+  11.191                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_16:Y (f)
+               +     0.981          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_g_array_3[0]
+  12.172                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_20:B (f)
+               +     0.453          cell: ADLIB:AO1
+  12.625                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_20:Y (f)
+               +     0.247          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_g_array_10[0]
+  12.872                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_12:B (f)
+               +     0.453          cell: ADLIB:AO1
+  13.325                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_12:Y (f)
+               +     0.703          net: sdrv2_top_0/rc0/DWACT_ADD_CI_0_g_array_11_2[0]
+  14.028                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_13:C (f)
+               +     0.540          cell: ADLIB:XA1
+  14.568                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_13:Y (f)
+               +     0.255          net: sdrv2_top_0/rc0/N_1_2
+  14.823                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_6:B (f)
+               +     0.502          cell: ADLIB:AX1D
+  15.325                       sdrv2_top_0/rc0/un1_turn_cnt_16_G_6:Y (r)
+               +     0.247          net: sdrv2_top_0/rc0/un1_turn_cnt_16[15]
+  15.572                       sdrv2_top_0/rc0/turn_cnt_RNO[15]:A (r)
+               +     0.505          cell: ADLIB:MX2
+  16.077                       sdrv2_top_0/rc0/turn_cnt_RNO[15]:Y (r)
+               +     0.262          net: sdrv2_top_0/rc0/N_149
+  16.339                       sdrv2_top_0/rc0/turn_cnt[15]:D (r)
+                                    
+  16.339                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  16.667                       SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  16.667                       SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.552          net: FAB_CLK
+  17.219                       sdrv2_top_0/rc0/turn_cnt[15]:CLK (r)
+               -     0.409          Library setup time: ADLIB:DFN1C0
+  16.810                       sdrv2_top_0/rc0/turn_cnt[15]:D
+                                    
+  16.810                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        sdrv2_top_0/fc0/f2w0/data_out[7]:CLK
+  To:                          DAC_DOUT[7]
+  Delay (ns):                  8.585
+  Slack (ns):
+  Arrival (ns):                9.117
+  Required (ns):
+  Clock to Out (ns):           9.117
+
+Path 2
+  From:                        sdrv2_top_0/rc0/radio_mode[8]:CLK
+  To:                          TEST_PTS[14]
+  Delay (ns):                  8.460
+  Slack (ns):
+  Arrival (ns):                9.036
+  Required (ns):
+  Clock to Out (ns):           9.036
+
+Path 3
+  From:                        sdrv2_top_0/rc0/radio_mode[5]:CLK
+  To:                          TEST_PTS[12]
+  Delay (ns):                  8.108
+  Slack (ns):
+  Arrival (ns):                8.648
+  Required (ns):
+  Clock to Out (ns):           8.648
+
+Path 4
+  From:                        sdrv2_top_0/rc0/radio_mode[7]:CLK
+  To:                          TEST_PTS[14]
+  Delay (ns):                  8.097
+  Slack (ns):
+  Arrival (ns):                8.647
+  Required (ns):
+  Clock to Out (ns):           8.647
+
+Path 5
+  From:                        sdrv2_top_0/rc0/radio_mode[3]:CLK
+  To:                          TEST_PTS[14]
+  Delay (ns):                  7.901
+  Slack (ns):
+  Arrival (ns):                8.441
+  Required (ns):
+  Clock to Out (ns):           8.441
+
+
+Expanded Path 1
+  From: sdrv2_top_0/fc0/f2w0/data_out[7]:CLK
+  To: DAC_DOUT[7]
+  data required time                             N/C
+  data arrival time                          -   9.117
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.532          net: FAB_CLK
+  0.532                        sdrv2_top_0/fc0/f2w0/data_out[7]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1C0
+  1.091                        sdrv2_top_0/fc0/f2w0/data_out[7]:Q (f)
+               +     4.817          net: DAC_DOUT_c[7]
+  5.908                        DAC_DOUT_pad[7]/U0/U1:D (f)
+               +     0.500          cell: ADLIB:IOTRI_OB_EB
+  6.408                        DAC_DOUT_pad[7]/U0/U1:DOUT (f)
+               +     0.000          net: DAC_DOUT_pad[7]/U0/NET1
+  6.408                        DAC_DOUT_pad[7]/U0/U0:D (f)
+               +     2.709          cell: ADLIB:IOPAD_TRI
+  9.117                        DAC_DOUT_pad[7]/U0/U0:PAD (f)
+               +     0.000          net: DAC_DOUT[7]
+  9.117                        DAC_DOUT[7] (f)
+                                    
+  9.117                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+                                    
+  N/C                          DAC_DOUT[7] (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:RESET
+  Delay (ns):                  5.484
+  Slack (ns):                  9.856
+  Arrival (ns):                6.081
+  Required (ns):               15.937
+  Recovery (ns):               1.523
+  Minimum Period (ns):         6.811
+  Skew (ns):                   -0.196
+
+Path 2
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1C0_RBINSHIFT_0_inst:CLR
+  Delay (ns):                  6.381
+  Slack (ns):                  10.060
+  Arrival (ns):                6.978
+  Required (ns):               17.038
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.607
+  Skew (ns):                   0.001
+
+Path 3
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/txfifo/RAM4K9_QXI_3_inst:RESET
+  Delay (ns):                  5.252
+  Slack (ns):                  10.080
+  Arrival (ns):                5.849
+  Required (ns):               15.929
+  Recovery (ns):               1.523
+  Minimum Period (ns):         6.587
+  Skew (ns):                   -0.188
+
+Path 4
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1C0_WBINSYNCSHIFT_3_inst:CLR
+  Delay (ns):                  6.332
+  Slack (ns):                  10.101
+  Arrival (ns):                6.929
+  Required (ns):               17.030
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.566
+  Skew (ns):                   0.009
+
+Path 5
+  From:                        sdrv2_top_0/rc0/fifo_rst:CLK
+  To:                          sdrv2_top_0/fc0/ackfifo/DFN1C0_WBINSYNCSHIFT_1_inst:CLR
+  Delay (ns):                  6.142
+  Slack (ns):                  10.312
+  Arrival (ns):                6.739
+  Required (ns):               17.051
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.355
+  Skew (ns):                   -0.012
+
+
+Expanded Path 1
+  From: sdrv2_top_0/rc0/fifo_rst:CLK
+  To: sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:RESET
+  data required time                             15.937
+  data arrival time                          -   6.081
+  slack                                          9.856
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.597          net: FAB_CLK
+  0.597                        sdrv2_top_0/rc0/fifo_rst:CLK (r)
+               +     0.440          cell: ADLIB:DFN1E1P0
+  1.037                        sdrv2_top_0/rc0/fifo_rst:Q (r)
+               +     1.059          net: sdrv2_top_0/RadiotoFIFO_fifo_rst
+  2.096                        sdrv2_top_0/cr0/un1_HRESETn_1:A (r)
+               +     0.308          cell: ADLIB:NOR2B
+  2.404                        sdrv2_top_0/cr0/un1_HRESETn_1:Y (r)
+               +     1.580          net: sdrv2_top_0/un1_HRESETn_1
+  3.984                        sdrv2_top_0/fc0/afrst_RNIP8KT:B (r)
+               +     0.448          cell: ADLIB:NOR2B
+  4.432                        sdrv2_top_0/fc0/afrst_RNIP8KT:Y (r)
+               +     1.649          net: sdrv2_top_0/fc0/afrst_RNIP8KT
+  6.081                        sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:RESET (r)
+                                    
+  6.081                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  16.667                       SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  16.667                       SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.793          net: FAB_CLK
+  17.460                       sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:CLKA (r)
+               -     1.523          Library recovery time: ADLIB:RAM4K9
+  15.937                       sdrv2_top_0/fc0/ackfifo/RAM4K9_QXI_3_inst:RESET
+                                    
+  15.937                       data required time
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB to SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+
+Path 1
+  From:                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.422
+  Slack (ns):                  -6.747
+  Arrival (ns):                11.036
+  Required (ns):               4.289
+  Setup (ns):                  0.435
+
+Path 2
+  From:                        sdrv2_top_0/cr0/cur_length[4]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.357
+  Slack (ns):                  -6.648
+  Arrival (ns):                10.937
+  Required (ns):               4.289
+  Setup (ns):                  0.435
+
+Path 3
+  From:                        sdrv2_top_0/cr0/cur_length[6]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.211
+  Slack (ns):                  -6.536
+  Arrival (ns):                10.825
+  Required (ns):               4.289
+  Setup (ns):                  0.435
+
+Path 4
+  From:                        sdrv2_top_0/cr0/cur_length[0]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.240
+  Slack (ns):                  -6.509
+  Arrival (ns):                10.798
+  Required (ns):               4.289
+  Setup (ns):                  0.435
+
+Path 5
+  From:                        sdrv2_top_0/cr0/cur_length[1]/U1:CLK
+  To:                          sdrv2_top_0/fc0/gfdat[7]:D
+  Delay (ns):                  10.088
+  Slack (ns):                  -6.357
+  Arrival (ns):                10.646
+  Required (ns):               4.289
+  Setup (ns):                  0.435
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/cur_length[5]/U1:CLK
+  To: sdrv2_top_0/fc0/gfdat[7]:D
+  data required time                             4.289
+  data arrival time                          -   11.036
+  slack                                          -6.747
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.614          net: ADC_CLK_c
+  0.614                        sdrv2_top_0/cr0/cur_length[5]/U1:CLK (r)
+               +     0.559          cell: ADLIB:DFN1C0
+  1.173                        sdrv2_top_0/cr0/cur_length[5]/U1:Q (f)
+               +     0.453          net: sdrv2_top_0/cr0/cur_length[5]
+  1.626                        sdrv2_top_0/cr0/cur_length_RNINRE4[5]:B (f)
+               +     0.490          cell: ADLIB:OR2
+  2.116                        sdrv2_top_0/cr0/cur_length_RNINRE4[5]:Y (f)
+               +     0.895          net: sdrv2_top_0/cr0/N_3752
+  3.011                        sdrv2_top_0/cr0/cur_length_RNIVEJF[5]:B (f)
+               +     0.473          cell: ADLIB:NOR3
+  3.484                        sdrv2_top_0/cr0/cur_length_RNIVEJF[5]:Y (r)
+               +     0.705          net: sdrv2_top_0/cr0/next_FCF_reg10
+  4.189                        sdrv2_top_0/cr0/glossy_data_I_5:B (r)
+               +     0.392          cell: ADLIB:AND2
+  4.581                        sdrv2_top_0/cr0/glossy_data_I_5:Y (r)
+               +     0.292          net: sdrv2_top_0/cr0/DWACT_ADD_CI_0_g_array_0_2[0]
+  4.873                        sdrv2_top_0/cr0/glossy_data_I_38:B (r)
+               +     0.505          cell: ADLIB:AO1
+  5.378                        sdrv2_top_0/cr0/glossy_data_I_38:Y (r)
+               +     0.719          net: sdrv2_top_0/cr0/DWACT_ADD_CI_0_g_array_1_1[0]
+  6.097                        sdrv2_top_0/cr0/glossy_data_I_35:C (r)
+               +     0.497          cell: ADLIB:AO1
+  6.594                        sdrv2_top_0/cr0/glossy_data_I_35:Y (r)
+               +     0.308          net: sdrv2_top_0/cr0/DWACT_ADD_CI_0_g_array_2[0]
+  6.902                        sdrv2_top_0/cr0/glossy_data_I_41:B (r)
+               +     0.430          cell: ADLIB:AO1
+  7.332                        sdrv2_top_0/cr0/glossy_data_I_41:Y (r)
+               +     0.551          net: sdrv2_top_0/cr0/DWACT_ADD_CI_0_g_array_11[0]
+  7.883                        sdrv2_top_0/cr0/glossy_data_I_44:B (r)
+               +     0.430          cell: ADLIB:AO1
+  8.313                        sdrv2_top_0/cr0/glossy_data_I_44:Y (r)
+               +     0.255          net: sdrv2_top_0/cr0/DWACT_ADD_CI_0_g_array_12_2[0]
+  8.568                        sdrv2_top_0/cr0/glossy_data_I_34:C (r)
+               +     0.747          cell: ADLIB:XOR3
+  9.315                        sdrv2_top_0/cr0/glossy_data_I_34:Y (f)
+               +     0.290          net: sdrv2_top_0/cr0/glossy_data[7]
+  9.605                        sdrv2_top_0/cr0/glossy_crc/crc_out_RNI6UN1I1[15]:A (f)
+               +     0.439          cell: ADLIB:MX2C
+  10.044                       sdrv2_top_0/cr0/glossy_crc/crc_out_RNI6UN1I1[15]:Y (r)
+               +     0.247          net: sdrv2_top_0/rx_data_i_1[7]
+  10.291                       sdrv2_top_0/fc0/gfdat_RNO[7]:B (r)
+               +     0.498          cell: ADLIB:MX2B
+  10.789                       sdrv2_top_0/fc0/gfdat_RNO[7]:Y (f)
+               +     0.247          net: sdrv2_top_0/fc0/N_350
+  11.036                       sdrv2_top_0/fc0/gfdat[7]:D (f)
+                                    
+  11.036                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  4.168                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  4.168                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.556          net: FAB_CLK
+  4.724                        sdrv2_top_0/fc0/gfdat[7]:CLK (r)
+               -     0.435          Library setup time: ADLIB:DFN1E0C0
+  4.289                        sdrv2_top_0/fc0/gfdat[7]:D
+                                    
+  4.289                        data required time
+
+
+END SET SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB to SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+
+----------------------------------------------------
+
+Clock Domain SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+
+SET Register to Register
+
+Path 1
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[6]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[1]:D
+  Delay (ns):                  33.370
+  Slack (ns):                  28.626
+  Arrival (ns):                34.017
+  Required (ns):               62.643
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.874
+
+Path 2
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[4]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[1]:D
+  Delay (ns):                  33.233
+  Slack (ns):                  28.763
+  Arrival (ns):                33.880
+  Required (ns):               62.643
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.737
+
+Path 3
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[5]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[1]:D
+  Delay (ns):                  33.156
+  Slack (ns):                  28.840
+  Arrival (ns):                33.803
+  Required (ns):               62.643
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.660
+
+Path 4
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[6]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[7]:D
+  Delay (ns):                  33.093
+  Slack (ns):                  28.850
+  Arrival (ns):                33.740
+  Required (ns):               62.590
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.650
+
+Path 5
+  From:                        sdrv2_top_0/cr0/f0/in_seq2[4]:CLK
+  To:                          sdrv2_top_0/cr0/f0/bit_counter[7]:D
+  Delay (ns):                  32.956
+  Slack (ns):                  28.987
+  Arrival (ns):                33.603
+  Required (ns):               62.590
+  Setup (ns):                  0.435
+  Minimum Period (ns):         33.513
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/f0/in_seq2[6]:CLK
+  To: sdrv2_top_0/cr0/f0/bit_counter[1]:D
+  data required time                             62.643
+  data arrival time                          -   34.017
+  slack                                          28.626
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.647          net: ADC_CLK_c
+  0.647                        sdrv2_top_0/cr0/f0/in_seq2[6]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1E1C0
+  1.206                        sdrv2_top_0/cr0/f0/in_seq2[6]:Q (f)
+               +     0.388          net: sdrv2_top_0/cr0/seq2[6]
+  1.594                        sdrv2_top_0/cr0/f0/N_269_1_SUM0:C (f)
+               +     0.571          cell: ADLIB:XOR3
+  2.165                        sdrv2_top_0/cr0/f0/N_269_1_SUM0:Y (r)
+               +     1.226          net: sdrv2_top_0/cr0/f0/N_1811
+  3.391                        sdrv2_top_0/cr0/f0/N_271_0_0_1_SUM0:C (r)
+               +     0.747          cell: ADLIB:XOR3
+  4.138                        sdrv2_top_0/cr0/f0/N_271_0_0_1_SUM0:Y (f)
+               +     1.318          net: sdrv2_top_0/cr0/f0/N_4237
+  5.456                        sdrv2_top_0/cr0/f0/N_203_1_N_291_21:C (f)
+               +     0.540          cell: ADLIB:XA1
+  5.996                        sdrv2_top_0/cr0/f0/N_203_1_N_291_21:Y (f)
+               +     1.287          net: sdrv2_top_0/cr0/f0/CO0_80
+  7.283                        sdrv2_top_0/cr0/f0/seq2_cal_1_SUM0_2:A (f)
+               +     0.397          cell: ADLIB:XOR2
+  7.680                        sdrv2_top_0/cr0/f0/seq2_cal_1_SUM0_2:Y (f)
+               +     0.854          net: sdrv2_top_0/cr0/f0/seq2_cal_2[1]
+  8.534                        sdrv2_top_0/cr0/f0/N_292_1_SUM0:A (f)
+               +     0.370          cell: ADLIB:XOR2
+  8.904                        sdrv2_top_0/cr0/f0/N_292_1_SUM0:Y (r)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_1807
+  9.159                        sdrv2_top_0/cr0/f0/seq2_cal_1_CO0:C (r)
+               +     0.548          cell: ADLIB:MAJ3
+  9.707                        sdrv2_top_0/cr0/f0/seq2_cal_1_CO0:Y (r)
+               +     0.738          net: sdrv2_top_0/cr0/f0/CO1_0
+  10.445                       sdrv2_top_0/cr0/f0/seq2_cal_0_0_1_CO0:B (r)
+               +     0.746          cell: ADLIB:MAJ3
+  11.191                       sdrv2_top_0/cr0/f0/seq2_cal_0_0_1_CO0:Y (r)
+               +     0.320          net: sdrv2_top_0/cr0/f0/CO0_63
+  11.511                       sdrv2_top_0/cr0/f0/seq2_cal_0_0_1_CO1:B (r)
+               +     0.746          cell: ADLIB:MAJ3
+  12.257                       sdrv2_top_0/cr0/f0/seq2_cal_0_0_1_CO1:Y (r)
+               +     0.264          net: sdrv2_top_0/cr0/f0/CO3_0
+  12.521                       sdrv2_top_0/cr0/f0/b2/out_17_SUM4:B (r)
+               +     0.476          cell: ADLIB:XOR2
+  12.997                       sdrv2_top_0/cr0/f0/b2/out_17_SUM4:Y (f)
+               +     1.171          net: sdrv2_top_0/cr0/f0/seq2_cal[4]
+  14.168                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_4:B (f)
+               +     0.490          cell: ADLIB:OR2A
+  14.658                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_4:Y (f)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_5_0
+  14.913                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_9:C (f)
+               +     0.534          cell: ADLIB:AO1C
+  15.447                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_9:Y (r)
+               +     0.247          net: sdrv2_top_0/cr0/f0/N_10_0
+  15.694                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_11:B (r)
+               +     0.691          cell: ADLIB:OA1
+  16.385                       sdrv2_top_0/cr0/f0/un1_seq2_cal_0_I_11:Y (r)
+               +     0.918          net: sdrv2_top_0/cr0/f0/I_11_4
+  17.303                       sdrv2_top_0/cr0/f0/N_203_1_seq23_mim_val[0]:S (r)
+               +     0.277          cell: ADLIB:MX2
+  17.580                       sdrv2_top_0/cr0/f0/N_203_1_seq23_mim_val[0]:Y (r)
+               +     1.687          net: sdrv2_top_0/cr0/f0/seq23_mim_val[0]
+  19.267                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_3:A (r)
+               +     0.392          cell: ADLIB:NOR2A
+  19.659                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_3:Y (r)
+               +     0.247          net: sdrv2_top_0/cr0/f0/N_4_4
+  19.906                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_5:C (r)
+               +     0.581          cell: ADLIB:AO1C
+  20.487                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_5:Y (f)
+               +     0.928          net: sdrv2_top_0/cr0/f0/N_6_4
+  21.415                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_10:A (f)
+               +     0.746          cell: ADLIB:OA1A
+  22.161                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_10:Y (r)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_11_4
+  22.416                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_11:A (r)
+               +     0.746          cell: ADLIB:OA1
+  23.162                       sdrv2_top_0/cr0/f0/un1_seq01_mim_val_0_I_11:Y (r)
+               +     1.352          net: sdrv2_top_0/cr0/f0/I_11_1
+  24.514                       sdrv2_top_0/cr0/f0/N_153_1_seq0123_mim_val[1]:S (r)
+               +     0.282          cell: ADLIB:MX2
+  24.796                       sdrv2_top_0/cr0/f0/N_153_1_seq0123_mim_val[1]:Y (f)
+               +     0.340          net: sdrv2_top_0/cr0/f0/seq0123_mim_val[1]
+  25.136                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_1:B (f)
+               +     0.490          cell: ADLIB:OR2A
+  25.626                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_1:Y (f)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_2_2
+  25.881                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_7:C (f)
+               +     0.534          cell: ADLIB:AO1C
+  26.415                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_7:Y (r)
+               +     0.247          net: sdrv2_top_0/cr0/f0/N_8_2
+  26.662                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_10:B (r)
+               +     0.691          cell: ADLIB:OA1A
+  27.353                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_10:Y (r)
+               +     0.255          net: sdrv2_top_0/cr0/f0/N_11_2
+  27.608                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_11:A (r)
+               +     0.746          cell: ADLIB:OA1
+  28.354                       sdrv2_top_0/cr0/f0/un1_seq0123_mim_val_0_I_11:Y (r)
+               +     0.930          net: sdrv2_top_0/cr0/f0/I_11
+  29.284                       sdrv2_top_0/cr0/f0/N_153_1_seq_tot_mim_val[3]:S (r)
+               +     0.282          cell: ADLIB:MX2
+  29.566                       sdrv2_top_0/cr0/f0/N_153_1_seq_tot_mim_val[3]:Y (f)
+               +     0.247          net: sdrv2_top_0/cr0/f0/seq_tot_mim_val[3]
+  29.813                       sdrv2_top_0/cr0/f0/N_153_1_un1_seq_tot_mim_vallto4_0:B (f)
+               +     0.490          cell: ADLIB:NOR2
+  30.303                       sdrv2_top_0/cr0/f0/N_153_1_un1_seq_tot_mim_vallto4_0:Y (r)
+               +     0.985          net: sdrv2_top_0/cr0/f0/un1_seq_tot_mim_vallto4_0
+  31.288                       sdrv2_top_0/cr0/f0/N_153_1_next_zero_found5_0_a4:B (r)
+               +     0.473          cell: ADLIB:NOR3B
+  31.761                       sdrv2_top_0/cr0/f0/N_153_1_next_zero_found5_0_a4:Y (r)
+               +     1.748          net: sdrv2_top_0/cr0/f0/next_zero_found5
+  33.509                       sdrv2_top_0/cr0/f0/N_153_1_bit_counter_n1:C (r)
+               +     0.261          cell: ADLIB:XA1B
+  33.770                       sdrv2_top_0/cr0/f0/N_153_1_bit_counter_n1:Y (f)
+               +     0.247          net: sdrv2_top_0/cr0/f0/bit_counter_n1
+  34.017                       sdrv2_top_0/cr0/f0/bit_counter[1]:D (f)
+                                    
+  34.017                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  62.500                       SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  62.500                       SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.578          net: ADC_CLK_c
+  63.078                       sdrv2_top_0/cr0/f0/bit_counter[1]:CLK (r)
+               -     0.435          Library setup time: ADLIB:DFN1C0
+  62.643                       sdrv2_top_0/cr0/f0/bit_counter[1]:D
+                                    
+  62.643                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        RSSI_DIN
+  To:                          sdrv2_top_0/agc0/adc0/data_out[0]:D
+  Delay (ns):                  2.988
+  Slack (ns):
+  Arrival (ns):                2.988
+  Required (ns):
+  Setup (ns):                  0.382
+  External Setup (ns):         2.837
+
+Path 2
+  From:                        quad_phase[3]
+  To:                          sdrv2_top_0/fm0/Q_smp[3]:D
+  Delay (ns):                  1.979
+  Slack (ns):
+  Arrival (ns):                1.979
+  Required (ns):
+  Setup (ns):                  0.435
+  External Setup (ns):         1.860
+
+Path 3
+  From:                        in_phase[2]
+  To:                          sdrv2_top_0/fm0/I_smp[2]:D
+  Delay (ns):                  1.758
+  Slack (ns):
+  Arrival (ns):                1.758
+  Required (ns):
+  Setup (ns):                  0.435
+  External Setup (ns):         1.654
+
+Path 4
+  From:                        quad_phase[6]
+  To:                          sdrv2_top_0/fm0/Q_smp[6]:D
+  Delay (ns):                  1.742
+  Slack (ns):
+  Arrival (ns):                1.742
+  Required (ns):
+  Setup (ns):                  0.435
+  External Setup (ns):         1.645
+
+Path 5
+  From:                        quad_phase[7]
+  To:                          sdrv2_top_0/fm0/Q_smp[7]:D
+  Delay (ns):                  1.710
+  Slack (ns):
+  Arrival (ns):                1.710
+  Required (ns):
+  Setup (ns):                  0.435
+  External Setup (ns):         1.606
+
+
+Expanded Path 1
+  From: RSSI_DIN
+  To: sdrv2_top_0/agc0/adc0/data_out[0]:D
+  data required time                             N/C
+  data arrival time                          -   2.988
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        RSSI_DIN (r)
+               +     0.000          net: RSSI_DIN
+  0.000                        RSSI_DIN_pad/U0/U0:PAD (r)
+               +     0.779          cell: ADLIB:IOPAD_IN
+  0.779                        RSSI_DIN_pad/U0/U0:Y (r)
+               +     0.000          net: RSSI_DIN_pad/U0/NET1
+  0.779                        RSSI_DIN_pad/U0/U1:YIN (r)
+               +     0.033          cell: ADLIB:IOIN_IB
+  0.812                        RSSI_DIN_pad/U0/U1:Y (r)
+               +     2.176          net: RSSI_DIN_c
+  2.988                        sdrv2_top_0/agc0/adc0/data_out[0]:D (r)
+                                    
+  2.988                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.533          net: ADC_CLK_c
+  N/C                          sdrv2_top_0/agc0/adc0/data_out[0]:CLK (r)
+               -     0.382          Library setup time: ADLIB:DFN1E1C0
+  N/C                          sdrv2_top_0/agc0/adc0/data_out[0]:D
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[7]:CLK
+  To:                          TEST_PTS[7]
+  Delay (ns):                  6.127
+  Slack (ns):
+  Arrival (ns):                6.738
+  Required (ns):
+  Clock to Out (ns):           6.738
+
+Path 2
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[0]:CLK
+  To:                          TEST_PTS[0]
+  Delay (ns):                  6.058
+  Slack (ns):
+  Arrival (ns):                6.672
+  Required (ns):
+  Clock to Out (ns):           6.672
+
+Path 3
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[4]:CLK
+  To:                          TEST_PTS[4]
+  Delay (ns):                  5.793
+  Slack (ns):
+  Arrival (ns):                6.407
+  Required (ns):
+  Clock to Out (ns):           6.407
+
+Path 4
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[1]:CLK
+  To:                          TEST_PTS[1]
+  Delay (ns):                  5.705
+  Slack (ns):
+  Arrival (ns):                6.319
+  Required (ns):
+  Clock to Out (ns):           6.319
+
+Path 5
+  From:                        sdrv2_top_0/cr0/sfd_sync0/idx_out[5]:CLK
+  To:                          TEST_PTS[5]
+  Delay (ns):                  5.679
+  Slack (ns):
+  Arrival (ns):                6.293
+  Required (ns):
+  Clock to Out (ns):           6.293
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/sfd_sync0/idx_out[7]:CLK
+  To: TEST_PTS[7]
+  data required time                             N/C
+  data arrival time                          -   6.738
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.611          net: ADC_CLK_c
+  0.611                        sdrv2_top_0/cr0/sfd_sync0/idx_out[7]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1E1C0
+  1.170                        sdrv2_top_0/cr0/sfd_sync0/idx_out[7]:Q (f)
+               +     2.260          net: TEST_PTS_c[7]
+  3.430                        TEST_PTS_pad[7]/U0/U1:D (f)
+               +     0.500          cell: ADLIB:IOTRI_OB_EB
+  3.930                        TEST_PTS_pad[7]/U0/U1:DOUT (f)
+               +     0.000          net: TEST_PTS_pad[7]/U0/NET1
+  3.930                        TEST_PTS_pad[7]/U0/U0:D (f)
+               +     2.808          cell: ADLIB:IOPAD_TRI
+  6.738                        TEST_PTS_pad[7]/U0/U0:PAD (f)
+               +     0.000          net: TEST_PTS[7]
+  6.738                        TEST_PTS[7] (f)
+                                    
+  6.738                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  N/C                          SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+                                    
+  N/C                          TEST_PTS[7] (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[2]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):                  55.937
+  Arrival (ns):                6.929
+  Required (ns):               62.866
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+Path 2
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq4[10]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):                  55.937
+  Arrival (ns):                6.929
+  Required (ns):               62.866
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+Path 3
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[10]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):                  55.937
+  Arrival (ns):                6.929
+  Required (ns):               62.866
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+Path 4
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[11]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):                  55.937
+  Arrival (ns):                6.929
+  Required (ns):               62.866
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+Path 5
+  From:                        sdrv2_top_0/cr0/cmp_rst:CLK
+  To:                          sdrv2_top_0/cr0/f0/in_seq0[14]:CLR
+  Delay (ns):                  6.315
+  Slack (ns):                  55.937
+  Arrival (ns):                6.929
+  Required (ns):               62.866
+  Recovery (ns):               0.225
+  Minimum Period (ns):         6.563
+  Skew (ns):                   0.023
+
+
+Expanded Path 1
+  From: sdrv2_top_0/cr0/cmp_rst:CLK
+  To: sdrv2_top_0/cr0/f0/in_seq0[2]:CLR
+  data required time                             62.866
+  data arrival time                          -   6.929
+  slack                                          55.937
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.614          net: ADC_CLK_c
+  0.614                        sdrv2_top_0/cr0/cmp_rst:CLK (r)
+               +     0.440          cell: ADLIB:DFN1P0
+  1.054                        sdrv2_top_0/cr0/cmp_rst:Q (r)
+               +     2.452          net: sdrv2_top_0/cr0/cmp_rst
+  3.506                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE:A (r)
+               +     0.308          cell: ADLIB:NOR2B
+  3.814                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE:Y (r)
+               +     1.807          net: sdrv2_top_0/cr0/cmp_rst_RNIE6HE
+  5.621                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC:A (r)
+               +     0.691          cell: ADLIB:CLKSRC
+  6.312                        sdrv2_top_0/cr0/cmp_rst_RNIE6HE_0/U_CLKSRC:Y (r)
+               +     0.617          net: sdrv2_top_0/cr0/sfd_sync_rstn
+  6.929                        sdrv2_top_0/cr0/f0/in_seq0[2]:CLR (r)
+                                    
+  6.929                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  62.500                       SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  62.500                       SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.591          net: ADC_CLK_c
+  63.091                       sdrv2_top_0/cr0/f0/in_seq0[2]:CLK (r)
+               -     0.225          Library recovery time: ADLIB:DFN1E1C0
+  62.866                       sdrv2_top_0/cr0/f0/in_seq0[2]:CLR
+                                    
+  62.866                       data required time
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA to SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+
+Path 1
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/address_field[130]/U1:CLR
+  Delay (ns):                  7.285
+  Slack (ns):                  -3.342
+  Arrival (ns):                7.852
+  Required (ns):               4.510
+  Setup (ns):
+
+Path 2
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/address_field[113]/U1:CLR
+  Delay (ns):                  6.869
+  Slack (ns):                  -2.923
+  Arrival (ns):                7.436
+  Required (ns):               4.513
+  Setup (ns):
+
+Path 3
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/address_field[118]/U1:CLR
+  Delay (ns):                  6.790
+  Slack (ns):                  -2.847
+  Arrival (ns):                7.357
+  Required (ns):               4.510
+  Setup (ns):
+
+Path 4
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/address_field[120]/U1:CLR
+  Delay (ns):                  6.684
+  Slack (ns):                  -2.728
+  Arrival (ns):                7.251
+  Required (ns):               4.523
+  Setup (ns):
+
+Path 5
+  From:                        sdrv2_top_0/rc0/correlator_en:CLK
+  To:                          sdrv2_top_0/cr0/address_field[128]/U1:CLR
+  Delay (ns):                  6.460
+  Slack (ns):                  -2.556
+  Arrival (ns):                7.027
+  Required (ns):               4.471
+  Setup (ns):
+
+
+Expanded Path 1
+  From: sdrv2_top_0/rc0/correlator_en:CLK
+  To: sdrv2_top_0/cr0/address_field[130]/U1:CLR
+  data required time                             4.510
+  data arrival time                          -   7.852
+  slack                                          -3.342
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA
+               +     0.000          Clock source
+  0.000                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.567          net: FAB_CLK
+  0.567                        sdrv2_top_0/rc0/correlator_en:CLK (r)
+               +     0.440          cell: ADLIB:DFN1E0C0
+  1.007                        sdrv2_top_0/rc0/correlator_en:Q (r)
+               +     1.696          net: sdrv2_top_0/RadiotoCorr_correlator_en
+  2.703                        sdrv2_top_0/cr0/corr_rstn_3:A (r)
+               +     0.370          cell: ADLIB:NOR2B
+  3.073                        sdrv2_top_0/cr0/corr_rstn_3:Y (r)
+               +     4.779          net: sdrv2_top_0/cr0/corr_rstn_3
+  7.852                        sdrv2_top_0/cr0/address_field[130]/U1:CLR (r)
+                                    
+  7.852                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  4.163                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+               +     0.000          Clock source
+  4.163                        SDR_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
+               +     0.572          net: ADC_CLK_c
+  4.735                        sdrv2_top_0/cr0/address_field[130]/U1:CLK (r)
+               -     0.225          Library recovery time: ADLIB:DFN1C0
+  4.510                        sdrv2_top_0/cr0/address_field[130]/U1:CLR
+                                    
+  4.510                        data required time
+
+
+END SET SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLA to SDR_MSS_0/MSS_CCC_0/I_MSSCCC:GLB
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

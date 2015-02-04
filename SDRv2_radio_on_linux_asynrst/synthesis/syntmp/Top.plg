@@ -1,0 +1,101 @@
+@P:  Worst Slack : -21.990
+@P:  FAB_CLK - Estimated Frequency : 48.2 MHz
+@P:  FAB_CLK - Requested Frequency : 48.0 MHz
+@P:  FAB_CLK - Estimated Period : 20.749
+@P:  FAB_CLK - Requested Period : 20.833
+@P:  FAB_CLK - Slack : 0.085
+@P:  FCLK - Estimated Frequency : NA
+@P:  FCLK - Requested Frequency : 48.0 MHz
+@P:  FCLK - Estimated Period : NA
+@P:  FCLK - Requested Period : 20.833
+@P:  FCLK - Slack : NA
+@P:  System - Estimated Frequency : 25.9 MHz
+@P:  System - Requested Frequency : 60.0 MHz
+@P:  System - Estimated Period : 38.656
+@P:  System - Requested Period : 16.667
+@P:  System - Slack : -21.990
+@P:  Worst Slack(min analysis) : 0.225
+@P:  FAB_CLK - Estimated Frequency(min analysis) : 48.2 MHz
+@P:  FAB_CLK - Requested Frequency(min analysis) : 48.0 MHz
+@P:  FAB_CLK - Estimated Period(min analysis) : 20.749
+@P:  FAB_CLK - Requested Period(min analysis) : 20.833
+@P:  FAB_CLK - Slack(min analysis) : 0.085
+@P:  FCLK - Estimated Frequency(min analysis) : NA
+@P:  FCLK - Requested Frequency(min analysis) : 48.0 MHz
+@P:  FCLK - Estimated Period(min analysis) : NA
+@P:  FCLK - Requested Period(min analysis) : 20.833
+@P:  FCLK - Slack(min analysis) : NA
+@P:  System - Estimated Frequency(min analysis) : 25.9 MHz
+@P:  System - Requested Frequency(min analysis) : 60.0 MHz
+@P:  System - Estimated Period(min analysis) : 38.656
+@P:  System - Requested Period(min analysis) : 16.667
+@P:  System - Slack(min analysis) : -21.990
+@P:  Total Area : 8065.0
+@P:  Total Area : 7624.0
+@P:  Total Area : 133.0
+@P:  Total Area : 90.0
+@P:  Total Area : 267.0
+@P:  Total Area : 71.0
+@P:  Total Area : 61.0
+@P:  Total Area : 278.0
+@P:  Total Area : 78.0
+@P:  Total Area : 1275.0
+@P:  Total Area : 79.0
+@P:  Total Area : 327.0
+@P:  Total Area : 182.0
+@P:  Total Area : 63.0
+@P:  Total Area : 142.0
+@P:  Total Area : 144.0
+@P:  Total Area : 220.0
+@P:  Total Area : 4368.0
+@P:  Total Area : 1.0
+@P:  Total Area : 71.0
+@P:  Total Area : 1544.0
+@P:  Total Area : 971.0
+@P:  Total Area : 6.0
+@P:  Total Area : 1.0
+@P:  Total Area : 5.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 4.0
+@P:  Total Area : 1.0
+@P:  Total Area : 3.0
+@P:  Total Area : 4.0
+@P:  Total Area : 1.0
+@P:  Total Area : 2.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 968.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 92.0
+@P:  Total Area : 90.0
+@P:  Total Area : 532.0
+@P:  Total Area : 333.0
+@P:  Total Area : 970.0
+@P:  Total Area : 1.0
+@P:  Total Area : 0.0
+@P:  Total Area : 440.0
+@P:  Total Area : 440.0
+@P:  Total Area : 50.0
+@P:  Total Area : 34.0
+@P:  Total Area : 46.0
+@P:  Total Area : 30.0
+@P:  Total Area : 39.0
+@P:  Total Area : 31.0
+@P:  Total Area : 43.0
+@P:  Total Area : 41.0
+@P:  Total Area : 262.0
+@P:  Total Area : 13.0
+@P:  Total Area : 12.0
+@P:  Total Area : 8065.0
+@P:  CPU Time : 0h:01m:05s

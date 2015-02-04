@@ -1,0 +1,83 @@
+
+Starting:    C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\win64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1
+Date:        Thu Jan 29 14:05:49 2015
+Version:     I-2013.09M-SP1-1 
+
+Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log Top_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server akm031-10 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+
+Warning: File already exists in project: "C:\Actelprj\SDRv2_radio_on_linux_asynrst\hdl\sdr_def.v"
+auto_infer_blackbox is not supported in current product.
+
+
+log file: "C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.srr"
+
+
+
+
+
+Running Top_syn|synthesis
+
+
+Running: Compile on Top_syn|synthesis
+
+
+Running: Compile Process on Top_syn|synthesis
+
+
+Running: Compile Input on Top_syn|synthesis
+
+Copied C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\synwork\Top_comp.srs to C:\Actelprj\SDRv2_radio_on_linux_asynrst\synthesis\Top.srs
+
+compiler Completed with warnings
+Return Code: 1
+Run Time:0h:00m:08s
+
+
+Complete: Compile Process on Top_syn|synthesis
+
+
+Running: Pre-mapping on Top_syn|synthesis
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+
+
+Complete: Compile on Top_syn|synthesis
+
+
+Running: Map on Top_syn|synthesis
+
+
+Running: Map & Optimize on Top_syn|synthesis
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:01m:07s
+
+
+Complete: Map on Top_syn|synthesis
+
+Complete: Logic Synthesis on Top_syn|synthesis
+
+TCL script complete: "Top_syn.tcl"
+
+exit status=0
+
+
+exit status=0
+
+
+License checkin: synplifypro_actel
+
